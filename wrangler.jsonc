@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "camisa10-loja",
+  "account_id": "e0c319b44e8eff504da75e5e3310a599",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-08-22",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "camisa10-loja-db",
+      "database_id": "bb5894ae-316d-4588-afa0-a3c533b32a6e",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "PRODUCT_IMAGES",
+      "bucket_name": "camisa10-loja-imagens"
+    }
+  ]
+}

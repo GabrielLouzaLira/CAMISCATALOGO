@@ -1,0 +1,5 @@
+# E-mails SIWC autorizados a administrar a loja, separados por vírgula.
+ADMIN_EMAIL_ALLOWLIST=cliente@exemplo.com
+
+# Número da loja com código do país e DDD, somente dígitos.
+NEXT_PUBLIC_STORE_WHATSAPP=5518981296009
