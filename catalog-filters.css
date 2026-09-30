@@ -1,0 +1,112 @@
+.showcase-section {
+  background:
+    linear-gradient(135deg, rgba(209, 166, 86, .08), transparent 48%),
+    var(--surface, #111311);
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 22px;
+}
+
+.filter-row--sub {
+  align-items: center;
+  margin-top: -8px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line, #2b2d2a);
+}
+
+.filter-row--sub > span {
+  margin-right: 4px;
+  color: var(--gold, #d1a656);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+
+.filter-chip {
+  min-height: 42px;
+  padding: 10px 16px;
+  border: 1px solid var(--line, #343630);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text, #f6f2e9);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: border-color .2s ease, background .2s ease, color .2s ease, transform .2s ease;
+}
+
+.filter-chip:hover {
+  border-color: var(--gold, #d1a656);
+  transform: translateY(-1px);
+}
+
+.filter-chip.is-active {
+  border-color: var(--gold, #d1a656);
+  background: var(--gold, #d1a656);
+  color: #0b0c0b;
+}
+
+.team-filter {
+  display: grid;
+  gap: 8px;
+  max-width: 460px;
+  margin-bottom: 24px;
+  color: var(--gold, #d1a656);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.team-filter select {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--line, #343630);
+  border-radius: 6px;
+  background: #111311;
+  color: #f6f2e9;
+  font: inherit;
+}
+
+.team-filter select:focus-visible, .filter-chip:focus-visible {
+  outline: 2px solid var(--gold, #d1a656);
+  outline-offset: 3px;
+}
+
+.home-product-grid {
+  min-height: 180px;
+}
+
+.home-product-grid .empty-state {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 640px) {
+  .filter-row {
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: none;
+  }
+
+  .filter-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-chip {
+    flex: 0 0 auto;
+  }
+
+  .filter-row--sub > span {
+    flex: 0 0 auto;
+  }
+}

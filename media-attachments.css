@@ -1,0 +1,27 @@
+.dialog-media {
+  display: grid;
+  gap: 12px;
+  margin: 0 0 18px;
+}
+
+.dialog-media__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.media-link {
+  padding: 11px 13px;
+  border: 1px solid #575b53;
+  background: #1b1d19;
+  color: var(--text);
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dialog-media video {
+  width: 100%;
+  max-height: 260px;
+  background: #050505;
+}

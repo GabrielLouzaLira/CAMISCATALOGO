@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0c0b">
+  <title>Painel - Camisa 10</title>
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="admin-enhancements.css">
+</head>
+<body>
+  <main id="login-screen" class="login-screen">
+    <section class="login-card">
+      <div class="login-mark">10</div>
+      <p class="eyebrow">AREA ADMINISTRATIVA</p>
+      <h1>ENTRAR NO PAINEL</h1>
+      <p>Use a senha administrativa definida para sua loja.</p>
+      <label>Senha administrativa<input id="password" type="password" autocomplete="current-password" required></label>
+      <button id="connect" class="primary-button" type="button">ENTRAR</button>
+      <p id="status" class="login-status" role="status"></p>
+      <a class="login-back" href="/">VOLTAR PARA A LOJA</a>
+    </section>
+  </main>
+  <main id="admin-app" class="admin-app" hidden>
+    <aside id="sidebar" class="sidebar">
+      <a class="admin-brand" href="/" target="_blank"><span class="admin-brand__mark">10</span><span><strong id="admin-store-name">CAMISA 10</strong><small>GESTAO DA LOJA</small></span></a>
+      <nav aria-label="Navegacao do painel">
+        <button class="nav-item is-active" type="button" data-section="overview"><span>01</span>Visao geral</button>
+        <button class="nav-item" type="button" data-section="products"><span>02</span>Produtos</button>
+        <button class="nav-item" type="button" data-section="teams"><span>03</span>Esportes e equipes</button>
+        <button class="nav-item" type="button" data-section="settings"><span>04</span>Configuracoes</button>
+      </nav>
+      <a class="preview-link" href="/" target="_blank"><span>VER LOJA</span><span>-&gt;</span></a>
+      <button id="logout" class="text-button sidebar-exit" type="button">SAIR</button>
+    </aside>
+    <section class="workspace">
+      <header class="topbar"><button id="menu-button" class="menu-button" type="button" aria-label="Abrir menu">MENU</button><div><p>PAINEL ADMINISTRATIVO</p><strong id="topbar-title">Visao geral</strong></div><span class="local-badge">Painel conectado</span></header>
+      <section class="panel-section is-active" data-panel="overview">
+        <div class="page-title"><div><p class="eyebrow">GESTAO DA LOJA</p><h1>VISAO GERAL</h1></div><a class="secondary-button" href="/" target="_blank">VER LOJA -&gt;</a></div>
+        <div id="metric-grid" class="metric-grid"></div>
+        <article class="content-card"><div class="card-heading"><div><p class="eyebrow">ACESSO RAPIDO</p><h2>COMECE A PUBLICAR</h2></div><button class="text-button" type="button" data-section="products">GERENCIAR PRODUTOS -&gt;</button></div><p class="section-helper">Cadastre categorias, times e camisetas. As alteracoes aparecem no catalogo online.</p></article>
+      </section>
+      <section class="panel-section" data-panel="products">
+        <div class="page-title"><div><p class="eyebrow">CATALOGO</p><h1>PRODUTOS</h1></div><button class="primary-button" type="button" data-open="product-dialog">+ NOVA CAMISETA</button></div>
+        <div class="toolbar"><label class="search-field"><span>BUSCAR</span><input id="product-search" type="search" placeholder="Buscar produto ou time" autocomplete="off"></label><select id="product-team-filter" aria-label="Filtrar por time"><option value="">Todos os times</option></select><button id="clear-product-filters" class="mini-button filter-clear" type="button" hidden>LIMPAR FILTROS</button></div>
+        <p id="product-filter-status" class="filter-status" aria-live="polite"></p>
+        <div id="product-list" class="product-list"></div>
+      </section>
+      <section class="panel-section" data-panel="teams">
+        <div class="page-title"><div><p class="eyebrow">ORGANIZACAO</p><h1>ESPORTES E EQUIPES</h1></div><div><button class="secondary-button" type="button" data-open="category-dialog">+ ESPORTE</button> <button class="primary-button" type="button" data-open="team-dialog">+ EQUIPE</button></div></div>
+        <div class="content-card carousel-manager">
+          <div class="card-heading"><div><p class="eyebrow">NAVEGACAO PUBLICA</p><h2>CARROSSEL DE EQUIPES</h2></div><a class="text-button" href="/" target="_blank">VER NO CATALOGO -&gt;</a></div>
+          <p class="section-helper">Confira a imagem, a ordem e a visibilidade das equipes exatamente como serao usadas no catalogo.</p>
+          <div class="carousel-manager__filters"><label>Esporte<select id="carousel-category-filter"></select></label><label>Liga ou colecao<select id="carousel-group-filter"></select></label></div>
+          <div id="carousel-team-preview" class="carousel-team-preview"></div>
+        </div>
+        <div class="content-card"><div class="card-heading"><h2>ESPORTES</h2></div><div id="category-list" class="category-list"></div></div>
+        <div class="content-card section-spaced"><div class="card-heading"><h2>EQUIPES</h2></div><div id="team-list" class="team-list"></div></div>
+      </section>
+      <section class="panel-section" data-panel="settings">
+        <div class="page-title"><div><p class="eyebrow">LOJA</p><h1>CONFIGURACOES</h1></div></div>
+        <form id="settings-form" class="content-card"><div class="form-grid"><label>Nome da loja<input name="storeName" required></label><label>WhatsApp com DDD<input name="whatsapp" inputmode="tel" placeholder="5511999999999"></label><label>E-mail<input name="email" type="email"></label><label>Instagram<input name="instagram" placeholder="@sualoja"></label><label class="full-field">Titulo do catalogo<input name="catalogTitle"></label><label class="full-field">Texto de apresentacao<textarea name="introText" rows="3"></textarea></label><label class="full-field">Mensagem automatica do WhatsApp<textarea name="whatsappMessage" rows="5"></textarea><span class="field-help">Voce pode usar {time}, {modelo}, {referencia} e {link}.</span></label><label>Esporte inicial<select name="initialCategoryId"><option value="">Primeiro esporte visivel</option></select></label><label>Liga inicial<input name="initialGroup" placeholder="Ex.: Brasileirao"></label><label>Quantidade inicial de produtos<input name="catalogPageSize" type="number" min="8" max="48" step="4" value="24"></label><label>Tempo da troca automatica (segundos)<input name="carouselInterval" type="number" min="3" max="15" value="6"></label><label class="feature-check"><input name="carouselAutoplay" type="checkbox"> Trocar equipes automaticamente</label><label class="feature-check"><input name="carouselShowDots" type="checkbox" checked> Mostrar indicadores do carrossel</label></div><div class="form-actions"><button class="primary-button">SALVAR CONFIGURACOES</button></div></form>
+      </section>
+    </section>
+  </main>
+  <dialog id="product-dialog" class="admin-dialog"><form id="product-form" method="dialog"><div class="dialog-heading"><div><p class="eyebrow">CATALOGO</p><h2>NOVA CAMISETA</h2></div><button class="icon-button" type="button" data-close-dialog="product-dialog" aria-label="Fechar">&times;</button></div><div class="form-grid"><label>Time<select name="teamKey" required></select></label><label>Nome do modelo<input name="name" required></label><label>Referencia<input name="reference"></label><label>Ordem dentro do time<input name="order" type="number" value="1" min="1"></label><label>Ordem nos destaques<input name="featuredOrder" type="number" value="1" min="1"></label><label class="feature-check"><input name="featured" type="checkbox"> Mostrar na vitrine de destaques</label><label class="full-field upload-box">Fotos da camiseta<input name="images" type="file" accept=".jpg,.jpeg,.png,.webp" multiple required><span>JPG, PNG ou WEBP. Ao editar, novas fotos substituem as atuais.</span></label><label>Video opcional<input name="video" type="file" accept=".mp4,.webm"></label><label>PDF opcional<input name="pdf" type="file" accept=".pdf"></label></div><div class="form-actions"><button class="secondary-button" type="button" data-close-dialog="product-dialog">CANCELAR</button><button class="primary-button" type="submit">PUBLICAR CAMISETA</button></div></form></dialog>
+  <dialog id="category-dialog" class="admin-dialog admin-dialog--small"><form id="category-form" method="dialog"><div class="dialog-heading"><div><p class="eyebrow">ORGANIZACAO</p><h2>NOVO ESPORTE</h2></div><button class="icon-button" type="button" data-close-dialog="category-dialog" aria-label="Fechar">&times;</button></div><label>Nome do esporte<input name="title" placeholder="Ex.: Futebol" required></label><label>Descricao<input name="subtitle" placeholder="Ex.: Clubes, selecoes e camisas retro"></label><label>Etiqueta<input name="accent" placeholder="Ex.: Esporte"></label><div class="form-actions"><button class="primary-button" type="submit">SALVAR ESPORTE</button></div></form></dialog>
+  <dialog id="team-dialog" class="admin-dialog"><form id="team-form" method="dialog"><div class="dialog-heading"><div><p class="eyebrow">ORGANIZACAO</p><h2>NOVA EQUIPE</h2></div><button class="icon-button" type="button" data-close-dialog="team-dialog" aria-label="Fechar">&times;</button></div><div class="form-grid"><label>Esporte<select name="categoryId" required></select></label><label>Liga ou colecao<input name="group" placeholder="Ex.: Brasileirao, NBA ou Selecoes"></label><label>Nome da equipe<input name="name" placeholder="Ex.: Corinthians, Lakers ou Ferrari" required></label><label>Ordem no carrossel<input name="order" type="number" value="1" min="1"></label><label>Cor principal<input name="primaryColor" type="color" value="#d1a656"></label><label>Cor secundaria<input name="secondaryColor" type="color" value="#101210"></label><label class="feature-check"><input name="featured" type="checkbox"> Destacar entre as primeiras equipes</label><label class="feature-check"><input name="hidden" type="checkbox"> Ocultar do catalogo</label><label class="full-field upload-box">Imagem de apresentacao<input name="showcaseImage" type="file" accept=".jpg,.jpeg,.png,.webp"><span>Preferencialmente PNG ou WEBP com fundo transparente. Se ficar vazio, o catalogo usa uma foto de produto.</span></label><label class="full-field upload-box">Logo ou escudo opcional<input name="logoImage" type="file" accept=".jpg,.jpeg,.png,.webp"><span>Use apenas imagens autorizadas.</span></label><div id="team-media-preview" class="team-media-preview full-field"></div></div><div class="form-actions"><button class="secondary-button" type="button" data-close-dialog="team-dialog">CANCELAR</button><button class="primary-button" type="submit">SALVAR EQUIPE</button></div></form></dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="admin.js"></script>
+</body>
+</html>

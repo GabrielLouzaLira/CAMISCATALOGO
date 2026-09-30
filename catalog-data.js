@@ -1,0 +1,1 @@
+window.CATALOG_ALBUMS = [];

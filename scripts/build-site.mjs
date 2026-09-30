@@ -1,0 +1,11 @@
+﻿import { cp, mkdir, rm } from "node:fs/promises";
+import { resolve } from "node:path";
+const root = resolve(import.meta.dirname, "..");
+const dist = resolve(root, "dist");
+const assets = resolve(dist, "assets");
+await rm(dist, { recursive: true, force: true });
+await mkdir(resolve(dist, "server"), { recursive: true });
+await mkdir(assets, { recursive: true });
+for (const file of ["index.html","styles.css","catalog-enhancements.css","catalog-filters.css","media-attachments.css","clean-empty.css","app-v3.js","catalog-store.js","catalog-data.js","admin.html","admin.css","admin-enhancements.css","admin.js"]) await cp(resolve(root,file),resolve(assets,file));
+await cp(resolve(root,"worker-source.js"),resolve(dist,"server","index.js"));
+console.log("Build concluido em dist/");

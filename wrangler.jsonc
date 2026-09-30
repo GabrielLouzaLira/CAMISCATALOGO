@@ -1,22 +1,24 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "camisa10-loja",
-  "account_id": "e0c319b44e8eff504da75e5e3310a599",
-  "main": "worker/index.ts",
-  "compatibility_date": "2026-08-22",
-  "compatibility_flags": ["nodejs_compat"],
+  "name": "repositoriovamisa10",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-09-03",
+  "keep_vars": true,
   "d1_databases": [
     {
-      "binding": "DB",
-      "database_name": "camisa10-loja-db",
-      "database_id": "bb5894ae-316d-4588-afa0-a3c533b32a6e",
-      "migrations_dir": "drizzle"
+      "binding": "CATALOG_DB",
+      "database_name": "camisa10-catalogo",
+      "database_id": "76553314-3316-4125-98b2-18fe3eccb9f6"
     }
   ],
   "r2_buckets": [
     {
-      "binding": "PRODUCT_IMAGES",
-      "bucket_name": "camisa10-loja-imagens"
+      "binding": "CATALOG_MEDIA",
+      "bucket_name": "camisa10-midias"
     }
-  ]
+  ],
+  "assets": {
+    "directory": "dist/assets",
+    "binding": "ASSETS"
+  }
 }

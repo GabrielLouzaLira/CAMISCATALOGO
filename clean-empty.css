@@ -1,0 +1,44 @@
+.hero-gallery--empty {
+  display: grid;
+  place-items: center;
+}
+
+.hero-gallery--empty::before {
+  inset: 12%;
+}
+
+.hero-empty {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: min(360px, 88%);
+  min-height: 360px;
+  padding: 36px;
+  border: 1px dashed #55594f;
+  background: rgba(17, 19, 17, .78);
+  text-align: center;
+}
+
+.hero-empty span {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: #111;
+  font-size: 40px;
+}
+
+.hero-empty strong {
+  margin-top: 22px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.hero-empty small {
+  max-width: 230px;
+  color: var(--muted);
+  line-height: 1.6;
+}
