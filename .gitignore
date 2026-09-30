@@ -6,3 +6,9 @@ dist/
 Thumbs.db
 .wrangler/
 catalog-*-test.png
+
+# Credenciais e configuracoes privadas locais
+.env
+.env.*
+.dev.vars
+.dev.vars.*

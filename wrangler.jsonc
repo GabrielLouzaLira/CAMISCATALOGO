@@ -8,17 +8,18 @@
     {
       "binding": "CATALOG_DB",
       "database_name": "camisa10-catalogo",
-      "database_id": "76553314-3316-4125-98b2-18fe3eccb9f6"
+      "database_id": "0aedf94a-2c7a-4eba-9060-89e8fa97019a"
     }
   ],
   "r2_buckets": [
     {
       "binding": "CATALOG_MEDIA",
-      "bucket_name": "camisa10-midias"
+      "bucket_name": "catalogo"
     }
   ],
   "assets": {
     "directory": "dist/assets",
     "binding": "ASSETS"
-  }
+  },
+  "account_id": "d713c51f91c9b68f183a3656bf7d5aa4"
 }
