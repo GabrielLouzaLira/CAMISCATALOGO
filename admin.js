@@ -237,6 +237,8 @@ function openTeam(team = null) {
   form.elements.secondaryColor.value = team?.secondaryColor || "#101210";
   form.elements.featured.checked = Boolean(team?.featured);
   form.elements.hidden.checked = Boolean(team?.hidden);
+  form.elements.league.value = team?.league || "";
+  form.elements.kind.value = team?.kind || "clubes";
   if (team) { form.elements.categoryId.value = team.categoryId; form.elements.group.value = team.group || ""; form.elements.name.value = team.name; form.elements.order.value = team.order || 1; }
   renderTeamMediaPreview(team);
   $("#team-dialog").showModal();
@@ -389,6 +391,8 @@ $("#team-form").addEventListener("submit", async event => {
       id: existing?.id || makeId("team"),
       categoryId: values.get("categoryId"),
       group: String(values.get("group") || "").trim(),
+      league: String(values.get("league") || "").trim(),
+      kind: values.get("kind") === "selecoes" ? "selecoes" : "clubes",
       name: String(values.get("name") || "").trim(),
       order: Number(values.get("order")) || 1,
       primaryColor: values.get("primaryColor") || "#d1a656",

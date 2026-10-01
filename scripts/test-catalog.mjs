@@ -70,7 +70,6 @@ const before = sql.prepare("SELECT value FROM catalog_products WHERE id='p0'").g
 assert.equal((await request("/api/catalog/bootstrap")).status, 200);
 assert.equal(sql.prepare("SELECT value FROM catalog_products WHERE id='p0'").get().value, before);
 assert.equal(sql.prepare("SELECT COUNT(*) AS count FROM catalog_products").get().count, 54);
-sql.close();
 
 // Execute UI logic with a minimal DOM and controlled responses to test races.
 const app = (await readFile(new URL("../app-v3.js", import.meta.url), "utf8")).split('document.addEventListener("click"')[0];
@@ -116,4 +115,29 @@ await vm.runInContext(`
     if (!rendered.includes("--offset:0;") || !rendered.includes('data-team="a"')) throw Error("carousel or full team link missing");
   })()
 `, context);
-console.log("PASS: initialization, migration preservation, pagination (53 products), filters, hidden categories, admin authorization, stale team/search responses and carousel rendering.");
+await put('teams', {id:'filters', name:'Clube',categoryId:'futebol',group:'Brasil',league:'Liga nacional',kind:'clubes'});
+await put('products', {id:'filtered',teamKey:'filters',name:'Kit infantil',tags:['kit','infantil'],images:[]});
+assert.equal((await (await request('/api/catalog/products?group=Brasil&league=Liga%20nacional&kind=clubes&variant=infantil')).json()).items[0].id,'filtered');
+assert.equal((await (await request('/api/catalog/products?group=Brasil&league=Outra')).json()).items.length,0);
+assert.equal((await (await request('/api/catalog/products?group=Brasil&variant=feminino')).json()).items.length,0);
+sql.exec('CREATE TABLE catalog_import_media(object_key TEXT PRIMARY KEY, source_url TEXT NOT NULL)');
+sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/test.jpg','https://photo.yupoo.com/minkang/test/big.jpg');
+sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/blocked.jpg','https://other.example/image.jpg');
+const nativeFetch = globalThis.fetch; let fetches = 0; const cached = new Map();
+env.CATALOG_MEDIA = {async get(key) {return cached.get(key)}, async put(key, bytes, metadata) {cached.set(key,{body:bytes,...metadata})}};
+try {
+  globalThis.fetch = async () => {fetches++; return new Response(new Uint8Array([255,216,255]),{headers:{'content-type':'image/jpeg'}})};
+  assert.equal((await request('/media/yupoo/unknown.jpg')).status,404);
+  assert.equal((await request('/media/yupoo/blocked.jpg')).status,400);
+  assert.equal(fetches,0,'unregistered or foreign sources are never fetched');
+  const copied = await request('/media/yupoo/test.jpg');
+  assert.equal(copied.status,200); assert.equal(copied.headers.get('content-type'),'image/jpeg');
+  assert(cached.has('yupoo/test.jpg'),'first view persists to R2');
+  assert.equal((await request('/media/yupoo/test.jpg')).status,200); assert.equal(fetches,1,'repeat view uses R2');
+  cached.clear(); globalThis.fetch = async () => new Response('not an image',{headers:{'content-type':'text/html'}});
+  assert.equal((await request('/media/yupoo/test.jpg')).status,502); assert.equal(cached.size,0);
+  globalThis.fetch = async () => new Response('too big',{headers:{'content-type':'image/jpeg','content-length':'99999999'}});
+  assert.equal((await request('/media/yupoo/test.jpg')).status,413); assert.equal(cached.size,0);
+} finally {globalThis.fetch = nativeFetch;}
+sql.close();
+console.log('PASS: pagination, combined filters, admin authorization, stale responses, media allowlist, first-view copy, R2 reuse, MIME and size limits.');

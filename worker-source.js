@@ -192,6 +192,12 @@ async function readProductsPage(env, url) {
   if (teamId) { conditions.push("p.team_id = ?"); values.push(teamId); }
   if (categoryId) { conditions.push("t.category_id = ?"); values.push(categoryId); }
   if (group) { conditions.push("t.group_name = ?"); values.push(group); }
+  for (const [parameter, field] of [["league", "league"], ["kind", "kind"]]) {
+    const value = url.searchParams.get(parameter);
+    if (value) { conditions.push("json_extract(t.value, '$." + field + "') = ?"); values.push(value); }
+  }
+  const variant = url.searchParams.get("variant");
+  if (variant) { conditions.push("EXISTS (SELECT 1 FROM json_each(p.value, '$.tags') WHERE value = ?)"); values.push(variant); }
   if (featuredOnly) conditions.push("p.featured = 1");
   if (query) { conditions.push("p.search_text LIKE ?"); values.push(`%${query}%`); }
   const order = featuredOnly
@@ -274,9 +280,32 @@ export default {
     }
 
     if (path.startsWith("/media/") && request.method === "GET") {
-      const object = await env.CATALOG_MEDIA.get(decodeURIComponent(path.slice(7)));
+      let key;
+      try { key = decodeURIComponent(path.slice(7)); } catch { return fail("Endereco invalido", 400); }
+      let object = await env.CATALOG_MEDIA.get(key);
+      if (!object && key.startsWith("yupoo/")) {
+        // Only registered source images may be copied. Never proxy arbitrary URLs.
+        let source;
+        try { source = await env.CATALOG_DB.prepare("SELECT source_url FROM catalog_import_media WHERE object_key = ?").bind(key).first(); }
+        catch { return new Response("Imagem nao cadastrada", { status: 404 }); }
+        if (!source) return new Response("Imagem nao cadastrada", { status: 404 });
+        const origin = new URL(source.source_url);
+        if (origin.protocol !== "https:" || origin.hostname !== "photo.yupoo.com" || !origin.pathname.startsWith("/minkang/")) return fail("Origem invalida", 400);
+        try {
+          const upstream = await fetch(origin.href, { headers: { "Referer": "https://minkang.x.yupoo.com/", "User-Agent": "Mozilla/5.0" }, redirect: "manual", signal: AbortSignal.timeout(15000) });
+          const type = (upstream.headers.get("content-type") || "").split(";")[0];
+          if (!upstream.ok || !["image/jpeg", "image/png", "image/webp", "image/gif"].includes(type)) return new Response("Foto temporariamente indisponivel", {status:502,headers:{"cache-control":"no-store"}});
+          const max = 8 * 1024 * 1024;
+          if (Number(upstream.headers.get("content-length")) > max) return fail("Imagem muito grande", 413);
+          const reader = upstream.body.getReader(); const chunks = []; let size = 0;
+          while (true) { const {done,value} = await reader.read(); if (done) break; size += value.length; if (size > max) { await reader.cancel(); return fail("Imagem muito grande",413); } chunks.push(value); }
+          const bytes = new Uint8Array(size); let offset = 0; for (const chunk of chunks) { bytes.set(chunk,offset); offset += chunk.length; }
+          await env.CATALOG_MEDIA.put(key, bytes, {httpMetadata:{contentType:type}});
+          return new Response(bytes, {headers:{"content-type":type,"cache-control":"public,max-age=31536000,immutable","x-content-type-options":"nosniff"}});
+        } catch { return new Response("Foto temporariamente indisponivel. Tente novamente.", {status:502,headers:{"cache-control":"no-store"}}); }
+      }
       return object
-        ? new Response(object.body, { headers: { "content-type": object.httpMetadata?.contentType || "application/octet-stream", "cache-control": "public,max-age=31536000,immutable" } })
+        ? new Response(object.body, { headers: { "content-type": object.httpMetadata?.contentType || "application/octet-stream", "cache-control": "public,max-age=31536000,immutable", "x-content-type-options":"nosniff" } })
         : new Response("Nao encontrado", { status: 404 });
     }
 

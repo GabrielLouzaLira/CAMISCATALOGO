@@ -12,3 +12,4 @@ catalog-*-test.png
 .env.*
 .dev.vars
 .dev.vars.*
+.import-sql/

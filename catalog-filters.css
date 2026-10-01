@@ -110,3 +110,11 @@
     flex: 0 0 auto;
   }
 }
+
+/* Country, league and product filters */
+.catalog-selects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;gap:14px;align-items:end;margin:22px 0}
+.catalog-selects label{display:grid;gap:8px;color:#f4bd27;font-size:12px;letter-spacing:.08em}
+.catalog-selects select{width:100%;padding:13px 12px;background:#141614;color:#fff;border:1px solid #363936;border-radius:8px;font:inherit;letter-spacing:normal;min-height:46px}
+.catalog-selects button{min-height:46px}.discovery-league-filter{max-width:540px;margin:24px auto}
+@media(max-width:720px){.catalog-selects{grid-template-columns:1fr 1fr}.catalog-selects button{width:100%}}
+@media(max-width:420px){.catalog-selects{grid-template-columns:1fr}}

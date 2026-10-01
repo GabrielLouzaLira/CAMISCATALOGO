@@ -1,0 +1,42 @@
+[
+  {
+    "id": "futebol",
+    "title": "Futebol",
+    "subtitle": "Clubes e seleções do mundo",
+    "number": "01",
+    "order": 1,
+    "hidden": false
+  },
+  {
+    "id": "automobilismo",
+    "title": "Automobilismo",
+    "subtitle": "Camisas das equipes de Fórmula 1",
+    "number": "02",
+    "order": 2,
+    "hidden": false
+  },
+  {
+    "id": "rugby",
+    "title": "Rugby",
+    "subtitle": "NRL, Super Rugby e seleções",
+    "number": "03",
+    "order": 3,
+    "hidden": false
+  },
+  {
+    "id": "futebol-americano",
+    "title": "Futebol americano",
+    "subtitle": "Equipes da NFL",
+    "number": "04",
+    "order": 4,
+    "hidden": false
+  },
+  {
+    "id": "esportes-gaelicos",
+    "title": "Esportes gaélicos",
+    "subtitle": "Equipes e condados da GAA",
+    "number": "05",
+    "order": 5,
+    "hidden": false
+  }
+]

@@ -1,0 +1,5882 @@
+[
+  {
+    "id": "team-automobilismo-alemanha-mercedes",
+    "name": "Mercedes",
+    "categoryId": "automobilismo",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Fórmula 1",
+    "kind": "clubes",
+    "order": 46,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4996f5beb3f1caae4f08302bf3ef286b.jpg"
+    }
+  },
+  {
+    "id": "team-automobilismo-estados-unidos-cadillac",
+    "name": "Cadillac",
+    "categoryId": "automobilismo",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "Fórmula 1",
+    "kind": "clubes",
+    "order": 174,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/41959ee978b1a6575729f1a5f40e6b4c.jpg"
+    }
+  },
+  {
+    "id": "team-automobilismo-italia-ferrari",
+    "name": "Ferrari",
+    "categoryId": "automobilismo",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Fórmula 1",
+    "kind": "clubes",
+    "order": 293,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3153ba398f54a324ff6396db42d5844e.jpg"
+    }
+  },
+  {
+    "id": "team-automobilismo-austria-red-bull-racing",
+    "name": "Red Bull Racing",
+    "categoryId": "automobilismo",
+    "group": "Áustria",
+    "country": "Áustria",
+    "league": "Fórmula 1",
+    "kind": "clubes",
+    "order": 390,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/409deb94a21a1120dabdc74b44769131.jpg"
+    }
+  },
+  {
+    "id": "team-automobilismo-alemanha-audi",
+    "name": "Audi",
+    "categoryId": "automobilismo",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Fórmula 1",
+    "kind": "clubes",
+    "order": 30,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e8600ff34f619781f58524a288a8fac5.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-sevilla",
+    "name": "Sevilla",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 165,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b80351213e9828e53db813fd9dc0d28c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-real-madrid",
+    "name": "Real Madrid",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 159,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ef4e2fbb8fdbfe63120611e44432dd98.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-psg",
+    "name": "PSG",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 208,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/df25e8265fca71025848cf1d0943ac9f.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-portugal-portugal",
+    "name": "Portugal",
+    "categoryId": "futebol",
+    "group": "Portugal",
+    "country": "Portugal",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 364,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f6957a4879dc481ed5d31121da95c17d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-mexico",
+    "name": "México",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 340,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a48a3ec91e2fbb413ba9e60ed9eba5bb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-manchester-united",
+    "name": "Manchester United",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 255,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/51e8a5bd3fc5ed525aa80da694f73c52.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-irlanda-irlanda",
+    "name": "Irlanda",
+    "categoryId": "futebol",
+    "group": "Irlanda",
+    "country": "Irlanda",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 279,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b18cf1f0e8834c940cb43091acd26f20.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-alemanha",
+    "name": "Alemanha",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 29,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/40d92b29d22d4cf8c25d29c6a3117c13.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-fiorentina",
+    "name": "Fiorentina",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 294,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5daae6f9e1c3446cf72d7504d6992e59.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-inglaterra",
+    "name": "Inglaterra",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 249,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d86f251e84954872a8f5483a7eeb3613.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-croacia-croacia",
+    "name": "Croácia",
+    "categoryId": "futebol",
+    "group": "Croácia",
+    "country": "Croácia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 112,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3dd623d888057e61ed477e3c9b9b076d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-bayern-munich",
+    "name": "Bayern Munich",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 32,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/98c4dc0c65317d742c3fa63fa2147d4b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-barcelona",
+    "name": "Barcelona",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 130,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ac41a7611821ec6b294de8137f483e9d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-argentina",
+    "name": "Argentina",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 60,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9704f1e4ead5cb0de729f578014de586.jpeg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-ud-almeria",
+    "name": "UD Almeria",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 168,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f71add1bfee609fbc31b39689918d9ab.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-sunderland",
+    "name": "Sunderland",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 269,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/96f046a16189c8e14f055b8654b42376.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-sporting-de-gijon",
+    "name": "Sporting de Gijon",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 166,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5c6d3ba96ed0902f80862b36b2cf18fb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-real-valladolid",
+    "name": "Real Valladolid",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 163,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3cdb56f89e1674e14efe63e3e1516081.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-real-sociedad",
+    "name": "Real Sociedad",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 162,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8901613966681b6ac2518c4fdb4f3bc2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-real-betis",
+    "name": "Real Betis",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 158,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1b83b383a5cc675d0967f7f0bbf0558f.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-osasuna",
+    "name": "Osasuna",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 155,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f7f6d3ce5104505b302e0e9c567f854a.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-malaga",
+    "name": "Malaga",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 153,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b3f4c2dc88f66d91d2b603632948c908.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-japao",
+    "name": "Japão",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 318,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/eba9c818fcf5ccc20228b52619568ca3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-hull-city",
+    "name": "Hull City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 248,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e2376c74153010e8640554c04b5ccee7.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-hamburger-sv",
+    "name": "Hamburger SV",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 39,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/961ad8e1405bfacff54fc32db0b92e72.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-elche",
+    "name": "Elche",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 143,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/fc5f5f3c913c4fb0329c344db66411b0.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-dynamo-dresden",
+    "name": "Dynamo Dresden",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 35,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/0a4b639974a4138948f8c5a7ad7757ae.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-derby-county",
+    "name": "Derby County",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 244,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b906a1a603873f1aaa08d590953cc9d9.jpeg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-deportivo-alaves",
+    "name": "Deportivo Alavés",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 141,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ec4b8b60e227f67e35297f435694cda4.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-crystal-palace",
+    "name": "Crystal Palace",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 243,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/284a9d03898d0f116b09b76bf5c15e5b.jpeg"
+    }
+  },
+  {
+    "id": "team-futebol-chile-colo-colo",
+    "name": "Colo Colo",
+    "categoryId": "futebol",
+    "group": "Chile",
+    "country": "Chile",
+    "league": "Ligas chilenas",
+    "kind": "clubes",
+    "order": 102,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/619a646160b4ba77a0e60c360e6bccdb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-arsenal",
+    "name": "Arsenal",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 231,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b0001352502014c008bed52638a25199.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-nautico",
+    "name": "Nautico",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 16,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d6371d92e577c8028451eebb78091e95.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-santa-cruz",
+    "name": "Santa Cruz",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 21,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d9b9bf229995cbcff0b29f5ccc674b54.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-palmeiras",
+    "name": "Palmeiras",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 17,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/03c07338a298132ec95a6cb05f4bc054.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-internacional",
+    "name": "Internacional",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 15,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5d444cce147b13e08c7ae44502c6aab3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-rayo-vallecano",
+    "name": "Rayo Vallecano",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 157,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8d7f11619454f9c056b15bf20091d2bc.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-levante-ud",
+    "name": "Levante UD",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 152,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6d439cf5fc3afcf710467424c7960862.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-getafe",
+    "name": "Getafe",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 146,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/739d8775250e6591333bd4caf7b97362.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-celta-de-vigo",
+    "name": "Celta de Vigo",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 135,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6749d22b04eaee2cd161eecc55e094ec.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-olympique-de-marseille",
+    "name": "Olympique de Marseille",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 206,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/23e3ef0a06de9cc3016a4cf6f6740880.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-real-oviedo",
+    "name": "Real Oviedo",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 161,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c48659fee88e2a8da870ddb40df903dd.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-venezia",
+    "name": "Venezia",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 311,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/744e86698f11e205c7f25a6fde7b97f6.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-valencia",
+    "name": "Valencia",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 169,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7d487c94e926844f806ac8c4366bb970.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-portugal-sporting-cp",
+    "name": "Sporting CP",
+    "categoryId": "futebol",
+    "group": "Portugal",
+    "country": "Portugal",
+    "league": "Ligas portuguesas",
+    "kind": "clubes",
+    "order": 365,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/17b24be363d17db2a43f17ba7bd229b6.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-espanha",
+    "name": "Espanha",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 144,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2944c608d2111fd103ce1ae58b041d02.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-zaragoza",
+    "name": "Zaragoza",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 171,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4dae0571a90ffdd7b2f78cbf60e516e9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-real-murcia",
+    "name": "Real Murcia",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 160,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e8c5ffd52340290c559415aed8eacfa8.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-mallorca",
+    "name": "Mallorca",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 154,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/89a81ac660760b592b67a859ebdc0737.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-racing-de-santander",
+    "name": "Racing de Santander",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 156,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a70a234a1d0e4123cfb5f61f43643211.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-portugal-porto",
+    "name": "Porto",
+    "categoryId": "futebol",
+    "group": "Portugal",
+    "country": "Portugal",
+    "league": "Ligas portuguesas",
+    "kind": "clubes",
+    "order": 363,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/fec6778c487cb1cf9d9329eaed5f175b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-olympique-lyonnais",
+    "name": "Olympique lyonnais",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 207,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3f508c97b538b275f19b734231774665.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-leganes",
+    "name": "Leganes",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 151,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9fa0c549c0ecc6074ebdc3f16db379c3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-granada",
+    "name": "Granada",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 148,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/03e320ab8a652fcd1f2c898862520172.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-deportivo-la-coruna",
+    "name": "Deportivo La Coruña",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 142,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4977cbf655c657b1414c178c4301c334.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-colombia-colombia",
+    "name": "Colômbia",
+    "categoryId": "futebol",
+    "group": "Colômbia",
+    "country": "Colômbia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 106,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ba832b497fb1abda0bc6d93e5a8145c5.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-cadiz",
+    "name": "Cádiz",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 140,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ec92003908b469f87ed4efe905d1f5cc.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-burgos",
+    "name": "Burgos",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 132,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c10415567ccce33b4fe4da995c561b98.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-portugal-braga",
+    "name": "Braga",
+    "categoryId": "futebol",
+    "group": "Portugal",
+    "country": "Portugal",
+    "league": "Ligas portuguesas",
+    "kind": "clubes",
+    "order": 361,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4061350ac8ff67c0d435eb5adeb8b4ad.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-portugal-benfica",
+    "name": "Benfica",
+    "categoryId": "futebol",
+    "group": "Portugal",
+    "country": "Portugal",
+    "league": "Ligas portuguesas",
+    "kind": "clubes",
+    "order": 360,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7c209678ba95c2e23a749e020694bb15.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-atletico-madrid",
+    "name": "Atletico Madrid",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 129,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/adc821fb52423cfc946ce07e491c088d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-portugal-alverca",
+    "name": "Alverca",
+    "categoryId": "futebol",
+    "group": "Portugal",
+    "country": "Portugal",
+    "league": "Ligas portuguesas",
+    "kind": "clubes",
+    "order": 359,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/0567ce9a1a1762b5119e6fe3f1e5e2b4.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-albacete",
+    "name": "Albacete",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 127,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5c7c3e8d67de43eb3beadad5fd1bc9d1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-santos",
+    "name": "Santos",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 22,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7a18447d08db763b51cd2012952b841d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-corinthians",
+    "name": "Corinthians",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 8,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a3953be63dc7a2c85b6fa61f741cda41.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-atletico-mineiro",
+    "name": "Atlético Mineiro",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 1,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3d33ee66a35c314e402cd50094e01fb9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-recreativo-de-huelva",
+    "name": "Recreativo de Huelva",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 164,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/50d6d05c80ed266d2b1b3e1a24a75f01.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-portugal-famalicao",
+    "name": "Famalicao",
+    "categoryId": "futebol",
+    "group": "Portugal",
+    "country": "Portugal",
+    "league": "Ligas portuguesas",
+    "kind": "clubes",
+    "order": 362,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/01a970f2a2f1866c1bdf501fbddc2a36.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-wolves",
+    "name": "Wolves",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 274,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/fb1e7835c713cb1d861aa5c60b4125dc.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-west-ham-united",
+    "name": "West Ham United",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 273,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/87da56d74cc0764cd04338d397dec1d6.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-west-bromwich-albion",
+    "name": "West Bromwich Albion",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 272,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e2edbb3b2892a49a17af94ef735be593.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-wattenscheid",
+    "name": "Wattenscheid",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 57,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/0f003bf6027d4ae431bd4439af65ac52.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-watford",
+    "name": "Watford",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 271,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f83f5176884857f77ea1af115ca0e9ec.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-vfb-stuttgart",
+    "name": "VfB Stuttgart",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 55,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/13558932df517fd1fff78858c0333e24.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-sampdoria",
+    "name": "Sampdoria",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 308,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/03ff21401ecca91d7feb2c25fdc06b0d.jpeg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-tsv-1860-munich",
+    "name": "TSV 1860 Munich",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 53,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1498ce7be33cea3c865869c4cf2a5985.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-toulouse",
+    "name": "Toulouse",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 213,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3ab7069a42e4ea30f93185be2e1a6d4d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-torino",
+    "name": "Torino",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 310,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/0ef6afc146cd7eb2a8ea6f1e531310e0.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-toluca",
+    "name": "Toluca",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Liga MX",
+    "kind": "clubes",
+    "order": 344,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3e51b4a7af09d66a18ddbcc8722020a9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-werder-bremen",
+    "name": "Werder Bremen",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 58,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c63a9223832ad3ef0d057a6a6c91892f.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-stoke-city",
+    "name": "Stoke City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 268,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7617b33f70480007f5494dbab21ebaf7.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-rc-strasbourg",
+    "name": "RC Strasbourg",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 211,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/fd652d1918de037d9ff0874493410a32.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-rc-lens",
+    "name": "RC Lens",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 210,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9adaadf4d4b38f9bf2e5f0b8963e3694.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-nottingham-forest",
+    "name": "Nottingham Forest",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 260,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ea5be706cd7ebd0302a64fcc7337eeff.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-napoli",
+    "name": "Napoli",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 299,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d30b5ca950727fb5fea5787d56d93cb1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-fulham",
+    "name": "Fulham",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 247,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/cf024b2186427823197219ba7e8a67d1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-turquia-fenerbahce",
+    "name": "Fenerbahce",
+    "categoryId": "futebol",
+    "group": "Turquia",
+    "country": "Turquia",
+    "league": "Ligas turcas",
+    "kind": "clubes",
+    "order": 378,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/88d55d3f167ee2650ba862bc806f9d16.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-cultural-leonesa",
+    "name": "Cultural Leonesa",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 139,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8f6090ed900526ed4abc37f32a06d7dc.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-cruz-azul",
+    "name": "Cruz Azul",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Liga MX",
+    "kind": "clubes",
+    "order": 338,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8d5a5b11c4f79d83770e5188274bed9c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-coventry-city",
+    "name": "Coventry City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 242,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/0fe0a7f40e57e702eced08b6eb7f1e40.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-club-leon",
+    "name": "Club León",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Ligas mexicanas",
+    "kind": "clubes",
+    "order": 337,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5258f59f42fed72d844b9de9bbba680b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-chivas",
+    "name": "Chivas",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Liga MX",
+    "kind": "clubes",
+    "order": 335,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/077a92dced5fd09750a6e2a1d1330f8d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-estados-unidos-chicago-fire",
+    "name": "Chicago Fire",
+    "categoryId": "futebol",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 177,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/32dd0002566b62b068744279e40eb1c5.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-burnley",
+    "name": "Burnley",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 239,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/30af3c88117dceb77a3fad562dd7ac91.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-brighton",
+    "name": "Brighton",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 238,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2d0022712be4f62033b2f9db1a738ee5.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-borussia-monchengladbach",
+    "name": "Borussia Monchengladbach",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 34,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/12f2d673a86137abb08a42a3f29a5f69.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-blackburn-rovers",
+    "name": "Blackburn Rovers",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 234,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c35d76de64e5a6e2440b675e10a1410d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-turquia-besiktas",
+    "name": "Besiktas",
+    "categoryId": "futebol",
+    "group": "Turquia",
+    "country": "Turquia",
+    "league": "Ligas turcas",
+    "kind": "clubes",
+    "order": 377,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4dcf09cf81b898273dd3b94f93ace625.jpeg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-atletico-san-luis",
+    "name": "Atlético San Luis",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Liga MX",
+    "kind": "clubes",
+    "order": 334,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b49a3d2059d847f024cd99a03f06d28b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-atlante-fc",
+    "name": "Atlante FC",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Ligas mexicanas",
+    "kind": "clubes",
+    "order": 332,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/34a9c97381dbe57de3f626f38bd11962.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-as-saint-etienne",
+    "name": "AS Saint-Etienne",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 196,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/20b30065dfc7131df33c7f6a84356826.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-monaco",
+    "name": "Monaco",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 203,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/03b00064d178388ec40587c69b4da7f3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-afc-bournemouth",
+    "name": "AFC Bournemouth",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 230,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5f7cd6944e73bfcfd210b046c53c3a62.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-cruzeiro",
+    "name": "Cruzeiro",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 9,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7ac65e6e8fde8fea35a9cd076c98eb22.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-gremio",
+    "name": "Grêmio",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 14,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3de17d78a0e1a4ca0642835cd52e5b3f.jpg"
+    }
+  },
+  {
+    "id": "team-automobilismo-reino-unido-mclaren",
+    "name": "McLaren",
+    "categoryId": "automobilismo",
+    "group": "Reino Unido",
+    "country": "Reino Unido",
+    "league": "Fórmula 1",
+    "kind": "clubes",
+    "order": 366,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/76526278ccd56601f3ec96351b918b5e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-escocia-rangers",
+    "name": "Rangers",
+    "categoryId": "futebol",
+    "group": "Escócia",
+    "country": "Escócia",
+    "league": "Ligas escocesas",
+    "kind": "clubes",
+    "order": 125,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d113d083536e08e202fd6afaabe101d9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-escocia-celtic",
+    "name": "Celtic",
+    "categoryId": "futebol",
+    "group": "Escócia",
+    "country": "Escócia",
+    "league": "Ligas escocesas",
+    "kind": "clubes",
+    "order": 121,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3e82320eec6ee84113f4fd289cba2f31.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-chile-universidad-de-chile",
+    "name": "Universidad de Chile",
+    "categoryId": "futebol",
+    "group": "Chile",
+    "country": "Chile",
+    "league": "Ligas chilenas",
+    "kind": "clubes",
+    "order": 104,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/dc7e69d7cdf643b4e195f609132d306d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-chile-universidad-catolica",
+    "name": "Universidad Católica",
+    "categoryId": "futebol",
+    "group": "Chile",
+    "country": "Chile",
+    "league": "Ligas chilenas",
+    "kind": "clubes",
+    "order": 103,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/af98ee90be198eadd67087d7cc3c85e2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-canada-toronto-fc",
+    "name": "Toronto FC",
+    "categoryId": "futebol",
+    "group": "Canadá",
+    "country": "Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 98,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/21749e28f868a007b1d9e218c1aeb01b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-tigres-uanl",
+    "name": "Tigres UANL",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Liga MX",
+    "kind": "clubes",
+    "order": 342,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/97ee5b923289dbfe481d1cef91ddf76c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-stade-rennais",
+    "name": "Stade Rennais",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 212,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/73719b95e24ba507731d10a2aa03ce05.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-estados-unidos-e-canada-san-diego-fc",
+    "name": "San Diego FC",
+    "categoryId": "futebol",
+    "group": "Estados Unidos e Canadá",
+    "country": "Estados Unidos e Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 192,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/75f3ec85f6d0f678e3412340fc6fc788.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-pumas-unam",
+    "name": "Pumas unam",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Liga MX",
+    "kind": "clubes",
+    "order": 341,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/89064091967c039b8ca1f55f7f1a8584.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-africa-do-sul-orlando-pirates",
+    "name": "Orlando Pirates",
+    "categoryId": "futebol",
+    "group": "África do Sul",
+    "country": "África do Sul",
+    "league": "Ligas sul-africanas",
+    "kind": "clubes",
+    "order": 388,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/315868685109c8c83792a4d8744fb413.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-grecia-olympiacos",
+    "name": "Olympiacos",
+    "categoryId": "futebol",
+    "group": "Grécia",
+    "country": "Grécia",
+    "league": "Ligas gregas",
+    "kind": "clubes",
+    "order": 218,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/702979fcbc5306f305e3775404fda8b9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-estados-unidos-e-canada-los-angeles-fc",
+    "name": "Los Angeles FC",
+    "categoryId": "futebol",
+    "group": "Estados Unidos e Canadá",
+    "country": "Estados Unidos e Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 189,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/677eda0f62c32e59bb05e691aaa18635.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-estados-unidos-e-canada-la-galaxy",
+    "name": "LA Galaxy",
+    "categoryId": "futebol",
+    "group": "Estados Unidos e Canadá",
+    "country": "Estados Unidos e Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 188,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f0969d89cacdd69068f0e3746c6117db.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-estados-unidos-e-canada-inter-miami",
+    "name": "Inter Miami",
+    "categoryId": "futebol",
+    "group": "Estados Unidos e Canadá",
+    "country": "Estados Unidos e Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 187,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e25d6c8f47ae0661e25bbcf3d5c42647.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-club-america",
+    "name": "Club America",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Liga MX",
+    "kind": "clubes",
+    "order": 336,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/254765d1f9f56143e8cb03b7f6e5ec7b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-chile-chile",
+    "name": "Chile",
+    "categoryId": "futebol",
+    "group": "Chile",
+    "country": "Chile",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 101,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/56837c77e93a6e723390663d48633f69.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-canada-cf-montreal",
+    "name": "CF Montreal",
+    "categoryId": "futebol",
+    "group": "Canadá",
+    "country": "Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 96,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8f2f1e552d28fc515280c438f476b594.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-atlas",
+    "name": "Atlas",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Ligas mexicanas",
+    "kind": "clubes",
+    "order": 333,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4c78b6c2caa87540c409ef231b891c97.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-atalanta",
+    "name": "Atalanta",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 287,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1a52ac0bc779a837d3f815e330e8648b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-roma",
+    "name": "Roma",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 306,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/973e2d174b4db295ed30ab5b7d6a5843.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-parma-calcio",
+    "name": "Parma Calcio",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 302,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b56babc620ca7a4b9e6880b902cbff65.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-ac-milan",
+    "name": "AC Milan",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 286,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/fa2232f500f7c3c300b172114b20cc48.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-perugia",
+    "name": "Perugia",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 303,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4c730e41ae8bc5eff994915b1ba26237.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-lazio",
+    "name": "Lazio",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 298,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f3c89bcb30b8486bb9d432e20b6870f2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-inter-milan",
+    "name": "Inter Milan",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 296,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/af557ede34f53b990904702406a3ecb5.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-como",
+    "name": "Como",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 291,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6c8ce28d42a3db717633f65af43bb372.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-cagliari",
+    "name": "Cagliari",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 290,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/27beb5b482e998d32e47c096c65f94b2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-bologna",
+    "name": "Bologna",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 288,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c1de949e2edaf0c315099754b3d01230.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-schalke-04",
+    "name": "Schalke 04",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 50,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f6b9eae9b693d2e451a64aa9768c91ec.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-borussia-dortmund",
+    "name": "Borussia Dortmund",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 33,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1bfb5ee39b3956d260f0dbe9e3cc1ccb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-aston-villa",
+    "name": "Aston Villa",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 232,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/cbab37f0c8f6e81a0cf55bfd9991e364.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-chelsea",
+    "name": "Chelsea",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 241,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ba73ef8457f5d837281662d810b63e56.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-norwich-city",
+    "name": "Norwich City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 259,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5519292491e6e3629098b4e780ead3d0.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-newcastle-united",
+    "name": "Newcastle United",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 258,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2142e1a763a0fe46da8f351ac1093ad9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-manchester-city",
+    "name": "Manchester City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 254,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d4546bea05ac95669d426a2e01fdd823.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-st-pauli",
+    "name": "St. Pauli",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 51,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/86842ad2890a2ff05117a6e3bf70b7ed.jpeg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-1-fc-koln",
+    "name": "1. FC Köln",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 28,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/346fbcfe5a07eccc3b7eadaf22c2155e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-villarreal",
+    "name": "Villarreal",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 170,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/93f18b503bf0958c4ac147658681157e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-ceuta",
+    "name": "Ceuta",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 136,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/81f52d26be482204dce552853322c49f.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-athletic-bilbao",
+    "name": "Athletic Bilbao",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 128,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/fb18fe683af6ddefd69aedd74a7c8242.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-vasco-da-gama",
+    "name": "Vasco da Gama",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 25,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/42dd7421c3a10abdbeed1acde953cf21.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-sao-paulo",
+    "name": "São Paulo",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 24,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f39224b2817441e8dc64894cff314365.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-fluminense",
+    "name": "Fluminense",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 12,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2f9749d567107e2428c8862800b65546.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-flamengo",
+    "name": "Flamengo",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 11,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ae945d153ea6692712ac4ff7b45499e0.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-brasil",
+    "name": "Brasil",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 5,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/531a0ca7171cfdcd54d2b760847d26b9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-botafogo",
+    "name": "Botafogo",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 4,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ac0d2ae066565f3c570b0e592cc88a77.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-bahia",
+    "name": "Bahia",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 3,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5c9acbf36d9a5de319c570c3cd1856f3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-vitoria",
+    "name": "Vitória",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 26,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/77a798f73236b910a51b0e2edaa4284e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-monterrey",
+    "name": "Monterrey",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Liga MX",
+    "kind": "clubes",
+    "order": 339,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d0283411a6aa6a8fa9446ea9c16278f5.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-pais-de-gales-wrexham",
+    "name": "Wrexham",
+    "categoryId": "futebol",
+    "group": "País de Gales",
+    "country": "País de Gales",
+    "league": "Ligas inglesas",
+    "kind": "clubes",
+    "order": 356,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1e1f747d73b479b70a7c4a994583d7a5.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-las-palmas",
+    "name": "Las Palmas",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 150,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d46a8a7eeb0647a03c934913e6dfc451.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-tenerife",
+    "name": "Tenerife",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 167,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/bf5a75dcf70dc9f1426e3b4e25efb8fe.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-sheffield-wednesday",
+    "name": "Sheffield Wednesday",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 266,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6a0a161c63b50f962a845d1b79151f33.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-sheffield-united",
+    "name": "Sheffield United",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 265,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/460f7058413d2702ff00bb977d20f3df.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-espanyol",
+    "name": "Espanyol",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 145,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ff4663bbe6c5e89ea77de7f2f34d755f.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-leeds-united",
+    "name": "Leeds United",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 251,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/aeb16ab34f7fe5883e302906e350d046.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-nurnberg-fc",
+    "name": "Nurnberg FC",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 47,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1945f4db50410cf4319cfcdbd0fc7cf3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-eintracht-frankfurt",
+    "name": "Eintracht Frankfurt",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 36,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/83d910e6a2038b05b770e5be0fa7b393.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-bolton-wanderers",
+    "name": "Bolton Wanderers",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 235,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/11777f721b268fe9f903a288bc3fb199.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-birmingham-city",
+    "name": "Birmingham City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 233,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/140315f221c0840f94a4e5705f069953.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-cordoba",
+    "name": "Cordoba",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 138,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9df81227885b0a7cbb2b8198d9452bf6.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-tsg-hoffenheim",
+    "name": "TSG Hoffenheim",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 52,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ba10437a8b1d093583ae5902aeb592fe.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-portsmouth",
+    "name": "Portsmouth",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 262,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/49cba69669211dab1a1597f74a8862bc.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-paris-fc",
+    "name": "Paris FC",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 209,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d5dd71e9fffe4b25c12dd527a2ca5e16.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-nantes",
+    "name": "Nantes",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 204,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9200f00ec885793dee7b2ae628f43618.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-middlesbrough",
+    "name": "Middlesbrough",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 256,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1a7774db0075327df1d4abe229f59ccd.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-freiburg",
+    "name": "Freiburg",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 38,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a53558654b99a1fef565ef4827ecf459.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-everton",
+    "name": "Everton",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 246,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c667ba946e36657afda7a2dcb4ea42f5.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-cardiff-city",
+    "name": "Cardiff City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 240,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/06561da4168d29d599e5b2b5de0e17b0.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-arabia-saudita-al-nassr",
+    "name": "Al Nassr",
+    "categoryId": "futebol",
+    "group": "Arábia Saudita",
+    "country": "Arábia Saudita",
+    "league": "Ligas sauditas",
+    "kind": "clubes",
+    "order": 74,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1c12c0a44e333c67116f471730936f32.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-tottenham-hotspur",
+    "name": "Tottenham Hotspur",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 270,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c8557caf93a85b39764bd7a340f559ba.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-boca-juniors",
+    "name": "Boca Juniors",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 63,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f71485fbb8c644b6dd69f458173040d9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-holanda-ajax",
+    "name": "Ajax",
+    "categoryId": "futebol",
+    "group": "Holanda",
+    "country": "Holanda",
+    "league": "Eredivisie",
+    "kind": "clubes",
+    "order": 223,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/57b9ba5fec86fbd5d93b6b3dc748d7b7.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-canada-vancouver-whitecaps",
+    "name": "Vancouver Whitecaps",
+    "categoryId": "futebol",
+    "group": "Canadá",
+    "country": "Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 99,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f8b816fab3267f1a882fe6ad8097639c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-holanda-psv-eindhoven",
+    "name": "PSV Eindhoven",
+    "categoryId": "futebol",
+    "group": "Holanda",
+    "country": "Holanda",
+    "league": "Eredivisie",
+    "kind": "clubes",
+    "order": 226,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/82bbb16417c08aaf51843c57284a30e4.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-uruguai-penarol",
+    "name": "Peñarol",
+    "categoryId": "futebol",
+    "group": "Uruguai",
+    "country": "Uruguai",
+    "league": "Ligas uruguaias",
+    "kind": "clubes",
+    "order": 384,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ca8db54bec06abaed8b47b6181b0500a.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-leicester-city",
+    "name": "Leicester City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 252,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/815edb9131594dedae8f77a10cb35ba3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-girona",
+    "name": "Girona",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 147,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/66518083ce7c28ddee55261ea59441eb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-fortuna-dusseldorf",
+    "name": "Fortuna Düsseldorf",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 37,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2ca85ac897d92045ab103f6d02d7d90e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-belgica-belgica",
+    "name": "Bélgica",
+    "categoryId": "futebol",
+    "group": "Bélgica",
+    "country": "Bélgica",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 91,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/84f4efa93ca12fa655f16baaa28aa4f2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-river-plate",
+    "name": "River Plate",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 68,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/da6459fe70304babf05048ecdd35d2f9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-grecia-panathinaikos",
+    "name": "Panathinaikos",
+    "categoryId": "futebol",
+    "group": "Grécia",
+    "country": "Grécia",
+    "league": "Ligas gregas",
+    "kind": "clubes",
+    "order": 219,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c0c157454203f52638868f95108c77bd.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-escocia-dundee-united",
+    "name": "Dundee United",
+    "categoryId": "futebol",
+    "group": "Escócia",
+    "country": "Escócia",
+    "league": "Ligas escocesas",
+    "kind": "clubes",
+    "order": 122,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/dd176eae33081dbc4725fbb9632ab9fa.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-remo",
+    "name": "Remo",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 20,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/aa2e64f76f13124c7961eb5fcb93d009.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-tunisia-tunisia",
+    "name": "Tunísia",
+    "categoryId": "futebol",
+    "group": "Tunísia",
+    "country": "Tunísia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 376,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6d13282b3073d479f1fe81270671aefe.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-senegal-senegal",
+    "name": "Senegal",
+    "categoryId": "futebol",
+    "group": "Senegal",
+    "country": "Senegal",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 369,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/cfd53451701b4c310ed7638af3f1dff4.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-millwall",
+    "name": "Millwall",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 257,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e153756d29ad826f6d9933a48f70f4a1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-escocia-hearts",
+    "name": "Hearts",
+    "categoryId": "futebol",
+    "group": "Escócia",
+    "country": "Escócia",
+    "league": "Ligas escocesas",
+    "kind": "clubes",
+    "order": 124,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8061237b2dae86a70d30397ee1c928db.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-franca",
+    "name": "França",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 198,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ee0c85d9739a6da9edf310f14af84675.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-doncaster",
+    "name": "Doncaster",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 245,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3f2396f0fc0d2da5780cc6537de6361a.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-congo-congo",
+    "name": "Congo",
+    "categoryId": "futebol",
+    "group": "Congo",
+    "country": "Congo",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 108,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4cb6f2ee96ce97463714f6dcb368ea45.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-irlanda-bohemians",
+    "name": "Bohemians",
+    "categoryId": "futebol",
+    "group": "Irlanda",
+    "country": "Irlanda",
+    "league": "Ligas irlandesas",
+    "kind": "clubes",
+    "order": 276,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/dd00dbc7bf43f2e207f7d98e386aac7f.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-hannover-96",
+    "name": "Hannover 96",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 40,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9d4729729eef8ba61163c70621d12620.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-brentford",
+    "name": "Brentford",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 237,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/cdef5d43afb1bcd77ef13fc92361c753.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-palermo",
+    "name": "Palermo",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 301,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e0a300ef0cd0007f32d8aa5285eb727d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-estados-unidos-e-canada-new-york-city-fc",
+    "name": "New York City FC",
+    "categoryId": "futebol",
+    "group": "Estados Unidos e Canadá",
+    "country": "Estados Unidos e Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 190,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/58cd36de01bbdd207efad21da5a4dacd.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-ipswich-town",
+    "name": "Ipswich Town",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 250,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/05127a759138f8282a5d433bb08a43f8.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-holanda-feyenoord",
+    "name": "Feyenoord",
+    "categoryId": "futebol",
+    "group": "Holanda",
+    "country": "Holanda",
+    "league": "Eredivisie",
+    "kind": "clubes",
+    "order": 224,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7012580bee7fe5c474f87d7e6869cf68.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-yokohama-f-marinos",
+    "name": "Yokohama F. Marinos",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 328,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/dd8f268c1b46a4ae68efc5738d4a79c8.jpeg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-vissel-kobe",
+    "name": "Vissel Kobe",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 327,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f77cada7871aa6fcb065eb3a98a6cc1b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-velez-sarsfield",
+    "name": "Vélez Sarsfield",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 70,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/51158a913fcf711a24597e8fc3e0a20b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-uruguai-uruguai",
+    "name": "Uruguai",
+    "categoryId": "futebol",
+    "group": "Uruguai",
+    "country": "Uruguai",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 385,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9a222cf9ab5407bc670bcf14abba0d91.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-shimizu-s-pulse",
+    "name": "Shimizu S-Pulse",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 325,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ff46bc9a6c79f38ca579f9788611e624.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-sanfrecce-hiroshima",
+    "name": "Sanfrecce Hiroshima",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 324,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/327712c875c69e45e1779dfae78d4a3a.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-estados-unidos-e-canada-new-york-red-bulls",
+    "name": "New York Red Bulls",
+    "categoryId": "futebol",
+    "group": "Estados Unidos e Canadá",
+    "country": "Estados Unidos e Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 191,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d2807e7232dccdcbd17934c554dac9b0.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-red-bull-bragantino",
+    "name": "Red Bull Bragantino",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 19,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b42a45253af9601dccb9b880ed4b4ab6.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-nagoya-grampus",
+    "name": "Nagoya Grampus",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 323,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/664447036426fc2558b0617509bdbc27.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-kyoto-sanga",
+    "name": "Kyoto Sanga",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 322,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a4c403a26fcb30d5f20a57032ad27fcc.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-kawasaki-frontale",
+    "name": "Kawasaki Frontale",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 321,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/49e815c09f6f19b8f141a5a5bcbb64fb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-kashiwa-reysol",
+    "name": "Kashiwa Reysol",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 320,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/15b66d9a735c00df9dfbf5f6ef9f1399.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-kashima-antlers",
+    "name": "Kashima Antlers",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 319,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b91076396d50bf94f4899618159a36bd.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-gamba-osaka",
+    "name": "Gamba Osaka",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 317,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9f1300525f519e34840db7a4c5569ace.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-fc-tokyo",
+    "name": "FC Tokyo",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 316,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c856dd7399dbc8949322cd3b62d21be4.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-estados-unidos-e-canada-charlotte-fc",
+    "name": "Charlotte FC",
+    "categoryId": "futebol",
+    "group": "Estados Unidos e Canadá",
+    "country": "Estados Unidos e Canadá",
+    "league": "MLS",
+    "kind": "clubes",
+    "order": 186,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b0f68d4e57871114ce451c36e357a03a.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-cerezo-osaka",
+    "name": "Cerezo Osaka",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 315,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9569bc8ee51f0d14d86eea3699fae869.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-avispa-fukuoka",
+    "name": "Avispa Fukuoka",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 314,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d174af18537869a1e6c2e2beafd38bfb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-argentinos-juniors",
+    "name": "Argentinos Juniors",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 61,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9290224a88cbe93e9731b7e59e867733.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-queens-park-rangers",
+    "name": "Queens Park Rangers",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 264,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2af4b912ec5b9f7ac73e0e2f24768678.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-preston",
+    "name": "Preston",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 263,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5531ae62c82ddebeeb6af095a7e43bcb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-kaiserslautern",
+    "name": "Kaiserslautern",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 43,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6f3eacd0d13919663a3f477f8f4fe6be.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-union-berlin",
+    "name": "Union Berlin",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 54,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e7fc6215dbc367ca728de1af8734d197.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-holanda-holanda",
+    "name": "Holanda",
+    "categoryId": "futebol",
+    "group": "Holanda",
+    "country": "Holanda",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 225,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/beda05aa31df9bf44a9417983c25d1e4.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-sport-recife",
+    "name": "Sport Recife",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 23,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1818f1564a583912d72f52ce7174e7a1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-karlsruher",
+    "name": "Karlsruher",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 44,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/bbc126ed76ff9a9db11cdcb910d1d2ff.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-grecia-aek-athens",
+    "name": "AEK Athens",
+    "categoryId": "futebol",
+    "group": "Grécia",
+    "country": "Grécia",
+    "league": "Ligas gregas",
+    "kind": "clubes",
+    "order": 216,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1d447c21b8b129bdd04b19063056bbe3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-escocia-aberdeen",
+    "name": "Aberdeen",
+    "categoryId": "futebol",
+    "group": "Escócia",
+    "country": "Escócia",
+    "league": "Ligas escocesas",
+    "kind": "clubes",
+    "order": 120,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/fb26bcffb55e0a7fbf94bba4345892b8.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-estados-unidos-estados-unidos",
+    "name": "Estados Unidos",
+    "categoryId": "futebol",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 182,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a398a19724d02ef95217a1b7d9b95ca3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-venezuela-venezuela",
+    "name": "Venezuela",
+    "categoryId": "futebol",
+    "group": "Venezuela",
+    "country": "Venezuela",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 387,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d998319797f5077ac51b0eabe472f464.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-turquia-galatasaray",
+    "name": "Galatasaray",
+    "categoryId": "futebol",
+    "group": "Turquia",
+    "country": "Turquia",
+    "league": "Ligas turcas",
+    "kind": "clubes",
+    "order": 379,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/96761d7594983dc5950dc784b9bf1e39.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-atletico-rosario-central",
+    "name": "Atlético Rosario Central",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 62,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3d27c5b4305268f87ad741803879abb7.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-tchecoslovaquia-historica-tchecoslovaquia",
+    "name": "Tchecoslováquia",
+    "categoryId": "futebol",
+    "group": "Tchecoslováquia (histórica)",
+    "country": "Tchecoslováquia (histórica)",
+    "league": "Seleções históricas",
+    "kind": "selecoes",
+    "order": 375,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6444386559c2c8deaa64de3e4d8bcb82.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-canada-canada",
+    "name": "Canadá",
+    "categoryId": "futebol",
+    "group": "Canadá",
+    "country": "Canadá",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 97,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1b327f3104c656ae9e789a57956f4508.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-dinamarca-brndby",
+    "name": "Brøndby",
+    "categoryId": "futebol",
+    "group": "Dinamarca",
+    "country": "Dinamarca",
+    "league": "Ligas dinamarquesas",
+    "kind": "clubes",
+    "order": 114,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/b55e693d499c34be1def292572e1892f.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-bulgaria-bulgaria",
+    "name": "Bulgária",
+    "categoryId": "futebol",
+    "group": "Bulgária",
+    "country": "Bulgária",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 90,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/dc1a73b55ede809deb9d0d69467f2504.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-padova",
+    "name": "Padova",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 300,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1c5f8076128790bdf4960b1c2a0b1fa7.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argelia-argelia",
+    "name": "Argélia",
+    "categoryId": "futebol",
+    "group": "Argélia",
+    "country": "Argélia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 71,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/171affa8d07cb5c3607807dfeec8a6fb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-austria-austria",
+    "name": "Áustria",
+    "categoryId": "futebol",
+    "group": "Áustria",
+    "country": "Áustria",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 392,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8d4e53ca8645a253984431a85f8aec7e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-panama-panama",
+    "name": "Panamá",
+    "categoryId": "futebol",
+    "group": "Panamá",
+    "country": "Panamá",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 352,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a481fc60fbe566e1a18eb42bb84e6eb5.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-ira-ira",
+    "name": "Irã",
+    "categoryId": "futebol",
+    "group": "Irã",
+    "country": "Irã",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 283,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/acd361dc62caabf456545cb9cead8151.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-iraque-iraque",
+    "name": "Iraque",
+    "categoryId": "futebol",
+    "group": "Iraque",
+    "country": "Iraque",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 275,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/95d990d69cb0705185c6f90edfb91c4e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-haiti-haiti",
+    "name": "Haiti",
+    "categoryId": "futebol",
+    "group": "Haiti",
+    "country": "Haiti",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 222,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/bf5e622d6179ad5449b14d1fec05165a.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-uzbequistao-uzbequistao",
+    "name": "Uzbequistão",
+    "categoryId": "futebol",
+    "group": "Uzbequistão",
+    "country": "Uzbequistão",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 386,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/882ae0fa25a85b98bc9214c759e0afb0.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-rb-leipzig",
+    "name": "RB Leipzig",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 48,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ad51f25b4e768d73e83390ad9bb37e6c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-marrocos-marrocos",
+    "name": "Marrocos",
+    "categoryId": "futebol",
+    "group": "Marrocos",
+    "country": "Marrocos",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 331,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/20994237bb47608751ebccd262ff452c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-italia",
+    "name": "Itália",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 297,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/770dc30d8b4004a96fad4f38e9930e2b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-servia-red-star-belgrade",
+    "name": "Red Star Belgrade",
+    "categoryId": "futebol",
+    "group": "Sérvia",
+    "country": "Sérvia",
+    "league": "Ligas sérvias",
+    "kind": "clubes",
+    "order": 373,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/bb6e93aabff79e969570a852d1f995a3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-uruguai-montevideo-city-torque",
+    "name": "Montevideo City Torque",
+    "categoryId": "futebol",
+    "group": "Uruguai",
+    "country": "Uruguai",
+    "league": "Ligas uruguaias",
+    "kind": "clubes",
+    "order": 383,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d95694dca467e18c2a979ae0dc758bb8.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-irlanda-derry-city",
+    "name": "Derry City",
+    "categoryId": "futebol",
+    "group": "Irlanda",
+    "country": "Irlanda",
+    "league": "Liga da Irlanda",
+    "kind": "clubes",
+    "order": 277,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d5e469f5b85016fde2bc8a88274ece35.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-curacao-curacao",
+    "name": "Curaçao",
+    "categoryId": "futebol",
+    "group": "Curaçao",
+    "country": "Curaçao",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 113,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/bc21c06ee60d4b43c9aa25e8f16940e2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-atletico-paranaense",
+    "name": "Atlético Paranaense",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 2,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/59bc6c08b532ed7d80a872f6d2c07721.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-plymouth-argyle",
+    "name": "Plymouth Argyle",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 261,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ec9fe5bbe6c499a5fba72dbdde5a1837.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-newell-s-old-boys",
+    "name": "Newell's Old Boys",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 66,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9e8597019f582a36b277360bec86114f.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-paraguai-cerro-porteno",
+    "name": "Cerro Porteño",
+    "categoryId": "futebol",
+    "group": "Paraguai",
+    "country": "Paraguai",
+    "league": "Ligas paraguaias",
+    "kind": "clubes",
+    "order": 353,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/63cf7fc4bba0392f74a44ebcb22de7a1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-bradford-city",
+    "name": "Bradford City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 236,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f47e373841e0ab87658f33afab7d9e34.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-paysandu",
+    "name": "Paysandu",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 18,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8bc55a87036fac7935afe5d0854eac3c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-jordania-jordania",
+    "name": "Jordânia",
+    "categoryId": "futebol",
+    "group": "Jordânia",
+    "country": "Jordânia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 329,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2f8a649f4cf5bd200b7bedbbe893ae11.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-hansa-rostock",
+    "name": "Hansa Rostock",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 41,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/f3fb9045c8f9fe593b4ffa736ccac336.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-holstein-kiel",
+    "name": "Holstein Kiel",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 42,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9981a102048353fb3257e3772349f3ff.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-vfl-bochum",
+    "name": "VfL Bochum",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 56,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a1ad28036c2162965c98608ae68426f0.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-costa-do-marfim-costa-do-marfim",
+    "name": "Costa do Marfim",
+    "categoryId": "futebol",
+    "group": "Costa do Marfim",
+    "country": "Costa do Marfim",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 111,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/181ae78a69e201b8e4bf99c9fc63e4b6.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-suecia-suecia",
+    "name": "Suécia",
+    "categoryId": "futebol",
+    "group": "Suécia",
+    "country": "Suécia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 371,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a0b2861baf9bb4866bc6c7edf288e70e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-rot-weiss-essen",
+    "name": "Rot-Weiss Essen",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 49,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/07df4630102423c41a5a4d6687a2799a.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-nigeria-nigeria",
+    "name": "Nigéria",
+    "categoryId": "futebol",
+    "group": "Nigéria",
+    "country": "Nigéria",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 345,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/091ce6a15629ad2244cdfee83e3bb334.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-japao-urawa-red-diamonds",
+    "name": "Urawa Red Diamonds",
+    "categoryId": "futebol",
+    "group": "Japão",
+    "country": "Japão",
+    "league": "Ligas japonesas",
+    "kind": "clubes",
+    "order": 326,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/94bb39e08e8bab3b343b609461c13b52.jpg"
+    }
+  },
+  {
+    "id": "team-esportes-gaelicos-irlanda-tipperary",
+    "name": "Tipperary",
+    "categoryId": "esportes-gaelicos",
+    "group": "Irlanda",
+    "country": "Irlanda",
+    "league": "GAA",
+    "kind": "clubes",
+    "order": 281,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9e35d0f68f0ef12f16fe9839522d0604.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mexico-tijuana",
+    "name": "Tijuana",
+    "categoryId": "futebol",
+    "group": "México",
+    "country": "México",
+    "league": "Liga MX",
+    "kind": "clubes",
+    "order": 343,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/41961206c9621c246733deb529fe344c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-eslovenia-eslovenia",
+    "name": "Eslovênia",
+    "categoryId": "futebol",
+    "group": "Eslovênia",
+    "country": "Eslovênia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 126,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7fd6aa08a658c3df5c2cfea32e321ff9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-catar-catar",
+    "name": "Catar",
+    "categoryId": "futebol",
+    "group": "Catar",
+    "country": "Catar",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 100,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3fe2553546bad4c169d9db04cbdd7f10.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-finlandia-finlandia",
+    "name": "Finlândia",
+    "categoryId": "futebol",
+    "group": "Finlândia",
+    "country": "Finlândia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 194,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/636b192d10ab6ef624795f695fa1ef27.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-dinamarca-dinamarca",
+    "name": "Dinamarca",
+    "categoryId": "futebol",
+    "group": "Dinamarca",
+    "country": "Dinamarca",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 115,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a0b82fadb89f238d3dc319817293791c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-southampton",
+    "name": "Southampton",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 267,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/02bcf14121902e0afa272f3eff76c3ec.jpg"
+    }
+  },
+  {
+    "id": "team-automobilismo-italia-racing-bulls",
+    "name": "Racing Bulls",
+    "categoryId": "automobilismo",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Fórmula 1",
+    "kind": "clubes",
+    "order": 305,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2b77cbc5e7c5e9aa606fb8f93ca2a62e.jpg"
+    }
+  },
+  {
+    "id": "team-esportes-gaelicos-irlanda-kerry",
+    "name": "Kerry",
+    "categoryId": "esportes-gaelicos",
+    "group": "Irlanda",
+    "country": "Irlanda",
+    "league": "GAA",
+    "kind": "clubes",
+    "order": 280,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/543b157107b8bb0bd15e13d3fcb52e80.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-nova-zelandia-nova-zelandia",
+    "name": "Nova Zelândia",
+    "categoryId": "futebol",
+    "group": "Nova Zelândia",
+    "country": "Nova Zelândia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 350,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1e5ee9fc75aae23b34e0d067b6dc032d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-cd-castellon",
+    "name": "CD Castellón",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 133,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2620f70a1e14b78aa5de54b13262ebea.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-el-salvador-el-salvador",
+    "name": "El Salvador",
+    "categoryId": "futebol",
+    "group": "El Salvador",
+    "country": "El Salvador",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 117,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e7e2122792f3d6ec835b6764e3cb277b.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-nova-zelandia-crusaders",
+    "name": "Crusaders",
+    "categoryId": "rugby",
+    "group": "Nova Zelândia",
+    "country": "Nova Zelândia",
+    "league": "Super Rugby",
+    "kind": "clubes",
+    "order": 348,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/af0ea5ea8b92155bb1540894bd9d8a19.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-cabo-verde-cabo-verde",
+    "name": "Cabo Verde",
+    "categoryId": "futebol",
+    "group": "Cabo Verde",
+    "country": "Cabo Verde",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 94,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/42e69ea528471ac2acf20b6c19d898ef.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-newcastle-knights",
+    "name": "Newcastle Knights",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 83,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d1df25b5c8877c2d88038fc8698fbb22.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-brisbane-broncos",
+    "name": "Brisbane Broncos",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 77,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3264f860026a364488f7b3496658e739.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-sydney-roosters",
+    "name": "Sydney Roosters",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 88,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e9dffa57e505f3a5f3f3685cc51921f4.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-nsw-blues",
+    "name": "NSW Blues",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "State of Origin",
+    "kind": "clubes",
+    "order": 82,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/fd8ce2989a7d68682ae4304b1de1a1f4.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-fiji-fijian-drua",
+    "name": "Fijian Drua",
+    "categoryId": "rugby",
+    "group": "Fiji",
+    "country": "Fiji",
+    "league": "Super Rugby",
+    "kind": "clubes",
+    "order": 193,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8a15589fdc59e6436945b687298f63e0.jpg"
+    }
+  },
+  {
+    "id": "team-esportes-gaelicos-irlanda-donegal",
+    "name": "Donegal",
+    "categoryId": "esportes-gaelicos",
+    "group": "Irlanda",
+    "country": "Irlanda",
+    "league": "GAA",
+    "kind": "clubes",
+    "order": 278,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/656746b3939c93348ae3ef965c505ea7.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-emirados-arabes-unidos-emirados-arabes-unidos",
+    "name": "Emirados Árabes Unidos",
+    "categoryId": "futebol",
+    "group": "Emirados Árabes Unidos",
+    "country": "Emirados Árabes Unidos",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 118,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/93c10fb843ee7b470ced47f5942735c8.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-arabia-saudita-arabia-saudita",
+    "name": "Arábia Saudita",
+    "categoryId": "futebol",
+    "group": "Arábia Saudita",
+    "country": "Arábia Saudita",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 75,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a0b19ebb2c32042bdbb2bb34587f4c9b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-polonia-polonia",
+    "name": "Polônia",
+    "categoryId": "futebol",
+    "group": "Polônia",
+    "country": "Polônia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 358,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7b4977a01a34be11d3fc8e347305ff44.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-peru-peru",
+    "name": "Peru",
+    "categoryId": "futebol",
+    "group": "Peru",
+    "country": "Peru",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 357,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/cb78c29071d745fa0cb1985e2cc26ef1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-paraguai-paraguai",
+    "name": "Paraguai",
+    "categoryId": "futebol",
+    "group": "Paraguai",
+    "country": "Paraguai",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 354,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d11580aa8c7f7ecdcff4c3d680cccf79.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-hungria-hungria",
+    "name": "Hungria",
+    "categoryId": "futebol",
+    "group": "Hungria",
+    "country": "Hungria",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 228,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d7efc81ebd2ba2d99e9bb2b357e30beb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-girondins-de-bordeaux",
+    "name": "Girondins de Bordeaux",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 200,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2857c8c4c6ef9ff3a3960a3c11adb213.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-costa-rica-costa-rica",
+    "name": "Costa Rica",
+    "categoryId": "futebol",
+    "group": "Costa Rica",
+    "country": "Costa Rica",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 110,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/846b99144c0c0ed6d79f3b2954a138d4.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-australia-australia",
+    "name": "Austrália",
+    "categoryId": "futebol",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 76,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3dbd73f2dbae8a82cb8bb584c74054ff.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-jamaica-jamaica",
+    "name": "Jamaica",
+    "categoryId": "futebol",
+    "group": "Jamaica",
+    "country": "Jamaica",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 313,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7984d5f72ff86d475fe079fe791144f2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-wolfsburg",
+    "name": "Wolfsburg",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 59,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/78a829a37fb8b461b99489be3524c266.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-cremonese",
+    "name": "Cremonese",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 292,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/87f478fa2b6d470a8d9459adb506b261.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-turquia-trabzonspor",
+    "name": "Trabzonspor",
+    "categoryId": "futebol",
+    "group": "Turquia",
+    "country": "Turquia",
+    "league": "Ligas turcas",
+    "kind": "clubes",
+    "order": 380,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4aca5722d1d7d1825bfbcfd13366161b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-turquia-turquia",
+    "name": "Turquia",
+    "categoryId": "futebol",
+    "group": "Turquia",
+    "country": "Turquia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 381,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/91c9920769b661af5ca9547435e02bb3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-noruega-noruega",
+    "name": "Noruega",
+    "categoryId": "futebol",
+    "group": "Noruega",
+    "country": "Noruega",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 346,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2ec443a2414597b5d905932adae10d17.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-colombia-millonarios",
+    "name": "Millonarios",
+    "categoryId": "futebol",
+    "group": "Colômbia",
+    "country": "Colômbia",
+    "league": "Ligas colombianas",
+    "kind": "clubes",
+    "order": 107,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/27794513334194fe0ea46d55e6ad84fd.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-inglaterra-lincoln-city",
+    "name": "Lincoln City",
+    "categoryId": "futebol",
+    "group": "Inglaterra",
+    "country": "Inglaterra",
+    "league": "Premier League e outras divisões",
+    "kind": "clubes",
+    "order": 253,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/42b9594fd5cf99e2d51650c40496119d.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-nova-zelandia-new-zealand-warriors",
+    "name": "New Zealand Warriors",
+    "categoryId": "rugby",
+    "group": "Nova Zelândia",
+    "country": "Nova Zelândia",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 349,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2871bf05cdc624cf18f6bb506f7af919.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-republica-tcheca-republica-tcheca",
+    "name": "República Tcheca",
+    "categoryId": "futebol",
+    "group": "República Tcheca",
+    "country": "República Tcheca",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 367,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5478950af5de77874343e0d820964764.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-equador-equador",
+    "name": "Equador",
+    "categoryId": "futebol",
+    "group": "Equador",
+    "country": "Equador",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 119,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/088635c5ed289fddf8209038e5b706ad.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-africa-do-sul-africa-do-sul",
+    "name": "África do Sul",
+    "categoryId": "futebol",
+    "group": "África do Sul",
+    "country": "África do Sul",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 389,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/68a8ff86c7938e9ea618b7a0dc15251c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-coreia-do-sul-coreia-do-sul",
+    "name": "Coreia do Sul",
+    "categoryId": "futebol",
+    "group": "Coreia do Sul",
+    "country": "Coreia do Sul",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 109,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/aaec3a76028027ba3a80cc6641bf3571.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-honduras-honduras",
+    "name": "Honduras",
+    "categoryId": "futebol",
+    "group": "Honduras",
+    "country": "Honduras",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 227,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4b52f51b3f3309850dbf82a6f8a07e46.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-gana-gana",
+    "name": "Gana",
+    "categoryId": "futebol",
+    "group": "Gana",
+    "country": "Gana",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 214,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9d849d6574d6f9f31c4bf4d0d71bf32c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-bosnia-e-herzegovina-bosnia-e-herzegovina",
+    "name": "Bósnia e Herzegovina",
+    "categoryId": "futebol",
+    "group": "Bósnia e Herzegovina",
+    "country": "Bósnia e Herzegovina",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 93,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/21c006257f3e45c863a4e9d64e34d720.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-albania-albania",
+    "name": "Albânia",
+    "categoryId": "futebol",
+    "group": "Albânia",
+    "country": "Albânia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 27,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e493c345c3dad0565849c2c7fcf2a95e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-escocia-escocia",
+    "name": "Escócia",
+    "categoryId": "futebol",
+    "group": "Escócia",
+    "country": "Escócia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 123,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/452cf143294908a10296867c0969099d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-guatemala-guatemala",
+    "name": "Guatemala",
+    "categoryId": "futebol",
+    "group": "Guatemala",
+    "country": "Guatemala",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 220,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e80c4850e8915dcec6b7e04d49d410b0.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-suecia-aik",
+    "name": "AIK",
+    "categoryId": "futebol",
+    "group": "Suécia",
+    "country": "Suécia",
+    "league": "Ligas suecas",
+    "kind": "clubes",
+    "order": 370,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a898fb72db4c7d64885f016350004bbe.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-bayer-leverkusen",
+    "name": "Bayer Leverkusen",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 31,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9fb6c89c987c538b6eb5372009c9d261.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-chapecoense",
+    "name": "Chapecoense",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 7,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8a8b788f9d2f96a91f069f17878650cb.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-pais-de-gales-pais-de-gales",
+    "name": "País de Gales",
+    "categoryId": "futebol",
+    "group": "País de Gales",
+    "country": "País de Gales",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 355,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7fc09ec991383ceec1960ea7dc600e89.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-franca-franca",
+    "name": "França",
+    "categoryId": "rugby",
+    "group": "França",
+    "country": "França",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 199,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/929640c5d0359211b0d1dad948c9dc24.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-noruega-rosenborg",
+    "name": "Rosenborg",
+    "categoryId": "futebol",
+    "group": "Noruega",
+    "country": "Noruega",
+    "league": "Ligas norueguesas",
+    "kind": "clubes",
+    "order": 347,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e122024e9bef7936fbda0ada2b842401.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-grecia-grecia",
+    "name": "Grécia",
+    "categoryId": "futebol",
+    "group": "Grécia",
+    "country": "Grécia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 217,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7d5e172ffc3a5f6a03ed50b0a57687b6.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-estudiantes-de-la-plata",
+    "name": "Estudiantes de La Plata",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 64,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2dbeda3d2e8adf391ba7c7be6a87fb47.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-colombia-atletico-nacional",
+    "name": "Atlético Nacional",
+    "categoryId": "futebol",
+    "group": "Colômbia",
+    "country": "Colômbia",
+    "league": "Ligas colombianas",
+    "kind": "clubes",
+    "order": 105,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4c7cf6427754d90bf2cf18fcb4e710b9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-ceara-sporting",
+    "name": "Ceará Sporting",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 6,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7db36659385cc9642150ea953327bb75.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-compostela",
+    "name": "Compostela",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 137,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/68306ea9a1b8538d4eaa5e375460f5f1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-ogc-nice",
+    "name": "OGC Nice",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 205,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7bc56fd4927630da09a0c8d7396dc0a9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-alemanha-msv-duisburg",
+    "name": "MSV Duisburg",
+    "categoryId": "futebol",
+    "group": "Alemanha",
+    "country": "Alemanha",
+    "league": "Bundesliga e outras divisões",
+    "kind": "clubes",
+    "order": 45,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/24bf9aa568bee91291f4447f8c185669.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-guine-equatorial-guine-equatorial",
+    "name": "Guiné Equatorial",
+    "categoryId": "futebol",
+    "group": "Guiné Equatorial",
+    "country": "Guiné Equatorial",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 221,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a9dca7bdba56d2d05d1ee403349c1908.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-austria-sturm-graz",
+    "name": "Sturm Graz",
+    "categoryId": "futebol",
+    "group": "Áustria",
+    "country": "Áustria",
+    "league": "Ligas austríacas",
+    "kind": "clubes",
+    "order": 391,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/0ab220d678d6d4c17f1344c3c9e836b3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-suica-suica",
+    "name": "Suíça",
+    "categoryId": "futebol",
+    "group": "Suíça",
+    "country": "Suíça",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 372,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/33b075e71b35857fa2ec6ad655ed83fc.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-mali-mali",
+    "name": "Mali",
+    "categoryId": "futebol",
+    "group": "Mali",
+    "country": "Mali",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 330,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/468b05bdf6ab588c09534cc42c9962be.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-islandia-islandia",
+    "name": "Islândia",
+    "categoryId": "futebol",
+    "group": "Islândia",
+    "country": "Islândia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 284,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/aa55d6d8bea3f090b2aea8f574802e27.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-camaroes-camaroes",
+    "name": "Camarões",
+    "categoryId": "futebol",
+    "group": "Camarões",
+    "country": "Camarões",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 95,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/0bdd58f7ba5b7b3115d69559d2217e2c.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-genoa",
+    "name": "Genoa",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 295,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c478415849e76a17fd64541429500851.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-egito-egito",
+    "name": "Egito",
+    "categoryId": "futebol",
+    "group": "Egito",
+    "country": "Egito",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 116,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a7459a41c38380b1b30bbf5b4ae02e0e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-sassuolo",
+    "name": "Sassuolo",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 309,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/aac77e3354f5f4dd405fb982cbe519e1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-irlanda-do-norte-irlanda-do-norte",
+    "name": "Irlanda do Norte",
+    "categoryId": "futebol",
+    "group": "Irlanda do Norte",
+    "country": "Irlanda do Norte",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 282,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6bf74ea5431623d9c02122f166b558e2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-hercules",
+    "name": "Hércules",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 149,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/554486273fb9592fd8710a3e01c2b620.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-parramatta-eels",
+    "name": "Parramatta Eels",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 84,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/bfa002eb32b113e8b52fac66ce8ee2c0.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-dolphins",
+    "name": "Dolphins",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 80,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/84cea0c79d7a15fda6a4984d33a75bdf.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-canterbury-bulldogs",
+    "name": "Canterbury Bulldogs",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 79,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8be0b016beb73f844fc69df8af1db00b.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-canberra-raiders",
+    "name": "Canberra Raiders",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 78,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/44d933f38fe4bc1b9e99ada92a7b68c3.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-philadelphia-eagles",
+    "name": "Philadelphia Eagles",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 184,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/538ccf2de6abf33100b48c8cd7974e49.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-melbourne-storm",
+    "name": "Melbourne Storm",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 81,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6b65b08a7d693ce8b3d4073a725139e8.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-dallas-cowboys",
+    "name": "Dallas Cowboys",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 180,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3be2a101c2dbba9ded3d373e7a831d50.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-carolina-panthers",
+    "name": "Carolina Panthers",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 175,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4712f438a0d5b6317a09f3211023756c.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-penrith-panthers",
+    "name": "Penrith Panthers",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 85,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/745c86cfaf9c11b445f7314ae93eda00.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-south-sydney-rabbitohs",
+    "name": "South Sydney Rabbitohs",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 86,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9c62aad44f406de6b1968de7f7bde455.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-st-george-illawarra-dragons",
+    "name": "St George Illawarra Dragons",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 87,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/20d6265dbfdd631c213b42e6f9cc0d99.jpg"
+    }
+  },
+  {
+    "id": "team-rugby-australia-wests-tigers",
+    "name": "Wests Tigers",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 89,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/dfe101e3d3ab8d5e1d482dbbc50c004d.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-basque-country",
+    "name": "Basque Country",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 131,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/0984f93186bb523e2acd0923c2e791ac.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-ucrania-ucrania",
+    "name": "Ucrânia",
+    "categoryId": "futebol",
+    "group": "Ucrânia",
+    "country": "Ucrânia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 382,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/035e0fac0d2533edae3a91cf769d1242.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-as-cannes",
+    "name": "AS Cannes",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 195,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/81e8db212fb2aaeae894d695dbbd92d4.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-belgica-club-brugge",
+    "name": "Club Brugge",
+    "categoryId": "futebol",
+    "group": "Bélgica",
+    "country": "Bélgica",
+    "league": "Ligas belgas",
+    "kind": "clubes",
+    "order": 92,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/ffc251a54ef24acabdec6efd725ed381.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-ssc-bari",
+    "name": "SSC Bari",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 307,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/60b3b65bcd476813e10bb4cf78e5576b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-palestina-palestina",
+    "name": "Palestina",
+    "categoryId": "futebol",
+    "group": "Palestina",
+    "country": "Palestina",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 351,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/46ef7e4e8ef31c1a3be56440f0644b85.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-israel-israel",
+    "name": "Israel",
+    "categoryId": "futebol",
+    "group": "Israel",
+    "country": "Israel",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 285,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/27df70d967ae3750ac682ddb94714180.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-pisa",
+    "name": "Pisa",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 304,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/99f92f0e3f0d256cd0a3cef63e6d5cb4.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-arabia-saudita-al-ahli",
+    "name": "Al Ahli",
+    "categoryId": "futebol",
+    "group": "Arábia Saudita",
+    "country": "Arábia Saudita",
+    "league": "Ligas sauditas",
+    "kind": "clubes",
+    "order": 72,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/782bd65d91e68a851ed3075a7eeb7065.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-espanha-cartagena",
+    "name": "Cartagena",
+    "categoryId": "futebol",
+    "group": "Espanha",
+    "country": "Espanha",
+    "league": "La Liga e outras divisões",
+    "kind": "clubes",
+    "order": 134,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/39b2b1e1284e5434f9bee0bc6fac6859.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-arabia-saudita-al-hilal",
+    "name": "Al Hilal",
+    "categoryId": "futebol",
+    "group": "Arábia Saudita",
+    "country": "Arábia Saudita",
+    "league": "Ligas sauditas",
+    "kind": "clubes",
+    "order": 73,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/851fa7b64506dcaad6060e71ab42e4a7.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-lille",
+    "name": "Lille",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 201,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/17cc01099113189968cff0ec85eaf390.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-romenia-romenia",
+    "name": "Romênia",
+    "categoryId": "futebol",
+    "group": "Romênia",
+    "country": "Romênia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 368,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9943bbb8f5a6abced9fedfef9e69ad9a.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-italia-brescia-calcio",
+    "name": "Brescia Calcio",
+    "categoryId": "futebol",
+    "group": "Itália",
+    "country": "Itália",
+    "league": "Serie A e outras divisões",
+    "kind": "clubes",
+    "order": 289,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/8498110ed501c40e43f0b1b1b248a919.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-racing-club",
+    "name": "Racing Club",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 67,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/e45de0c1264e48883e6e8c4fb4cd20d2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-metz",
+    "name": "Metz",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 202,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/7bf2e47edbd34af633136a47b1fd6336.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-independiente",
+    "name": "Independiente",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 65,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/5fd66ba07bc7acb2883f874fb558369b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-argentina-san-lorenzo",
+    "name": "San Lorenzo",
+    "categoryId": "futebol",
+    "group": "Argentina",
+    "country": "Argentina",
+    "league": "Ligas argentinas",
+    "kind": "clubes",
+    "order": 69,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/694e326dc9c6155f513695c18e14f396.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-cuiaba",
+    "name": "Cuiabá",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 10,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/af017bea2c96e696be433e20fa72ead1.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-franca-auxerre",
+    "name": "Auxerre",
+    "categoryId": "futebol",
+    "group": "França",
+    "country": "França",
+    "league": "Ligue 1 e outras divisões",
+    "kind": "clubes",
+    "order": 197,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/1b7f2fba869f0e2dc9b4f95399bda481.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-iugoslavia-historica-iugoslavia-historica",
+    "name": "Iugoslávia (histórica)",
+    "categoryId": "futebol",
+    "group": "Iugoslávia (histórica)",
+    "country": "Iugoslávia (histórica)",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 312,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/6768ac374cae1065e9f53a0d7084ffe9.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-brasil-fortaleza",
+    "name": "Fortaleza",
+    "categoryId": "futebol",
+    "group": "Brasil",
+    "country": "Brasil",
+    "league": "Campeonatos brasileiros",
+    "kind": "clubes",
+    "order": 13,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/2692764f1424ebaad74efb99fca5b8d2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-georgia-georgia",
+    "name": "Geórgia",
+    "categoryId": "futebol",
+    "group": "Geórgia",
+    "country": "Geórgia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 215,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/baa4b857b00c7b28a72d0351c9d09764.jpeg"
+    }
+  },
+  {
+    "id": "team-futebol-servia-servia",
+    "name": "Sérvia",
+    "categoryId": "futebol",
+    "group": "Sérvia",
+    "country": "Sérvia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 374,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/d35156497cdbfd0174a2476e1a5be273.jpeg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-denver-broncos",
+    "name": "Denver Broncos",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 181,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/03b524ecd87f908762482a5a8839aa7e.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-pittsburgh-steelers",
+    "name": "Pittsburgh Steelers",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 185,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/efad0d6b9c5d2edc42d2e312221c8d6b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-chicago-bears",
+    "name": "Chicago Bears",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 176,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/36f4e6e214145df3f0aefded4b7bc645.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-atlanta-falcons",
+    "name": "Atlanta Falcons",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 172,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/3276121587cd37a6fb6e46866a1b77d2.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-cincinnati-bengals",
+    "name": "Cincinnati Bengals",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 178,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/c4cc5dac10ddd3ddc647908fd18d1a31.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-cleveland-browns",
+    "name": "Cleveland Browns",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 179,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/9c974d49f8a8c0f7efa029af73f6cf21.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-indianapolis-colts",
+    "name": "Indianapolis Colts",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 183,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/298109bfe58b8e92eab0d39fc532a42b.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-americano-estados-unidos-baltimore-ravens",
+    "name": "Baltimore Ravens",
+    "categoryId": "futebol-americano",
+    "group": "Estados Unidos",
+    "country": "Estados Unidos",
+    "league": "NFL",
+    "kind": "clubes",
+    "order": 173,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/a6e53c4a26837c49a5065d298c3676da.jpg"
+    }
+  },
+  {
+    "id": "team-futebol-indonesia-indonesia",
+    "name": "Indonésia",
+    "categoryId": "futebol",
+    "group": "Indonésia",
+    "country": "Indonésia",
+    "league": "Seleções nacionais",
+    "kind": "selecoes",
+    "order": 229,
+    "hidden": false,
+    "featured": false,
+    "showcaseImage": {
+      "url": "/media/yupoo/4aa1601f52a287ec199538a30858c90a.jpeg"
+    }
+  }
+]
