@@ -121,7 +121,10 @@ await vm.runInContext(`
     if (!secondRoster.includes('data-discovery-team="club24"') || secondRoster.includes('data-discovery-team="club0"') || secondRoster.includes('data-discovery-team="nation"')) throw Error('roster pagination or club isolation failed');
     if (!secondRoster.includes('/media/brands/crest.png')) throw Error('crest missing from team selection');
     discovery.kind='selecoes'; discovery.teamId='nation';
+    discovery.group='';
+    data.teams.push({id:'argentina',name:'Argentina',categoryId:'futebol',group:'Argentina',kind:'selecoes',league:'Seleções'});
     const nationalRoster=renderDiscovery();
+    if (!nationalRoster.includes('data-discovery-team="argentina"') || nationalRoster.includes('aria-label="Equipes de Brasil"') || nationalRoster.includes('aria-label="Equipes de Argentina"') || !nationalRoster.includes('<label hidden>PAÍS')) throw Error('national teams must share one roster without country filter');
     if (!nationalRoster.includes('data-discovery-team="nation"') || nationalRoster.includes('data-discovery-team="club24"')) throw Error('national team isolation failed');
   })()
 `, context);
