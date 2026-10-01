@@ -6,6 +6,7 @@ const assets = resolve(dist, "assets");
 await rm(dist, { recursive: true, force: true });
 await mkdir(resolve(dist, "server"), { recursive: true });
 await mkdir(assets, { recursive: true });
-for (const file of ["index.html","styles.css","catalog-enhancements.css","catalog-filters.css","team-selector.css","team-branding.json","media-attachments.css","clean-empty.css","app-v3.js","catalog-store.js","catalog-data.js","admin.html","admin.css","admin-enhancements.css","admin.js"]) await cp(resolve(root,file),resolve(assets,file));
+for (const file of ["index.html","styles.css","catalog-enhancements.css","catalog-filters.css","team-selector.css","video-showcase.css","team-branding.json","media-attachments.css","clean-empty.css","app-v3.js","catalog-store.js","catalog-data.js","admin.html","admin.css","admin-enhancements.css","admin.js"]) await cp(resolve(root,file),resolve(assets,file));
 await cp(resolve(root,"worker-source.js"),resolve(dist,"server","index.js"));
+await cp(resolve(root,"showcase"),resolve(assets,"showcase"),{recursive:true});
 console.log("Build concluido em dist/");

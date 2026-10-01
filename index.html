@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="catalog-enhancements.css">
   <link rel="stylesheet" href="catalog-filters.css">
   <link rel="stylesheet" href="team-selector.css">
+  <link rel="stylesheet" href="video-showcase.css">
 </head>
 <body>
   <a class="skip-link" href="#content">Ir para o catalogo</a>
@@ -27,6 +28,13 @@
   <main id="content"></main>
   <footer><span id="footer-name">CAMISA 10</span><span>Escolha seu time e fale conosco pelo WhatsApp.</span></footer>
   <dialog id="details" class="product-dialog"></dialog>
+  <dialog id="film-dialog" class="film-dialog" aria-label="Vídeo Camisa 10">
+    <div class="film-dialog__bar"><span>CAMISA 10 · PAIXÃO EM CAMPO</span><button type="button" data-film-close aria-label="Fechar vídeo">×</button></div>
+    <video id="catalog-film" controls playsinline preload="none" poster="/showcase/camisa10-momentos.jpg" aria-label="Vídeo de momentos do futebol">
+      <source src="/showcase/camisa10-momentos.mp4" type="video/mp4">
+      <p>Seu navegador não conseguiu reproduzir o vídeo. <a href="/showcase/camisa10-momentos.mp4">Abrir vídeo</a></p>
+    </video>
+  </dialog>
   <script src="app-v3.js"></script>
 </body>
 </html>

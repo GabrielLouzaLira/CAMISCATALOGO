@@ -138,7 +138,7 @@ function renderHome() {
     ? '<div class="catalog-loading"><span></span><p>Carregando camisetas...</p></div>'
     : productGrid(homeCatalog.items, "Nenhuma camiseta foi encontrada para este filtro.");
 
-  return '<section class="hero hero--copy-only"><div class="hero-copy"><p class="eyebrow"><span></span>CATALOGO CAMISA 10</p><h1>' + esc(data.settings.catalogTitle || "Seu time. Sua camisa.") + '</h1><p>' + esc(data.settings.introText || "Veja os modelos em destaque ou encontre sua equipe.") + '</p><button class="primary-button" type="button" data-explore><span>EXPLORAR EQUIPES</span><span>-&gt;</span></button><p class="hero-note">Atendimento e pedidos pelo WhatsApp.</p></div></section>' +
+  return '<section class="hero hero--copy-only hero--video"><div class="hero-video-slot" aria-hidden="true"></div><div class="hero-copy"><p class="eyebrow"><span></span>CATALOGO CAMISA 10</p><h1>' + esc(data.settings.catalogTitle || "Seu time. Sua camisa.") + '</h1><p>' + esc(data.settings.introText || "Veja os modelos em destaque ou encontre sua equipe.") + '</p><button class="primary-button" type="button" data-explore><span>EXPLORAR EQUIPES</span><span>-&gt;</span></button><p class="hero-note">Atendimento e pedidos pelo WhatsApp.</p><div class="hero-film-actions"><button type="button" data-hero-toggle>REPRODUZIR FUNDO</button><button type="button" data-film-open>ASSISTIR COM SOM ↗</button></div></div></section>' +
     (featuredProducts.length ? '<section class="catalog-section showcase-section"><div class="section-heading"><div><p class="eyebrow"><span></span>ESCOLHIDAS PELA LOJA</p><h2>DESTAQUES</h2></div><p>Os modelos marcados pelo painel aparecem primeiro.</p></div><div class="product-grid">' + featuredProducts.map(product => productCard(product, true)).join("") + '</div></section>' : "") +
     renderDiscovery() +
     '<section id="all-products" class="catalog-section"><div class="section-heading"><div><p class="eyebrow"><span></span>CATALOGO COMPLETO</p><h2>TODAS AS<br>CAMISETAS</h2></div><p>Veja os primeiros modelos ou filtre por esporte, país, liga e equipe.</p></div><div class="filter-row"><button class="filter-chip ' + (!homeCatalog.categoryId ? "is-active" : "") + '" type="button" data-browse-category="">Todos</button>' + categoryFilters + '</div>' +
@@ -175,7 +175,35 @@ function renderProducts() {
   return '<section class="inner-page">' + crest(team, 'team-page-crest') + '<button type="button" class="back-button" data-category="' + esc(team.categoryId) + '">&lt;- Voltar para ' + esc(category?.title || "equipes") + '</button><div class="page-heading"><div><p class="eyebrow"><span></span>' + esc([category?.title, team.group].filter(Boolean).join(" / ")) + '</p><h1>' + esc(team.name) + '</h1></div><p>Escolha um modelo para abrir todas as fotos e solicitar pelo WhatsApp.</p></div><div class="product-grid">' + content + '</div>' + (view.hasMore ? '<div class="load-more-row"><button type="button" class="secondary-catalog-button" data-team-more ' + (view.loading ? 'disabled' : '') + '>CARREGAR MAIS MODELOS</button></div>' : '') + '</section>';
 }
 
+let heroFilm = null;
+let heroPaused = typeof window.matchMedia === "function" && (window.matchMedia("(prefers-reduced-motion: reduce)").matches || navigator.connection?.saveData);
+function syncHeroFilm() {
+  if (!document.createElement) return;
+  const slot = $(".hero-video-slot");
+  if (!slot) { heroFilm?.pause(); return; }
+  if (!heroFilm) {
+    heroFilm = document.createElement("video");
+    heroFilm.className = "hero-background-film";
+    heroFilm.muted = true;
+    heroFilm.loop = true;
+    heroFilm.playsInline = true;
+    heroFilm.preload = "none";
+    heroFilm.poster = "/showcase/camisa10-momentos.jpg";
+    heroFilm.src = "/showcase/camisa10-momentos.mp4";
+    for (const event of ["play", "pause"]) heroFilm.addEventListener(event, updateHeroControl);
+  }
+  slot.append(heroFilm);
+  if (heroPaused || document.hidden || $("#film-dialog").open) heroFilm.pause();
+  else heroFilm.play().catch(updateHeroControl);
+  updateHeroControl();
+}
+function updateHeroControl() {
+  const button = $("[data-hero-toggle]");
+  if (button) button.textContent = heroFilm && !heroFilm.paused ? "Ⅱ PAUSAR FUNDO" : "▷ REPRODUZIR FUNDO";
+}
+
 function render() {
+  heroFilm?.remove();
   const focused = document.activeElement;
   const carouselFocused = focused?.hasAttribute("data-team-carousel");
   const selectedTile = focused?.getAttribute("data-discovery-team");
@@ -193,6 +221,7 @@ function render() {
   const headerSearch = $("#header-search-input");
   if (headerSearch && document.activeElement !== headerSearch) headerSearch.value = view.name === "search" ? view.query : "";
   scheduleAutoplay();
+  syncHeroFilm();
 }
 
 function setView(name, extra = {}) {
@@ -379,6 +408,9 @@ function closeDetails() {
 }
 
 document.addEventListener("click", async event => {
+  if (event.target.closest("[data-hero-toggle]")) { heroPaused = heroFilm ? !heroFilm.paused : false; syncHeroFilm(); return; }
+  if (event.target.closest("[data-film-open]")) { heroFilm?.pause(); $("#film-dialog").showModal(); $("#catalog-film").play().catch(()=>{}); return; }
+  if (event.target.closest("[data-film-close]")) { $("#film-dialog").close(); return; }
   const kindButton = event.target.closest("[data-discovery-kind]");
   if (kindButton) { discovery.kind=kindButton.dataset.discoveryKind; await changeDiscoveryScope(discovery.categoryId); return; }
   const rosterButton = event.target.closest("[data-roster-page]");
@@ -453,6 +485,7 @@ document.addEventListener("input", event => {
 });
 
 document.addEventListener("keydown", event => {
+  if ($("#film-dialog").open) return;
   if ($("#details").open) {
     if (event.key === "ArrowLeft") { event.preventDefault(); setDialogPhoto(galleryState.photoIndex - 1, -1); }
     if (event.key === "ArrowRight") { event.preventDefault(); setDialogPhoto(galleryState.photoIndex + 1, 1); }
@@ -495,6 +528,8 @@ document.addEventListener("pointerup", event => {
   }
 });
 
+$("#film-dialog").addEventListener("close", () => { $("#catalog-film").pause(); syncHeroFilm(); $("[data-film-open]")?.focus({preventScroll:true}); });
+$("#film-dialog").addEventListener("click", event => { if (event.target === $("#film-dialog")) { const box=event.target.getBoundingClientRect(); if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom) event.target.close(); } });
 $("#details").addEventListener("click", event => { if (event.target === $("#details")) closeDetails(); });
 $("#details").addEventListener("close", () => {
   const opener = galleryState.opener;
@@ -529,3 +564,5 @@ async function load() {
 load().catch(error => {
   $("#content").innerHTML = '<section class="inner-page"><div class="album-pending"><span>10</span><h2>Catalogo temporariamente indisponivel</h2><p>' + esc(error.message || "Tente novamente em alguns instantes.") + '</p></div></section>';
 });
+
+document.addEventListener("visibilitychange", syncHeroFilm);
