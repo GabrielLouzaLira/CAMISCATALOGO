@@ -23,3 +23,19 @@ npx wrangler d1 execute camisa10-catalogo --remote --file .import-sql/import.sql
 O SQL atualiza produtos e equipes pelos IDs, preserva outras configurações da loja e não apaga registros alheios à importação. Reimportar atualiza os registros importados, portanto exporte modificações administrativas antes de fazê-lo. Remoções da fonte precisam de revisão explícita; não são propagadas automaticamente.
 
 Execute `npm test`, `npm run check` e `npm run build` antes de publicar com Wrangler. D1 e R2 estão configurados em `wrangler.jsonc`; credenciais não devem ser incluídas no repositório. O acesso administrativo requer configurar o segredo `ADMIN_PASSWORD` na Cloudflare. O catálogo público funciona independentemente desse segredo.
+
+## Seleção visual de equipes
+
+A seleção apresenta escudos em grade, destaque da equipe, navegação por setas, teclado ou gesto lateral no celular, e confirmação para abrir as camisas. Os filtros distinguem clubes e seleções e permitem escolher esporte, país e liga. O painel respeita a preferência de movimento reduzido do navegador.
+
+`branding-sources.json` registra os símbolos das 392 equipes e suas páginas de origem (ESPN e Wikipedia/Wikimedia). Escudos de clubes, identidades de marcas e símbolos/bandeiras nacionais servem à identificação das coleções; não indicam afiliação da loja. A imagem `logoImage` configurada pelo administrador tem prioridade sobre o mapa importado.
+
+Para reconstruir o mapa de símbolos e cadastrar as origens autorizadas:
+
+```sh
+node scripts/prepare-branding.mjs
+npx wrangler d1 execute camisa10-catalogo --remote --file .import-sql/branding.sql --yes
+npm run build
+```
+
+Os símbolos usam o prefixo `brands/` no R2. O Worker só busca URLs previamente cadastradas de ESPN/Wikimedia, valida tipo e tamanho e não segue redirecionamentos. Os produtos e pedidos permanecem no mesmo banco.

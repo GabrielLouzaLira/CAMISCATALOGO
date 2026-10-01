@@ -1,0 +1,2772 @@
+{
+  "team-futebol-espanha-sevilla": {
+    "name": "Sevilla",
+    "sourceName": "Sevilla",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/243/sevilla"
+  },
+  "team-futebol-espanha-real-madrid": {
+    "name": "Real Madrid",
+    "sourceName": "Real Madrid",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/86/real-madrid"
+  },
+  "team-futebol-franca-psg": {
+    "name": "PSG",
+    "sourceName": "Paris Saint-Germain",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "color": "011F68",
+    "source": "https://www.espn.com/soccer/club/_/id/160/paris-saint-germain"
+  },
+  "team-futebol-portugal-portugal": {
+    "name": "Portugal",
+    "sourceName": "Portugal",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+    "color": "da291c",
+    "source": "https://www.espn.com/soccer/team/_/id/482/portugal"
+  },
+  "team-futebol-mexico-mexico": {
+    "name": "México",
+    "sourceName": "Mexico",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+    "color": "006847",
+    "source": "https://www.espn.com/soccer/team/_/id/203/mexico"
+  },
+  "team-futebol-inglaterra-manchester-united": {
+    "name": "Manchester United",
+    "sourceName": "Manchester United",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+    "color": "da020e",
+    "source": "https://www.espn.com/soccer/club/_/id/360/manchester-united"
+  },
+  "team-futebol-alemanha-alemanha": {
+    "name": "Alemanha",
+    "sourceName": "Germany",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+    "color": "FFFFFF",
+    "source": "https://www.espn.com/soccer/team/_/id/481/germany"
+  },
+  "team-futebol-italia-fiorentina": {
+    "name": "Fiorentina",
+    "sourceName": "Fiorentina",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+    "color": "4c1d84",
+    "source": "https://www.espn.com/soccer/club/_/id/109/fiorentina"
+  },
+  "team-futebol-inglaterra-inglaterra": {
+    "name": "Inglaterra",
+    "sourceName": "England",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+    "color": "FFFFFF",
+    "source": "https://www.espn.com/soccer/team/_/id/448/england"
+  },
+  "team-futebol-croacia-croacia": {
+    "name": "Croácia",
+    "sourceName": "Croatia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+    "color": "ff0000",
+    "source": "https://www.espn.com/soccer/team/_/id/477/croatia"
+  },
+  "team-futebol-alemanha-bayern-munich": {
+    "name": "Bayern Munich",
+    "sourceName": "Bayern Munich",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "color": "dc052d",
+    "source": "https://www.espn.com/soccer/club/_/id/132/bayern-munich"
+  },
+  "team-futebol-espanha-barcelona": {
+    "name": "Barcelona",
+    "sourceName": "Barcelona",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "color": "990000",
+    "source": "https://www.espn.com/soccer/club/_/id/83/barcelona"
+  },
+  "team-futebol-argentina-argentina": {
+    "name": "Argentina",
+    "sourceName": "Argentina",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+    "color": "74acdf",
+    "source": "https://www.espn.com/soccer/team/_/id/202/argentina"
+  },
+  "team-futebol-inglaterra-sunderland": {
+    "name": "Sunderland",
+    "sourceName": "Sunderland",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+    "color": "EB172B",
+    "source": "https://www.espn.com/soccer/club/_/id/366/sunderland"
+  },
+  "team-futebol-espanha-sporting-de-gijon": {
+    "name": "Sporting de Gijon",
+    "sourceName": "Sporting Gijón",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3788.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/3788/sporting-gijon"
+  },
+  "team-futebol-espanha-real-valladolid": {
+    "name": "Real Valladolid",
+    "sourceName": "Real Valladolid",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/95.png",
+    "color": "7a2d9d",
+    "source": "https://www.espn.com/soccer/club/_/id/95/real-valladolid"
+  },
+  "team-futebol-espanha-real-sociedad": {
+    "name": "Real Sociedad",
+    "sourceName": "Real Sociedad",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "color": "3366CC",
+    "source": "https://www.espn.com/soccer/club/_/id/89/real-sociedad"
+  },
+  "team-futebol-espanha-real-betis": {
+    "name": "Real Betis",
+    "sourceName": "Real Betis",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "color": "288A00",
+    "source": "https://www.espn.com/soccer/club/_/id/244/real-betis"
+  },
+  "team-futebol-espanha-osasuna": {
+    "name": "Osasuna",
+    "sourceName": "Osasuna",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "color": "cd0000",
+    "source": "https://www.espn.com/soccer/club/_/id/97/osasuna"
+  },
+  "team-futebol-espanha-malaga": {
+    "name": "Malaga",
+    "sourceName": "Málaga",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "color": "b9e8f0",
+    "source": "https://www.espn.com/soccer/club/_/id/99/malaga"
+  },
+  "team-futebol-japao-japao": {
+    "name": "Japão",
+    "sourceName": "Japan",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+    "color": "000555",
+    "source": "https://www.espn.com/soccer/team/_/id/627/japan"
+  },
+  "team-futebol-inglaterra-hull-city": {
+    "name": "Hull City",
+    "sourceName": "Hull City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+    "color": "f28800",
+    "source": "https://www.espn.com/soccer/club/_/id/306/hull-city"
+  },
+  "team-futebol-espanha-elche": {
+    "name": "Elche",
+    "sourceName": "Elche",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "color": "288A00",
+    "source": "https://www.espn.com/soccer/club/_/id/3751/elche"
+  },
+  "team-futebol-alemanha-dynamo-dresden": {
+    "name": "Dynamo Dresden",
+    "sourceName": "Dynamo Dresden",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7017.png",
+    "color": "f2a71d",
+    "source": "https://www.espn.com/soccer/club/_/id/7017/dynamo-dresden"
+  },
+  "team-futebol-inglaterra-derby-county": {
+    "name": "Derby County",
+    "sourceName": "Derby County",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/374/derby-county"
+  },
+  "team-futebol-inglaterra-crystal-palace": {
+    "name": "Crystal Palace",
+    "sourceName": "Crystal Palace",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+    "color": "0202fb",
+    "source": "https://www.espn.com/soccer/club/_/id/384/crystal-palace"
+  },
+  "team-futebol-chile-colo-colo": {
+    "name": "Colo Colo",
+    "sourceName": "Colo Colo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2688.png",
+    "color": "050505",
+    "source": "https://www.espn.com/soccer/club/_/id/2688/colo-colo"
+  },
+  "team-futebol-inglaterra-arsenal": {
+    "name": "Arsenal",
+    "sourceName": "Arsenal",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "color": "e20520",
+    "source": "https://www.espn.com/soccer/club/_/id/359/arsenal"
+  },
+  "team-futebol-brasil-nautico": {
+    "name": "Nautico",
+    "sourceName": "Náutico",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/7633/nautico"
+  },
+  "team-futebol-brasil-palmeiras": {
+    "name": "Palmeiras",
+    "sourceName": "Palmeiras",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+    "color": "417505",
+    "source": "https://www.espn.com/soccer/club/_/id/2029/palmeiras"
+  },
+  "team-futebol-brasil-internacional": {
+    "name": "Internacional",
+    "sourceName": "Internacional",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/1936/internacional"
+  },
+  "team-futebol-espanha-rayo-vallecano": {
+    "name": "Rayo Vallecano",
+    "sourceName": "Rayo Vallecano",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/101/rayo-vallecano"
+  },
+  "team-futebol-espanha-getafe": {
+    "name": "Getafe",
+    "sourceName": "Getafe",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "color": "0000ff",
+    "source": "https://www.espn.com/soccer/club/_/id/2922/getafe"
+  },
+  "team-futebol-espanha-celta-de-vigo": {
+    "name": "Celta de Vigo",
+    "sourceName": "Celta Vigo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "color": "6cace4",
+    "source": "https://www.espn.com/soccer/club/_/id/85/celta-vigo"
+  },
+  "team-futebol-franca-olympique-de-marseille": {
+    "name": "Olympique de Marseille",
+    "sourceName": "Marseille",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/176/marseille"
+  },
+  "team-futebol-espanha-real-oviedo": {
+    "name": "Real Oviedo",
+    "sourceName": "Real Oviedo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
+    "color": "e23627",
+    "source": "https://www.espn.com/soccer/club/_/id/92/real-oviedo"
+  },
+  "team-futebol-italia-venezia": {
+    "name": "Venezia",
+    "sourceName": "Venezia",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/17530/venezia"
+  },
+  "team-futebol-espanha-valencia": {
+    "name": "Valencia",
+    "sourceName": "Valencia",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/94/valencia"
+  },
+  "team-futebol-portugal-sporting-cp": {
+    "name": "Sporting CP",
+    "sourceName": "Sporting CP",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+    "color": "008127",
+    "source": "https://www.espn.com/soccer/club/_/id/2250/sporting-cp"
+  },
+  "team-futebol-espanha-espanha": {
+    "name": "Espanha",
+    "sourceName": "Spain",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+    "color": "c60b1e",
+    "source": "https://www.espn.com/soccer/team/_/id/164/spain"
+  },
+  "team-futebol-espanha-mallorca": {
+    "name": "Mallorca",
+    "sourceName": "Mallorca",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/84/mallorca"
+  },
+  "team-futebol-espanha-racing-de-santander": {
+    "name": "Racing de Santander",
+    "sourceName": "Racing Santander",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/87/racing-santander"
+  },
+  "team-futebol-portugal-porto": {
+    "name": "Porto",
+    "sourceName": "FC Porto",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+    "color": "0000dd",
+    "source": "https://www.espn.com/soccer/club/_/id/437/fc-porto"
+  },
+  "team-futebol-franca-olympique-lyonnais": {
+    "name": "Olympique lyonnais",
+    "sourceName": "Lyon",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/167/lyon"
+  },
+  "team-futebol-espanha-leganes": {
+    "name": "Leganes",
+    "sourceName": "Leganés",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
+    "color": "6cace4",
+    "source": "https://www.espn.com/soccer/club/_/id/17534/leganes"
+  },
+  "team-futebol-espanha-granada": {
+    "name": "Granada",
+    "sourceName": "Granada",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/3747/granada"
+  },
+  "team-futebol-colombia-colombia": {
+    "name": "Colômbia",
+    "sourceName": "Colombia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+    "color": "fbd632",
+    "source": "https://www.espn.com/soccer/team/_/id/208/colombia"
+  },
+  "team-futebol-espanha-cadiz": {
+    "name": "Cádiz",
+    "sourceName": "Cádiz",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3842.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/3842/cadiz"
+  },
+  "team-futebol-espanha-burgos": {
+    "name": "Burgos",
+    "sourceName": "Burgos",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12597.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/12597/burgos"
+  },
+  "team-futebol-portugal-braga": {
+    "name": "Braga",
+    "sourceName": "Braga",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+    "color": "de1f26",
+    "source": "https://www.espn.com/soccer/club/_/id/2994/braga"
+  },
+  "team-futebol-portugal-benfica": {
+    "name": "Benfica",
+    "sourceName": "Benfica",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+    "color": "ca281d",
+    "source": "https://www.espn.com/soccer/club/_/id/1929/benfica"
+  },
+  "team-futebol-espanha-atletico-madrid": {
+    "name": "Atletico Madrid",
+    "sourceName": "Atlético Madrid",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "color": "ca3624",
+    "source": "https://www.espn.com/soccer/club/_/id/1068/atletico-madrid"
+  },
+  "team-futebol-portugal-alverca": {
+    "name": "Alverca",
+    "sourceName": "Alverca",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21613.png",
+    "color": "0047AB",
+    "source": "https://www.espn.com/soccer/club/_/id/21613/alverca"
+  },
+  "team-futebol-espanha-albacete": {
+    "name": "Albacete",
+    "sourceName": "Albacete",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2737.png",
+    "color": "BC0814",
+    "source": "https://www.espn.com/soccer/club/_/id/2737/albacete"
+  },
+  "team-futebol-brasil-corinthians": {
+    "name": "Corinthians",
+    "sourceName": "Corinthians",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/874/corinthians"
+  },
+  "team-futebol-brasil-atletico-mineiro": {
+    "name": "Atlético Mineiro",
+    "sourceName": "Atlético-MG",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/7632/atletico-mg"
+  },
+  "team-futebol-portugal-famalicao": {
+    "name": "Famalicao",
+    "sourceName": "FC Famalicao",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png",
+    "color": "FFFFFF",
+    "source": "https://www.espn.com/soccer/club/_/id/12698/fc-famalicao"
+  },
+  "team-futebol-inglaterra-wolves": {
+    "name": "Wolves",
+    "sourceName": "Wolverhampton Wanderers",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+    "color": "fdb913",
+    "source": "https://www.espn.com/soccer/club/_/id/380/wolverhampton-wanderers"
+  },
+  "team-futebol-inglaterra-west-ham-united": {
+    "name": "West Ham United",
+    "sourceName": "West Ham United",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+    "color": "7c2c3b",
+    "source": "https://www.espn.com/soccer/club/_/id/371/west-ham-united"
+  },
+  "team-futebol-inglaterra-west-bromwich-albion": {
+    "name": "West Bromwich Albion",
+    "sourceName": "West Bromwich Albion",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
+    "color": "091453",
+    "source": "https://www.espn.com/soccer/club/_/id/383/west-bromwich-albion"
+  },
+  "team-futebol-inglaterra-watford": {
+    "name": "Watford",
+    "sourceName": "Watford",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/395/watford"
+  },
+  "team-futebol-alemanha-vfb-stuttgart": {
+    "name": "VfB Stuttgart",
+    "sourceName": "VfB Stuttgart",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/134/vfb-stuttgart"
+  },
+  "team-futebol-italia-sampdoria": {
+    "name": "Sampdoria",
+    "sourceName": "Sampdoria",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2734.png",
+    "color": "2234a4",
+    "source": "https://www.espn.com/soccer/club/_/id/2734/sampdoria"
+  },
+  "team-futebol-franca-toulouse": {
+    "name": "Toulouse",
+    "sourceName": "Toulouse",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+    "color": "560080",
+    "source": "https://www.espn.com/soccer/club/_/id/179/toulouse"
+  },
+  "team-futebol-italia-torino": {
+    "name": "Torino",
+    "sourceName": "Torino",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+    "color": "9f0000",
+    "source": "https://www.espn.com/soccer/club/_/id/239/torino"
+  },
+  "team-futebol-mexico-toluca": {
+    "name": "Toluca",
+    "sourceName": "Toluca",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+    "color": "EF0107",
+    "source": "https://www.espn.com/soccer/club/_/id/223/toluca"
+  },
+  "team-futebol-alemanha-werder-bremen": {
+    "name": "Werder Bremen",
+    "sourceName": "Werder Bremen",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+    "color": "03915c",
+    "source": "https://www.espn.com/soccer/club/_/id/137/werder-bremen"
+  },
+  "team-futebol-inglaterra-stoke-city": {
+    "name": "Stoke City",
+    "sourceName": "Stoke City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
+    "color": "f42727",
+    "source": "https://www.espn.com/soccer/club/_/id/336/stoke-city"
+  },
+  "team-futebol-inglaterra-nottingham-forest": {
+    "name": "Nottingham Forest",
+    "sourceName": "Nottingham Forest",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+    "color": "c8102e",
+    "source": "https://www.espn.com/soccer/club/_/id/393/nottingham-forest"
+  },
+  "team-futebol-italia-napoli": {
+    "name": "Napoli",
+    "sourceName": "Napoli",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+    "color": "0677d2",
+    "source": "https://www.espn.com/soccer/club/_/id/114/napoli"
+  },
+  "team-futebol-inglaterra-fulham": {
+    "name": "Fulham",
+    "sourceName": "Fulham",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/370/fulham"
+  },
+  "team-futebol-turquia-fenerbahce": {
+    "name": "Fenerbahce",
+    "sourceName": "Fenerbahce",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/436/fenerbahce"
+  },
+  "team-futebol-mexico-cruz-azul": {
+    "name": "Cruz Azul",
+    "sourceName": "Cruz Azul",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
+    "color": "0000ff",
+    "source": "https://www.espn.com/soccer/club/_/id/218/cruz-azul"
+  },
+  "team-futebol-inglaterra-coventry-city": {
+    "name": "Coventry City",
+    "sourceName": "Coventry City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+    "color": "87cced",
+    "source": "https://www.espn.com/soccer/club/_/id/388/coventry-city"
+  },
+  "team-futebol-mexico-club-leon": {
+    "name": "Club León",
+    "sourceName": "León",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
+    "color": "008000",
+    "source": "https://www.espn.com/soccer/club/_/id/228/leon"
+  },
+  "team-futebol-mexico-chivas": {
+    "name": "Chivas",
+    "sourceName": "Guadalajara",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
+    "color": "EF0107",
+    "source": "https://www.espn.com/soccer/club/_/id/219/guadalajara"
+  },
+  "team-futebol-estados-unidos-chicago-fire": {
+    "name": "Chicago Fire",
+    "sourceName": "Chicago Fire FC",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+    "color": "7ccdef",
+    "source": "https://www.espn.com/soccer/club/_/id/182/chicago-fire-fc"
+  },
+  "team-futebol-inglaterra-burnley": {
+    "name": "Burnley",
+    "sourceName": "Burnley",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+    "color": "6C1D45",
+    "source": "https://www.espn.com/soccer/club/_/id/379/burnley"
+  },
+  "team-futebol-inglaterra-brighton": {
+    "name": "Brighton",
+    "sourceName": "Brighton & Hove Albion",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+    "color": "0606fa",
+    "source": "https://www.espn.com/soccer/club/_/id/331/brighton-hove-albion"
+  },
+  "team-futebol-alemanha-borussia-monchengladbach": {
+    "name": "Borussia Monchengladbach",
+    "sourceName": "Borussia Mönchengladbach",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/268/borussia-monchengladbach"
+  },
+  "team-futebol-inglaterra-blackburn-rovers": {
+    "name": "Blackburn Rovers",
+    "sourceName": "Blackburn Rovers",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
+    "color": "0000fa",
+    "source": "https://www.espn.com/soccer/club/_/id/365/blackburn-rovers"
+  },
+  "team-futebol-turquia-besiktas": {
+    "name": "Besiktas",
+    "sourceName": "Besiktas",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/1895/besiktas"
+  },
+  "team-futebol-mexico-atletico-san-luis": {
+    "name": "Atlético San Luis",
+    "sourceName": "Atlético de San Luis",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
+    "color": "EF0107",
+    "source": "https://www.espn.com/soccer/club/_/id/15720/atletico-de-san-luis"
+  },
+  "team-futebol-mexico-atlante-fc": {
+    "name": "Atlante FC",
+    "sourceName": "Atlante",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
+    "color": "022789",
+    "source": "https://www.espn.com/soccer/club/_/id/226/atlante"
+  },
+  "team-futebol-franca-monaco": {
+    "name": "Monaco",
+    "sourceName": "AS Monaco",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+    "color": "E91514",
+    "source": "https://www.espn.com/soccer/club/_/id/174/as-monaco"
+  },
+  "team-futebol-inglaterra-afc-bournemouth": {
+    "name": "AFC Bournemouth",
+    "sourceName": "AFC Bournemouth",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+    "color": "f42727",
+    "source": "https://www.espn.com/soccer/club/_/id/349/afc-bournemouth"
+  },
+  "team-futebol-brasil-cruzeiro": {
+    "name": "Cruzeiro",
+    "sourceName": "Cruzeiro",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+    "color": "0093EC",
+    "source": "https://www.espn.com/soccer/club/_/id/2022/cruzeiro"
+  },
+  "team-futebol-brasil-gremio": {
+    "name": "Grêmio",
+    "sourceName": "Grêmio",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+    "color": "0093EC",
+    "source": "https://www.espn.com/soccer/club/_/id/6273/gremio"
+  },
+  "team-futebol-escocia-celtic": {
+    "name": "Celtic",
+    "sourceName": "Celtic",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+    "color": "009921",
+    "source": "https://www.espn.com/soccer/club/_/id/256/celtic"
+  },
+  "team-futebol-chile-universidad-de-chile": {
+    "name": "Universidad de Chile",
+    "sourceName": "Universidad de Chile",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4139.png",
+    "color": "0232cc",
+    "source": "https://www.espn.com/soccer/club/_/id/4139/universidad-de-chile"
+  },
+  "team-futebol-chile-universidad-catolica": {
+    "name": "Universidad Católica",
+    "sourceName": "Universidad Católica",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+    "color": "0a4f8d",
+    "source": "https://www.espn.com/soccer/club/_/id/885/universidad-catolica"
+  },
+  "team-futebol-canada-toronto-fc": {
+    "name": "Toronto FC",
+    "sourceName": "Toronto FC",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+    "color": "aa182c",
+    "source": "https://www.espn.com/soccer/club/_/id/7318/toronto-fc"
+  },
+  "team-futebol-mexico-tigres-uanl": {
+    "name": "Tigres UANL",
+    "sourceName": "Tigres UANL",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
+    "color": "ffd011",
+    "source": "https://www.espn.com/soccer/club/_/id/232/tigres-uanl"
+  },
+  "team-futebol-franca-stade-rennais": {
+    "name": "Stade Rennais",
+    "sourceName": "Stade Rennais",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+    "color": "ef2f24",
+    "source": "https://www.espn.com/soccer/club/_/id/169/stade-rennais"
+  },
+  "team-futebol-estados-unidos-e-canada-san-diego-fc": {
+    "name": "San Diego FC",
+    "sourceName": "San Diego FC",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+    "color": "697a7C",
+    "source": "https://www.espn.com/soccer/club/_/id/22529/san-diego-fc"
+  },
+  "team-futebol-mexico-pumas-unam": {
+    "name": "Pumas unam",
+    "sourceName": "Pumas UNAM",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/233/pumas-unam"
+  },
+  "team-futebol-africa-do-sul-orlando-pirates": {
+    "name": "Orlando Pirates",
+    "sourceName": "Orlando Pirates",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7085.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/7085/orlando-pirates"
+  },
+  "team-futebol-grecia-olympiacos": {
+    "name": "Olympiacos",
+    "sourceName": "Olympiacos",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+    "color": "d01729",
+    "source": "https://www.espn.com/soccer/club/_/id/435/olympiacos"
+  },
+  "team-futebol-estados-unidos-e-canada-la-galaxy": {
+    "name": "LA Galaxy",
+    "sourceName": "LA Galaxy",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
+    "color": "00235d",
+    "source": "https://www.espn.com/soccer/club/_/id/187/la-galaxy"
+  },
+  "team-futebol-estados-unidos-e-canada-inter-miami": {
+    "name": "Inter Miami",
+    "sourceName": "Inter Miami CF",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+    "color": "231f20",
+    "source": "https://www.espn.com/soccer/club/_/id/20232/inter-miami-cf"
+  },
+  "team-futebol-mexico-club-america": {
+    "name": "Club America",
+    "sourceName": "América",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+    "color": "ffff91",
+    "source": "https://www.espn.com/soccer/club/_/id/227/america"
+  },
+  "team-futebol-chile-chile": {
+    "name": "Chile",
+    "sourceName": "Chile",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/chi.png",
+    "color": "d3362a",
+    "source": "https://www.espn.com/soccer/team/_/id/207/chile"
+  },
+  "team-futebol-canada-cf-montreal": {
+    "name": "CF Montreal",
+    "sourceName": "CF Montréal",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
+    "color": "003da6",
+    "source": "https://www.espn.com/soccer/club/_/id/9720/cf-montreal"
+  },
+  "team-futebol-mexico-atlas": {
+    "name": "Atlas",
+    "sourceName": "Atlas",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+    "color": "EF0107",
+    "source": "https://www.espn.com/soccer/club/_/id/216/atlas"
+  },
+  "team-futebol-italia-atalanta": {
+    "name": "Atalanta",
+    "sourceName": "Atalanta",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+    "color": "1157bf",
+    "source": "https://www.espn.com/soccer/club/_/id/105/atalanta"
+  },
+  "team-futebol-italia-parma-calcio": {
+    "name": "Parma Calcio",
+    "sourceName": "Parma",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+    "color": "19161D",
+    "source": "https://www.espn.com/soccer/club/_/id/115/parma"
+  },
+  "team-futebol-italia-ac-milan": {
+    "name": "AC Milan",
+    "sourceName": "AC Milan",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+    "color": "e4002b",
+    "source": "https://www.espn.com/soccer/club/_/id/103/ac-milan"
+  },
+  "team-futebol-italia-lazio": {
+    "name": "Lazio",
+    "sourceName": "Lazio",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+    "color": "74bde7",
+    "source": "https://www.espn.com/soccer/club/_/id/112/lazio"
+  },
+  "team-futebol-italia-inter-milan": {
+    "name": "Inter Milan",
+    "sourceName": "Internazionale",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+    "color": "00239c",
+    "source": "https://www.espn.com/soccer/club/_/id/110/internazionale"
+  },
+  "team-futebol-italia-como": {
+    "name": "Como",
+    "sourceName": "Como",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+    "color": "4169E1",
+    "source": "https://www.espn.com/soccer/club/_/id/2572/como"
+  },
+  "team-futebol-italia-cagliari": {
+    "name": "Cagliari",
+    "sourceName": "Cagliari",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+    "color": "282846",
+    "source": "https://www.espn.com/soccer/club/_/id/2925/cagliari"
+  },
+  "team-futebol-italia-bologna": {
+    "name": "Bologna",
+    "sourceName": "Bologna",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+    "color": "04043d",
+    "source": "https://www.espn.com/soccer/club/_/id/107/bologna"
+  },
+  "team-futebol-alemanha-schalke-04": {
+    "name": "Schalke 04",
+    "sourceName": "Schalke 04",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+    "color": "0000dd",
+    "source": "https://www.espn.com/soccer/club/_/id/133/schalke-04"
+  },
+  "team-futebol-alemanha-borussia-dortmund": {
+    "name": "Borussia Dortmund",
+    "sourceName": "Borussia Dortmund",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+    "color": "ffee00",
+    "source": "https://www.espn.com/soccer/club/_/id/124/borussia-dortmund"
+  },
+  "team-futebol-inglaterra-aston-villa": {
+    "name": "Aston Villa",
+    "sourceName": "Aston Villa",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "color": "660e36",
+    "source": "https://www.espn.com/soccer/club/_/id/362/aston-villa"
+  },
+  "team-futebol-inglaterra-chelsea": {
+    "name": "Chelsea",
+    "sourceName": "Chelsea",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "color": "144992",
+    "source": "https://www.espn.com/soccer/club/_/id/363/chelsea"
+  },
+  "team-futebol-inglaterra-norwich-city": {
+    "name": "Norwich City",
+    "sourceName": "Norwich City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/381/norwich-city"
+  },
+  "team-futebol-inglaterra-newcastle-united": {
+    "name": "Newcastle United",
+    "sourceName": "Newcastle United",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/361/newcastle-united"
+  },
+  "team-futebol-inglaterra-manchester-city": {
+    "name": "Manchester City",
+    "sourceName": "Manchester City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "color": "99c5ea",
+    "source": "https://www.espn.com/soccer/club/_/id/382/manchester-city"
+  },
+  "team-futebol-alemanha-st-pauli": {
+    "name": "St. Pauli",
+    "sourceName": "St. Pauli",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/270.png",
+    "color": "442e23",
+    "source": "https://www.espn.com/soccer/club/_/id/270/st-pauli"
+  },
+  "team-futebol-espanha-villarreal": {
+    "name": "Villarreal",
+    "sourceName": "Villarreal",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/102/villarreal"
+  },
+  "team-futebol-espanha-ceuta": {
+    "name": "Ceuta",
+    "sourceName": "Ceuta",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/5404/ceuta"
+  },
+  "team-futebol-brasil-vasco-da-gama": {
+    "name": "Vasco da Gama",
+    "sourceName": "Vasco da Gama",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/3454/vasco-da-gama"
+  },
+  "team-futebol-brasil-sao-paulo": {
+    "name": "São Paulo",
+    "sourceName": "São Paulo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/2026/sao-paulo"
+  },
+  "team-futebol-brasil-fluminense": {
+    "name": "Fluminense",
+    "sourceName": "Fluminense",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+    "color": "7E0202",
+    "source": "https://www.espn.com/soccer/club/_/id/3445/fluminense"
+  },
+  "team-futebol-brasil-flamengo": {
+    "name": "Flamengo",
+    "sourceName": "Flamengo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/819/flamengo"
+  },
+  "team-futebol-brasil-brasil": {
+    "name": "Brasil",
+    "sourceName": "Brazil",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+    "color": "fee000",
+    "source": "https://www.espn.com/soccer/team/_/id/205/brazil"
+  },
+  "team-futebol-brasil-botafogo": {
+    "name": "Botafogo",
+    "sourceName": "Botafogo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/6086/botafogo"
+  },
+  "team-futebol-brasil-bahia": {
+    "name": "Bahia",
+    "sourceName": "Bahia",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/9967/bahia"
+  },
+  "team-futebol-mexico-monterrey": {
+    "name": "Monterrey",
+    "sourceName": "Monterrey",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+    "color": "001C58",
+    "source": "https://www.espn.com/soccer/club/_/id/220/monterrey"
+  },
+  "team-futebol-pais-de-gales-wrexham": {
+    "name": "Wrexham",
+    "sourceName": "Wrexham",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/352/wrexham"
+  },
+  "team-futebol-espanha-las-palmas": {
+    "name": "Las Palmas",
+    "sourceName": "Las Palmas",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/98/las-palmas"
+  },
+  "team-futebol-espanha-tenerife": {
+    "name": "Tenerife",
+    "sourceName": "Tenerife",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/245.png",
+    "color": "008bc4",
+    "source": "https://www.espn.com/soccer/club/_/id/245/tenerife"
+  },
+  "team-futebol-inglaterra-sheffield-wednesday": {
+    "name": "Sheffield Wednesday",
+    "sourceName": "Sheffield Wednesday",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/399.png",
+    "color": "0000ff",
+    "source": "https://www.espn.com/soccer/club/_/id/399/sheffield-wednesday"
+  },
+  "team-futebol-inglaterra-sheffield-united": {
+    "name": "Sheffield United",
+    "sourceName": "Sheffield United",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
+    "color": "f42727",
+    "source": "https://www.espn.com/soccer/club/_/id/398/sheffield-united"
+  },
+  "team-futebol-espanha-espanyol": {
+    "name": "Espanyol",
+    "sourceName": "Espanyol",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "color": "3366CC",
+    "source": "https://www.espn.com/soccer/club/_/id/88/espanyol"
+  },
+  "team-futebol-inglaterra-leeds-united": {
+    "name": "Leeds United",
+    "sourceName": "Leeds United",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/357/leeds-united"
+  },
+  "team-futebol-alemanha-eintracht-frankfurt": {
+    "name": "Eintracht Frankfurt",
+    "sourceName": "Eintracht Frankfurt",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/125/eintracht-frankfurt"
+  },
+  "team-futebol-inglaterra-bolton-wanderers": {
+    "name": "Bolton Wanderers",
+    "sourceName": "Bolton Wanderers",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/358/bolton-wanderers"
+  },
+  "team-futebol-inglaterra-birmingham-city": {
+    "name": "Birmingham City",
+    "sourceName": "Birmingham City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
+    "color": "0000fa",
+    "source": "https://www.espn.com/soccer/club/_/id/392/birmingham-city"
+  },
+  "team-futebol-espanha-cordoba": {
+    "name": "Cordoba",
+    "sourceName": "Córdoba",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8447.png",
+    "color": "288A00",
+    "source": "https://www.espn.com/soccer/club/_/id/8447/cordoba"
+  },
+  "team-futebol-alemanha-tsg-hoffenheim": {
+    "name": "TSG Hoffenheim",
+    "sourceName": "TSG Hoffenheim",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+    "color": "003399",
+    "source": "https://www.espn.com/soccer/club/_/id/7911/tsg-hoffenheim"
+  },
+  "team-futebol-inglaterra-portsmouth": {
+    "name": "Portsmouth",
+    "sourceName": "Portsmouth",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
+    "color": "0000fa",
+    "source": "https://www.espn.com/soccer/club/_/id/385/portsmouth"
+  },
+  "team-futebol-franca-paris-fc": {
+    "name": "Paris FC",
+    "sourceName": "Paris FC",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/6851/paris-fc"
+  },
+  "team-futebol-franca-nantes": {
+    "name": "Nantes",
+    "sourceName": "Nantes",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/165/nantes"
+  },
+  "team-futebol-inglaterra-middlesbrough": {
+    "name": "Middlesbrough",
+    "sourceName": "Middlesbrough",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
+    "color": "f42727",
+    "source": "https://www.espn.com/soccer/club/_/id/369/middlesbrough"
+  },
+  "team-futebol-alemanha-freiburg": {
+    "name": "Freiburg",
+    "sourceName": "SC Freiburg",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+    "color": "DA0308",
+    "source": "https://www.espn.com/soccer/club/_/id/126/sc-freiburg"
+  },
+  "team-futebol-inglaterra-everton": {
+    "name": "Everton",
+    "sourceName": "Everton",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+    "color": "0606fa",
+    "source": "https://www.espn.com/soccer/club/_/id/368/everton"
+  },
+  "team-futebol-inglaterra-cardiff-city": {
+    "name": "Cardiff City",
+    "sourceName": "Cardiff City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
+    "color": "0000fa",
+    "source": "https://www.espn.com/soccer/club/_/id/347/cardiff-city"
+  },
+  "team-futebol-arabia-saudita-al-nassr": {
+    "name": "Al Nassr",
+    "sourceName": "Al Nassr",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
+    "color": "f7f316",
+    "source": "https://www.espn.com/soccer/club/_/id/817/al-nassr"
+  },
+  "team-futebol-inglaterra-tottenham-hotspur": {
+    "name": "Tottenham Hotspur",
+    "sourceName": "Tottenham Hotspur",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/367/tottenham-hotspur"
+  },
+  "team-futebol-argentina-boca-juniors": {
+    "name": "Boca Juniors",
+    "sourceName": "Boca Juniors",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+    "color": "fcb000",
+    "source": "https://www.espn.com/soccer/club/_/id/5/boca-juniors"
+  },
+  "team-futebol-holanda-ajax": {
+    "name": "Ajax",
+    "sourceName": "Ajax Amsterdam",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+    "color": "DF1B27",
+    "source": "https://www.espn.com/soccer/club/_/id/139/ajax-amsterdam"
+  },
+  "team-futebol-canada-vancouver-whitecaps": {
+    "name": "Vancouver Whitecaps",
+    "sourceName": "Vancouver Whitecaps",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/9727/vancouver-whitecaps"
+  },
+  "team-futebol-holanda-psv-eindhoven": {
+    "name": "PSV Eindhoven",
+    "sourceName": "PSV Eindhoven",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+    "color": "ef2f24",
+    "source": "https://www.espn.com/soccer/club/_/id/148/psv-eindhoven"
+  },
+  "team-futebol-uruguai-penarol": {
+    "name": "Peñarol",
+    "sourceName": "Peñarol",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/2683/penarol"
+  },
+  "team-futebol-inglaterra-leicester-city": {
+    "name": "Leicester City",
+    "sourceName": "Leicester City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png",
+    "color": "0202fb",
+    "source": "https://www.espn.com/soccer/club/_/id/375/leicester-city"
+  },
+  "team-futebol-espanha-girona": {
+    "name": "Girona",
+    "sourceName": "Girona",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/9812/girona"
+  },
+  "team-futebol-belgica-belgica": {
+    "name": "Bélgica",
+    "sourceName": "Belgium",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+    "color": "E30613",
+    "source": "https://www.espn.com/soccer/team/_/id/459/belgium"
+  },
+  "team-futebol-argentina-river-plate": {
+    "name": "River Plate",
+    "sourceName": "River Plate",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/16/river-plate"
+  },
+  "team-futebol-grecia-panathinaikos": {
+    "name": "Panathinaikos",
+    "sourceName": "Panathinaikos",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+    "color": "2b6a36",
+    "source": "https://www.espn.com/soccer/club/_/id/443/panathinaikos"
+  },
+  "team-futebol-escocia-dundee-united": {
+    "name": "Dundee United",
+    "sourceName": "Dundee United",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/264.png",
+    "color": "FF621A",
+    "source": "https://www.espn.com/soccer/club/_/id/264/dundee-united"
+  },
+  "team-futebol-brasil-remo": {
+    "name": "Remo",
+    "sourceName": "Remo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+    "color": "265891",
+    "source": "https://www.espn.com/soccer/club/_/id/4936/remo"
+  },
+  "team-futebol-tunisia-tunisia": {
+    "name": "Tunísia",
+    "sourceName": "Tunisia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+    "color": "D20300",
+    "source": "https://www.espn.com/soccer/team/_/id/659/tunisia"
+  },
+  "team-futebol-senegal-senegal": {
+    "name": "Senegal",
+    "sourceName": "Senegal",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+    "color": "FFFFFF",
+    "source": "https://www.espn.com/soccer/team/_/id/654/senegal"
+  },
+  "team-futebol-inglaterra-millwall": {
+    "name": "Millwall",
+    "sourceName": "Millwall",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
+    "color": "091453",
+    "source": "https://www.espn.com/soccer/club/_/id/391/millwall"
+  },
+  "team-futebol-escocia-hearts": {
+    "name": "Hearts",
+    "sourceName": "Heart of Midlothian",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
+    "color": "8E003B",
+    "source": "https://www.espn.com/soccer/club/_/id/262/heart-of-midlothian"
+  },
+  "team-futebol-franca-franca": {
+    "name": "França",
+    "sourceName": "France",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+    "color": "000080",
+    "source": "https://www.espn.com/soccer/team/_/id/478/france"
+  },
+  "team-futebol-inglaterra-doncaster": {
+    "name": "Doncaster",
+    "sourceName": "Doncaster Rovers",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/279.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/279/doncaster-rovers"
+  },
+  "team-futebol-congo-congo": {
+    "name": "Congo",
+    "sourceName": "Congo",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/cgo.png",
+    "color": "d50032",
+    "source": "https://www.espn.com/soccer/team/_/id/4276/congo"
+  },
+  "team-futebol-alemanha-hannover-96": {
+    "name": "Hannover 96",
+    "sourceName": "Hannover 96",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2428.png",
+    "color": "179D33",
+    "source": "https://www.espn.com/soccer/club/_/id/2428/hannover-96"
+  },
+  "team-futebol-inglaterra-brentford": {
+    "name": "Brentford",
+    "sourceName": "Brentford",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+    "color": "f42727",
+    "source": "https://www.espn.com/soccer/club/_/id/337/brentford"
+  },
+  "team-futebol-italia-palermo": {
+    "name": "Palermo",
+    "sourceName": "Palermo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2923.png",
+    "color": "F9BED4",
+    "source": "https://www.espn.com/soccer/club/_/id/2923/palermo"
+  },
+  "team-futebol-estados-unidos-e-canada-new-york-city-fc": {
+    "name": "New York City FC",
+    "sourceName": "New York City FC",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+    "color": "9fd2ff",
+    "source": "https://www.espn.com/soccer/club/_/id/17606/new-york-city-fc"
+  },
+  "team-futebol-inglaterra-ipswich-town": {
+    "name": "Ipswich Town",
+    "sourceName": "Ipswich Town",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+    "color": "0000fa",
+    "source": "https://www.espn.com/soccer/club/_/id/373/ipswich-town"
+  },
+  "team-futebol-holanda-feyenoord": {
+    "name": "Feyenoord",
+    "sourceName": "Feyenoord Rotterdam",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+    "color": "ef2f24",
+    "source": "https://www.espn.com/soccer/club/_/id/142/feyenoord-rotterdam"
+  },
+  "team-futebol-japao-yokohama-f-marinos": {
+    "name": "Yokohama F. Marinos",
+    "sourceName": "Yokohama F. Marinos",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7116.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/7116/yokohama-f-marinos"
+  },
+  "team-futebol-japao-vissel-kobe": {
+    "name": "Vissel Kobe",
+    "sourceName": "Vissel Kobe",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7477.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/7477/vissel-kobe"
+  },
+  "team-futebol-argentina-velez-sarsfield": {
+    "name": "Vélez Sarsfield",
+    "sourceName": "Vélez Sarsfield",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+    "color": "0070b0",
+    "source": "https://www.espn.com/soccer/club/_/id/21/velez-sarsfield"
+  },
+  "team-futebol-uruguai-uruguai": {
+    "name": "Uruguai",
+    "sourceName": "Uruguay",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+    "color": "55B5E5",
+    "source": "https://www.espn.com/soccer/team/_/id/212/uruguay"
+  },
+  "team-futebol-japao-shimizu-s-pulse": {
+    "name": "Shimizu S-Pulse",
+    "sourceName": "Shimizu S-Pulse",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7104.png",
+    "color": "ed561d",
+    "source": "https://www.espn.com/soccer/club/_/id/7104/shimizu-s-pulse"
+  },
+  "team-futebol-japao-sanfrecce-hiroshima": {
+    "name": "Sanfrecce Hiroshima",
+    "sourceName": "Sanfrecce Hiroshima",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7114.png",
+    "color": "69519F",
+    "source": "https://www.espn.com/soccer/club/_/id/7114/sanfrecce-hiroshima"
+  },
+  "team-futebol-brasil-red-bull-bragantino": {
+    "name": "Red Bull Bragantino",
+    "sourceName": "Red Bull Bragantino",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/6079/red-bull-bragantino"
+  },
+  "team-futebol-japao-nagoya-grampus": {
+    "name": "Nagoya Grampus",
+    "sourceName": "Nagoya Grampus",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7108.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/7108/nagoya-grampus"
+  },
+  "team-futebol-japao-kyoto-sanga": {
+    "name": "Kyoto Sanga",
+    "sourceName": "Kyoto Sanga",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21361.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/21361/kyoto-sanga"
+  },
+  "team-futebol-japao-kawasaki-frontale": {
+    "name": "Kawasaki Frontale",
+    "sourceName": "Kawasaki Frontale",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7112.png",
+    "color": "b0d5fc",
+    "source": "https://www.espn.com/soccer/club/_/id/7112/kawasaki-frontale"
+  },
+  "team-futebol-japao-kashiwa-reysol": {
+    "name": "Kashiwa Reysol",
+    "sourceName": "Kashiwa Reysol",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7476.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/7476/kashiwa-reysol"
+  },
+  "team-futebol-japao-kashima-antlers": {
+    "name": "Kashima Antlers",
+    "sourceName": "Kashima Antlers",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7115.png",
+    "color": "EF0107",
+    "source": "https://www.espn.com/soccer/club/_/id/7115/kashima-antlers"
+  },
+  "team-futebol-japao-gamba-osaka": {
+    "name": "Gamba Osaka",
+    "sourceName": "Gamba Osaka",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7102.png",
+    "color": "0105bc",
+    "source": "https://www.espn.com/soccer/club/_/id/7102/gamba-osaka"
+  },
+  "team-futebol-japao-fc-tokyo": {
+    "name": "FC Tokyo",
+    "sourceName": "FC Tokyo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3384.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/3384/fc-tokyo"
+  },
+  "team-futebol-estados-unidos-e-canada-charlotte-fc": {
+    "name": "Charlotte FC",
+    "sourceName": "Charlotte FC",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+    "color": "0085ca",
+    "source": "https://www.espn.com/soccer/club/_/id/21300/charlotte-fc"
+  },
+  "team-futebol-japao-cerezo-osaka": {
+    "name": "Cerezo Osaka",
+    "sourceName": "Cerezo Osaka",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7109.png",
+    "color": "FFC0CB",
+    "source": "https://www.espn.com/soccer/club/_/id/7109/cerezo-osaka"
+  },
+  "team-futebol-japao-avispa-fukuoka": {
+    "name": "Avispa Fukuoka",
+    "sourceName": "Avispa Fukuoka",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7107.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/7107/avispa-fukuoka"
+  },
+  "team-futebol-argentina-argentinos-juniors": {
+    "name": "Argentinos Juniors",
+    "sourceName": "Argentinos Juniors",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/3/argentinos-juniors"
+  },
+  "team-futebol-inglaterra-queens-park-rangers": {
+    "name": "Queens Park Rangers",
+    "sourceName": "Queens Park Rangers",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/334.png",
+    "color": "0000d4",
+    "source": "https://www.espn.com/soccer/club/_/id/334/queens-park-rangers"
+  },
+  "team-futebol-inglaterra-preston": {
+    "name": "Preston",
+    "sourceName": "Preston North End",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/394/preston-north-end"
+  },
+  "team-futebol-alemanha-kaiserslautern": {
+    "name": "Kaiserslautern",
+    "sourceName": "Kaiserslautern",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/130.png",
+    "color": "8C273D",
+    "source": "https://www.espn.com/soccer/club/_/id/130/kaiserslautern"
+  },
+  "team-futebol-alemanha-union-berlin": {
+    "name": "Union Berlin",
+    "sourceName": "1. FC Union Berlin",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+    "color": "DA0308",
+    "source": "https://www.espn.com/soccer/club/_/id/598/1-fc-union-berlin"
+  },
+  "team-futebol-holanda-holanda": {
+    "name": "Holanda",
+    "sourceName": "Netherlands",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+    "color": "fb5d00",
+    "source": "https://www.espn.com/soccer/team/_/id/449/netherlands"
+  },
+  "team-futebol-alemanha-karlsruher": {
+    "name": "Karlsruher",
+    "sourceName": "Karlsruher SC",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4471.png",
+    "color": "2563B8",
+    "source": "https://www.espn.com/soccer/club/_/id/4471/karlsruher-sc"
+  },
+  "team-futebol-grecia-aek-athens": {
+    "name": "AEK Athens",
+    "sourceName": "AEK Athens",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/887/aek-athens"
+  },
+  "team-futebol-escocia-aberdeen": {
+    "name": "Aberdeen",
+    "sourceName": "Aberdeen",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/263.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/263/aberdeen"
+  },
+  "team-futebol-estados-unidos-estados-unidos": {
+    "name": "Estados Unidos",
+    "sourceName": "United States",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+    "color": "213065",
+    "source": "https://www.espn.com/soccer/team/_/id/660/united-states"
+  },
+  "team-futebol-venezuela-venezuela": {
+    "name": "Venezuela",
+    "sourceName": "Venezuela",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/ven.png",
+    "color": "d02a36",
+    "source": "https://www.espn.com/soccer/team/_/id/213/venezuela"
+  },
+  "team-futebol-turquia-galatasaray": {
+    "name": "Galatasaray",
+    "sourceName": "Galatasaray",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "color": "aa0031",
+    "source": "https://www.espn.com/soccer/club/_/id/432/galatasaray"
+  },
+  "team-futebol-canada-canada": {
+    "name": "Canadá",
+    "sourceName": "Canada",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/team/_/id/206/canada"
+  },
+  "team-futebol-dinamarca-brndby": {
+    "name": "Brøndby",
+    "sourceName": "Brøndby IF",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/575.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/575/brøndby-if"
+  },
+  "team-futebol-bulgaria-bulgaria": {
+    "name": "Bulgária",
+    "sourceName": "Bulgaria",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/bul.png",
+    "color": "d62612",
+    "source": "https://www.espn.com/soccer/team/_/id/462/bulgaria"
+  },
+  "team-futebol-italia-padova": {
+    "name": "Padova",
+    "sourceName": "Padova",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3952.png",
+    "color": "aa0001",
+    "source": "https://www.espn.com/soccer/club/_/id/3952/padova"
+  },
+  "team-futebol-argelia-argelia": {
+    "name": "Argélia",
+    "sourceName": "Algeria",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+    "color": "4F9A44",
+    "source": "https://www.espn.com/soccer/team/_/id/624/algeria"
+  },
+  "team-futebol-austria-austria": {
+    "name": "Áustria",
+    "sourceName": "Austria",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+    "color": "d72b2c",
+    "source": "https://www.espn.com/soccer/team/_/id/474/austria"
+  },
+  "team-futebol-panama-panama": {
+    "name": "Panamá",
+    "sourceName": "Panama",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+    "color": "d21034",
+    "source": "https://www.espn.com/soccer/team/_/id/2659/panama"
+  },
+  "team-futebol-ira-ira": {
+    "name": "Irã",
+    "sourceName": "Iran",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+    "color": "FFFFFF",
+    "source": "https://www.espn.com/soccer/team/_/id/469/iran"
+  },
+  "team-futebol-iraque-iraque": {
+    "name": "Iraque",
+    "sourceName": "Iraq",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+    "color": "FFFFFF",
+    "source": "https://www.espn.com/soccer/team/_/id/4375/iraq"
+  },
+  "team-futebol-haiti-haiti": {
+    "name": "Haiti",
+    "sourceName": "Haiti",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+    "color": "0033a0",
+    "source": "https://www.espn.com/soccer/team/_/id/2654/haiti"
+  },
+  "team-futebol-uzbequistao-uzbequistao": {
+    "name": "Uzbequistão",
+    "sourceName": "Uzbekistan",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/team/_/id/2570/uzbekistan"
+  },
+  "team-futebol-alemanha-rb-leipzig": {
+    "name": "RB Leipzig",
+    "sourceName": "RB Leipzig",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/11420/rb-leipzig"
+  },
+  "team-futebol-marrocos-marrocos": {
+    "name": "Marrocos",
+    "sourceName": "Morocco",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+    "color": "df2027",
+    "source": "https://www.espn.com/soccer/team/_/id/2869/morocco"
+  },
+  "team-futebol-italia-italia": {
+    "name": "Itália",
+    "sourceName": "Italy",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
+    "color": "103cd6",
+    "source": "https://www.espn.com/soccer/team/_/id/162/italy"
+  },
+  "team-futebol-uruguai-montevideo-city-torque": {
+    "name": "Montevideo City Torque",
+    "sourceName": "Montevideo City Torque",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
+    "color": "6bc7f5",
+    "source": "https://www.espn.com/soccer/club/_/id/19002/montevideo-city-torque"
+  },
+  "team-futebol-curacao-curacao": {
+    "name": "Curaçao",
+    "sourceName": "Curaçao",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+    "color": "0537e4",
+    "source": "https://www.espn.com/soccer/club/_/id/11678/curacao"
+  },
+  "team-futebol-brasil-atletico-paranaense": {
+    "name": "Atlético Paranaense",
+    "sourceName": "Athletico-PR",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+    "color": "D80518",
+    "source": "https://www.espn.com/soccer/club/_/id/3458/athletico-paranaense"
+  },
+  "team-futebol-inglaterra-plymouth-argyle": {
+    "name": "Plymouth Argyle",
+    "sourceName": "Plymouth Argyle",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/307.png",
+    "color": "003e00",
+    "source": "https://www.espn.com/soccer/club/_/id/307/plymouth-argyle"
+  },
+  "team-futebol-argentina-newell-s-old-boys": {
+    "name": "Newell's Old Boys",
+    "sourceName": "Newell's Old Boys",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/14/newells-old-boys"
+  },
+  "team-futebol-paraguai-cerro-porteno": {
+    "name": "Cerro Porteño",
+    "sourceName": "Cerro Porteño",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+    "color": "EF2D24",
+    "source": "https://www.espn.com/soccer/club/_/id/2671/cerro-porteno"
+  },
+  "team-futebol-inglaterra-bradford-city": {
+    "name": "Bradford City",
+    "sourceName": "Bradford City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/387.png",
+    "color": "890000",
+    "source": "https://www.espn.com/soccer/club/_/id/387/bradford-city"
+  },
+  "team-futebol-jordania-jordania": {
+    "name": "Jordânia",
+    "sourceName": "Jordan",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+    "color": "E70000",
+    "source": "https://www.espn.com/soccer/team/_/id/2917/jordan"
+  },
+  "team-futebol-alemanha-holstein-kiel": {
+    "name": "Holstein Kiel",
+    "sourceName": "Holstein Kiel",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7884.png",
+    "color": "0754ba",
+    "source": "https://www.espn.com/soccer/club/_/id/7884/holstein-kiel"
+  },
+  "team-futebol-alemanha-vfl-bochum": {
+    "name": "VfL Bochum",
+    "sourceName": "VfL Bochum",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/121.png",
+    "color": "000055",
+    "source": "https://www.espn.com/soccer/club/_/id/121/vfl-bochum"
+  },
+  "team-futebol-costa-do-marfim-costa-do-marfim": {
+    "name": "Costa do Marfim",
+    "sourceName": "Ivory Coast",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+    "color": "FF8200",
+    "source": "https://www.espn.com/soccer/team/_/id/4789/ivory-coast"
+  },
+  "team-futebol-suecia-suecia": {
+    "name": "Suécia",
+    "sourceName": "Sweden",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+    "color": "fecb00",
+    "source": "https://www.espn.com/soccer/team/_/id/466/sweden"
+  },
+  "team-futebol-nigeria-nigeria": {
+    "name": "Nigéria",
+    "sourceName": "Nigeria",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/nga.png",
+    "color": "008751",
+    "source": "https://www.espn.com/soccer/team/_/id/657/nigeria"
+  },
+  "team-futebol-japao-urawa-red-diamonds": {
+    "name": "Urawa Red Diamonds",
+    "sourceName": "Urawa Red Diamonds",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3385.png",
+    "color": "e5370b",
+    "source": "https://www.espn.com/soccer/club/_/id/3385/urawa-red-diamonds"
+  },
+  "team-futebol-mexico-tijuana": {
+    "name": "Tijuana",
+    "sourceName": "Tijuana",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
+    "color": "EF0107",
+    "source": "https://www.espn.com/soccer/club/_/id/10125/tijuana"
+  },
+  "team-futebol-eslovenia-eslovenia": {
+    "name": "Eslovênia",
+    "sourceName": "Slovenia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/svn.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/team/_/id/472/slovenia"
+  },
+  "team-futebol-catar-catar": {
+    "name": "Catar",
+    "sourceName": "Qatar",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+    "color": "691a40",
+    "source": "https://www.espn.com/soccer/team/_/id/4398/qatar"
+  },
+  "team-futebol-finlandia-finlandia": {
+    "name": "Finlândia",
+    "sourceName": "Finland",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/fin.png",
+    "color": "003580",
+    "source": "https://www.espn.com/soccer/team/_/id/458/finland"
+  },
+  "team-futebol-dinamarca-dinamarca": {
+    "name": "Dinamarca",
+    "sourceName": "Denmark",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+    "color": "d02a3e",
+    "source": "https://www.espn.com/soccer/team/_/id/479/denmark"
+  },
+  "team-futebol-inglaterra-southampton": {
+    "name": "Southampton",
+    "sourceName": "Southampton",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
+    "color": "ED1A3B",
+    "source": "https://www.espn.com/soccer/club/_/id/376/southampton"
+  },
+  "team-futebol-nova-zelandia-nova-zelandia": {
+    "name": "Nova Zelândia",
+    "sourceName": "New Zealand",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/team/_/id/2666/new-zealand"
+  },
+  "team-futebol-el-salvador-el-salvador": {
+    "name": "El Salvador",
+    "sourceName": "El Salvador",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/slv.png",
+    "color": "0537e4",
+    "source": "https://www.espn.com/soccer/team/_/id/2650/el-salvador"
+  },
+  "team-futebol-cabo-verde-cabo-verde": {
+    "name": "Cabo Verde",
+    "sourceName": "Cape Verde",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+    "color": "000080",
+    "source": "https://www.espn.com/soccer/team/_/id/2597/cape-verde"
+  },
+  "team-futebol-emirados-arabes-unidos-emirados-arabes-unidos": {
+    "name": "Emirados Árabes Unidos",
+    "sourceName": "United Arab Emirates",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/uae.png",
+    "color": "E70000",
+    "source": "https://www.espn.com/soccer/team/_/id/4397/united-arab-emirates"
+  },
+  "team-futebol-arabia-saudita-arabia-saudita": {
+    "name": "Arábia Saudita",
+    "sourceName": "Saudi Arabia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+    "color": "FFFFFF",
+    "source": "https://www.espn.com/soccer/team/_/id/655/saudi-arabia"
+  },
+  "team-futebol-polonia-polonia": {
+    "name": "Polônia",
+    "sourceName": "Poland",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/team/_/id/471/poland"
+  },
+  "team-futebol-peru-peru": {
+    "name": "Peru",
+    "sourceName": "Peru",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/per.png",
+    "color": "cb292e",
+    "source": "https://www.espn.com/soccer/team/_/id/211/peru"
+  },
+  "team-futebol-paraguai-paraguai": {
+    "name": "Paraguai",
+    "sourceName": "Paraguay",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+    "color": "ea2300",
+    "source": "https://www.espn.com/soccer/team/_/id/210/paraguay"
+  },
+  "team-futebol-hungria-hungria": {
+    "name": "Hungria",
+    "sourceName": "Hungary",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/hun.png",
+    "color": "ce2029",
+    "source": "https://www.espn.com/soccer/team/_/id/480/hungary"
+  },
+  "team-futebol-costa-rica-costa-rica": {
+    "name": "Costa Rica",
+    "sourceName": "Costa Rica",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/crc.png",
+    "color": "ce1126",
+    "source": "https://www.espn.com/soccer/team/_/id/214/costa-rica"
+  },
+  "team-futebol-australia-australia": {
+    "name": "Austrália",
+    "sourceName": "Australia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+    "color": "FFCD00",
+    "source": "https://www.espn.com/soccer/team/_/id/628/australia"
+  },
+  "team-futebol-jamaica-jamaica": {
+    "name": "Jamaica",
+    "sourceName": "Jamaica",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/jam.png",
+    "color": "348b42",
+    "source": "https://www.espn.com/soccer/team/_/id/1038/jamaica"
+  },
+  "team-futebol-alemanha-wolfsburg": {
+    "name": "Wolfsburg",
+    "sourceName": "VfL Wolfsburg",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/138.png",
+    "color": "81f733",
+    "source": "https://www.espn.com/soccer/club/_/id/138/vfl-wolfsburg"
+  },
+  "team-futebol-italia-cremonese": {
+    "name": "Cremonese",
+    "sourceName": "Cremonese",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4050.png",
+    "color": "FF0000",
+    "source": "https://www.espn.com/soccer/club/_/id/4050/cremonese"
+  },
+  "team-futebol-turquia-trabzonspor": {
+    "name": "Trabzonspor",
+    "sourceName": "Trabzonspor",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+    "color": "5699eb",
+    "source": "https://www.espn.com/soccer/club/_/id/997/trabzonspor"
+  },
+  "team-futebol-turquia-turquia": {
+    "name": "Turquia",
+    "sourceName": "Türkiye",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/team/_/id/465/turkiye"
+  },
+  "team-futebol-noruega-noruega": {
+    "name": "Noruega",
+    "sourceName": "Norway",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+    "color": "C8102E",
+    "source": "https://www.espn.com/soccer/team/_/id/464/norway"
+  },
+  "team-futebol-colombia-millonarios": {
+    "name": "Millonarios",
+    "sourceName": "Millonarios",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
+    "color": "0202db",
+    "source": "https://www.espn.com/soccer/club/_/id/5484/millonarios"
+  },
+  "team-futebol-inglaterra-lincoln-city": {
+    "name": "Lincoln City",
+    "sourceName": "Lincoln City",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/314.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/314/lincoln-city"
+  },
+  "team-futebol-republica-tcheca-republica-tcheca": {
+    "name": "República Tcheca",
+    "sourceName": "Czechia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+    "color": "d7141a",
+    "source": "https://www.espn.com/soccer/team/_/id/450/czechia"
+  },
+  "team-futebol-equador-equador": {
+    "name": "Equador",
+    "sourceName": "Ecuador",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+    "color": "ffdd00",
+    "source": "https://www.espn.com/soccer/team/_/id/209/ecuador"
+  },
+  "team-futebol-africa-do-sul-africa-do-sul": {
+    "name": "África do Sul",
+    "sourceName": "South Africa",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+    "color": "FFB81C",
+    "source": "https://www.espn.com/soccer/team/_/id/467/south-africa"
+  },
+  "team-futebol-honduras-honduras": {
+    "name": "Honduras",
+    "sourceName": "Honduras",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/hon.png",
+    "color": "333ebd",
+    "source": "https://www.espn.com/soccer/team/_/id/215/honduras"
+  },
+  "team-futebol-gana-gana": {
+    "name": "Gana",
+    "sourceName": "Ghana",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+    "color": "fbd632",
+    "source": "https://www.espn.com/soccer/team/_/id/4469/ghana"
+  },
+  "team-futebol-albania-albania": {
+    "name": "Albânia",
+    "sourceName": "Albania",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/alb.png",
+    "color": "E70000",
+    "source": "https://www.espn.com/soccer/team/_/id/585/albania"
+  },
+  "team-futebol-escocia-escocia": {
+    "name": "Escócia",
+    "sourceName": "Scotland",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+    "color": "1a2d69",
+    "source": "https://www.espn.com/soccer/team/_/id/580/scotland"
+  },
+  "team-futebol-guatemala-guatemala": {
+    "name": "Guatemala",
+    "sourceName": "Guatemala",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/gua.png",
+    "color": "4997d0",
+    "source": "https://www.espn.com/soccer/team/_/id/2652/guatemala"
+  },
+  "team-futebol-suecia-aik": {
+    "name": "AIK",
+    "sourceName": "AIK",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/994.png",
+    "color": "c9ad00",
+    "source": "https://www.espn.com/soccer/club/_/id/994/aik"
+  },
+  "team-futebol-alemanha-bayer-leverkusen": {
+    "name": "Bayer Leverkusen",
+    "sourceName": "Bayer Leverkusen",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+    "color": "DA0308",
+    "source": "https://www.espn.com/soccer/club/_/id/131/bayer-leverkusen"
+  },
+  "team-futebol-brasil-chapecoense": {
+    "name": "Chapecoense",
+    "sourceName": "Chapecoense",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+    "color": "417505",
+    "source": "https://www.espn.com/soccer/club/_/id/9318/chapecoense"
+  },
+  "team-futebol-pais-de-gales-pais-de-gales": {
+    "name": "País de Gales",
+    "sourceName": "Wales",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png",
+    "color": "E70000",
+    "source": "https://www.espn.com/soccer/team/_/id/578/wales"
+  },
+  "team-futebol-noruega-rosenborg": {
+    "name": "Rosenborg",
+    "sourceName": "Rosenborg",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/438.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/438/rosenborg"
+  },
+  "team-futebol-grecia-grecia": {
+    "name": "Grécia",
+    "sourceName": "Greece",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
+    "color": "295da8",
+    "source": "https://www.espn.com/soccer/team/_/id/455/greece"
+  },
+  "team-futebol-argentina-estudiantes-de-la-plata": {
+    "name": "Estudiantes de La Plata",
+    "sourceName": "Estudiantes de La Plata",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/8/estudiantes-de-la-plata"
+  },
+  "team-futebol-colombia-atletico-nacional": {
+    "name": "Atlético Nacional",
+    "sourceName": "Atlético Nacional",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+    "color": "06933c",
+    "source": "https://www.espn.com/soccer/club/_/id/5264/atletico-nacional"
+  },
+  "team-futebol-brasil-ceara-sporting": {
+    "name": "Ceará Sporting",
+    "sourceName": "Ceará",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+    "color": "010101",
+    "source": "https://www.espn.com/soccer/club/_/id/9969/ceara"
+  },
+  "team-futebol-guine-equatorial-guine-equatorial": {
+    "name": "Guiné Equatorial",
+    "sourceName": "Equatorial Guinea",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/eqg.png",
+    "color": "d50032",
+    "source": "https://www.espn.com/soccer/team/_/id/8938/equatorial-guinea"
+  },
+  "team-futebol-austria-sturm-graz": {
+    "name": "Sturm Graz",
+    "sourceName": "SK Sturm Graz",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/3746/sk-sturm-graz"
+  },
+  "team-futebol-suica-suica": {
+    "name": "Suíça",
+    "sourceName": "Switzerland",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+    "color": "FF0000",
+    "source": "https://www.espn.com/soccer/team/_/id/475/switzerland"
+  },
+  "team-futebol-mali-mali": {
+    "name": "Mali",
+    "sourceName": "Mali",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/mli.png",
+    "color": "14b53a",
+    "source": "https://www.espn.com/soccer/team/_/id/2849/mali"
+  },
+  "team-futebol-islandia-islandia": {
+    "name": "Islândia",
+    "sourceName": "Iceland",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/isl.png",
+    "color": "0c2fff",
+    "source": "https://www.espn.com/soccer/team/_/id/470/iceland"
+  },
+  "team-futebol-camaroes-camaroes": {
+    "name": "Camarões",
+    "sourceName": "Cameroon",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/crm.png",
+    "color": "197b63",
+    "source": "https://www.espn.com/soccer/team/_/id/656/cameroon"
+  },
+  "team-futebol-italia-genoa": {
+    "name": "Genoa",
+    "sourceName": "Genoa",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+    "color": "08305d",
+    "source": "https://www.espn.com/soccer/club/_/id/3263/genoa"
+  },
+  "team-futebol-egito-egito": {
+    "name": "Egito",
+    "sourceName": "Egypt",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+    "color": "D20300",
+    "source": "https://www.espn.com/soccer/team/_/id/2620/egypt"
+  },
+  "team-futebol-italia-sassuolo": {
+    "name": "Sassuolo",
+    "sourceName": "Sassuolo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+    "color": "0fa653",
+    "source": "https://www.espn.com/soccer/club/_/id/3997/sassuolo"
+  },
+  "team-futebol-irlanda-do-norte-irlanda-do-norte": {
+    "name": "Irlanda do Norte",
+    "sourceName": "Northern Ireland",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png",
+    "color": "cc0000",
+    "source": "https://www.espn.com/soccer/team/_/id/586/northern-ireland"
+  },
+  "team-rugby-australia-dolphins": {
+    "name": "Dolphins",
+    "sourceName": "Dolphins",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289346.png",
+    "color": null,
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-futebol-americano-estados-unidos-philadelphia-eagles": {
+    "name": "Philadelphia Eagles",
+    "sourceName": "Philadelphia Eagles",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+    "color": "06424d",
+    "source": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+  },
+  "team-futebol-americano-estados-unidos-dallas-cowboys": {
+    "name": "Dallas Cowboys",
+    "sourceName": "Dallas Cowboys",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+    "color": "002a5c",
+    "source": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+  },
+  "team-futebol-americano-estados-unidos-carolina-panthers": {
+    "name": "Carolina Panthers",
+    "sourceName": "Carolina Panthers",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+    "color": "0085ca",
+    "source": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers"
+  },
+  "team-rugby-australia-wests-tigers": {
+    "name": "Wests Tigers",
+    "sourceName": "Wests Tigers",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289200.png",
+    "color": null,
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-futebol-ucrania-ucrania": {
+    "name": "Ucrânia",
+    "sourceName": "Ukraine",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/ukr.png",
+    "color": "fede00",
+    "source": "https://www.espn.com/soccer/team/_/id/457/ukraine"
+  },
+  "team-futebol-belgica-club-brugge": {
+    "name": "Club Brugge",
+    "sourceName": "Club Brugge",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+    "color": "0081ff",
+    "source": "https://www.espn.com/soccer/club/_/id/570/club-brugge"
+  },
+  "team-futebol-palestina-palestina": {
+    "name": "Palestina",
+    "sourceName": "Palestine",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/pal.png",
+    "color": "CE1126",
+    "source": "https://www.espn.com/soccer/team/_/id/6167/palestine"
+  },
+  "team-futebol-israel-israel": {
+    "name": "Israel",
+    "sourceName": "Israel",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/isr.png",
+    "color": "2f4fa2",
+    "source": "https://www.espn.com/soccer/team/_/id/461/israel"
+  },
+  "team-futebol-italia-pisa": {
+    "name": "Pisa",
+    "sourceName": "Pisa",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
+    "color": "1a1a1a",
+    "source": "https://www.espn.com/soccer/club/_/id/3956/pisa"
+  },
+  "team-futebol-arabia-saudita-al-ahli": {
+    "name": "Al Ahli",
+    "sourceName": "Al Ahli",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8346.png",
+    "color": "078543",
+    "source": "https://www.espn.com/soccer/club/_/id/8346/al-ahli"
+  },
+  "team-futebol-arabia-saudita-al-hilal": {
+    "name": "Al Hilal",
+    "sourceName": "Al Hilal",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/929.png",
+    "color": "1c31ce",
+    "source": "https://www.espn.com/soccer/club/_/id/929/al-hilal"
+  },
+  "team-futebol-franca-lille": {
+    "name": "Lille",
+    "sourceName": "Lille",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+    "color": "c2051b",
+    "source": "https://www.espn.com/soccer/club/_/id/166/lille"
+  },
+  "team-futebol-romenia-romenia": {
+    "name": "Romênia",
+    "sourceName": "Romania",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/rom.png",
+    "color": "fcd116",
+    "source": "https://www.espn.com/soccer/team/_/id/473/romania"
+  },
+  "team-futebol-franca-metz": {
+    "name": "Metz",
+    "sourceName": "Metz",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+    "color": "8C3140",
+    "source": "https://www.espn.com/soccer/club/_/id/177/metz"
+  },
+  "team-futebol-argentina-independiente": {
+    "name": "Independiente",
+    "sourceName": "Independiente",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/11/independiente"
+  },
+  "team-futebol-brasil-cuiaba": {
+    "name": "Cuiabá",
+    "sourceName": "Cuiabá",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+    "color": "004526",
+    "source": "https://www.espn.com/soccer/club/_/id/17313/cuiaba"
+  },
+  "team-futebol-franca-auxerre": {
+    "name": "Auxerre",
+    "sourceName": "AJ Auxerre",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/172/aj-auxerre"
+  },
+  "team-futebol-georgia-georgia": {
+    "name": "Geórgia",
+    "sourceName": "Georgia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/geo.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/team/_/id/584/georgia"
+  },
+  "team-futebol-servia-servia": {
+    "name": "Sérvia",
+    "sourceName": "Serbia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/sba.png",
+    "color": "E70000",
+    "source": "https://www.espn.com/soccer/team/_/id/6757/serbia"
+  },
+  "team-futebol-americano-estados-unidos-denver-broncos": {
+    "name": "Denver Broncos",
+    "sourceName": "Denver Broncos",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+    "color": "0a2343",
+    "source": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+  },
+  "team-futebol-americano-estados-unidos-pittsburgh-steelers": {
+    "name": "Pittsburgh Steelers",
+    "sourceName": "Pittsburgh Steelers",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+    "color": "000000",
+    "source": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers"
+  },
+  "team-futebol-americano-estados-unidos-chicago-bears": {
+    "name": "Chicago Bears",
+    "sourceName": "Chicago Bears",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+    "color": "0b1c3a",
+    "source": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+  },
+  "team-futebol-americano-estados-unidos-atlanta-falcons": {
+    "name": "Atlanta Falcons",
+    "sourceName": "Atlanta Falcons",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+    "color": "a71930",
+    "source": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons"
+  },
+  "team-futebol-americano-estados-unidos-cincinnati-bengals": {
+    "name": "Cincinnati Bengals",
+    "sourceName": "Cincinnati Bengals",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+    "color": "fb4f14",
+    "source": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals"
+  },
+  "team-futebol-americano-estados-unidos-cleveland-browns": {
+    "name": "Cleveland Browns",
+    "sourceName": "Cleveland Browns",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+    "color": "472a08",
+    "source": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns"
+  },
+  "team-futebol-americano-estados-unidos-indianapolis-colts": {
+    "name": "Indianapolis Colts",
+    "sourceName": "Indianapolis Colts",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+    "color": "003b75",
+    "source": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts"
+  },
+  "team-futebol-americano-estados-unidos-baltimore-ravens": {
+    "name": "Baltimore Ravens",
+    "sourceName": "Baltimore Ravens",
+    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+    "color": "29126f",
+    "source": "https://www.espn.com/nfl/team/_/name/bal/baltimore-ravens"
+  },
+  "team-futebol-indonesia-indonesia": {
+    "name": "Indonésia",
+    "sourceName": "Indonesia",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/idn.png",
+    "color": "E70000",
+    "source": "https://www.espn.com/soccer/team/_/id/4895/indonesia"
+  },
+  "team-automobilismo-alemanha-mercedes": {
+    "name": "Mercedes",
+    "sourceName": "Mercedes-Benz in Formula One",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg/330px-Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+    "description": "Formula One activities of Mercedes-Benz",
+    "needsVisualReview": true
+  },
+  "team-automobilismo-italia-ferrari": {
+    "name": "Ferrari",
+    "sourceName": "Scuderia Ferrari",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/df/Scuderia_Ferrari_HP_logo_24.svg/330px-Scuderia_Ferrari_HP_logo_24.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+    "description": "Italian Formula One team",
+    "needsVisualReview": true
+  },
+  "team-automobilismo-austria-red-bull-racing": {
+    "name": "Red Bull Racing",
+    "sourceName": "Red Bull Racing",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fa/Red_Bull_Racing_Logo_2026.svg/330px-Red_Bull_Racing_Logo_2026.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+    "description": "Formula One racing team",
+    "needsVisualReview": true
+  },
+  "team-automobilismo-alemanha-audi": {
+    "name": "Audi",
+    "sourceName": "Audi in Formula One",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Audif1.com_logo17_%28cropped%29.svg/330px-Audif1.com_logo17_%28cropped%29.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
+    "description": "Formula One constructor",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-ud-almeria": {
+    "name": "UD Almeria",
+    "sourceName": "Almería",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6832.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/6832/almeria"
+  },
+  "team-futebol-alemanha-hamburger-sv": {
+    "name": "Hamburger SV",
+    "sourceName": "Hamburg SV",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+    "color": "1a26af",
+    "source": "https://www.espn.com/soccer/club/_/id/127/hamburg-sv"
+  },
+  "team-futebol-espanha-deportivo-alaves": {
+    "name": "Deportivo Alavés",
+    "sourceName": "Alavés",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "color": "0000ff",
+    "source": "https://www.espn.com/soccer/club/_/id/96/alaves"
+  },
+  "team-futebol-irlanda-irlanda": {
+    "name": "Irlanda",
+    "sourceName": "Republic of Ireland national football team",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f8/Republic_of_Ireland_national_football_team_crest.svg/330px-Republic_of_Ireland_national_football_team_crest.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Republic_of_Ireland_national_football_team",
+    "description": "Men's national association football team",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-levante-ud": {
+    "name": "Levante UD",
+    "sourceName": "Levante",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/1538/levante"
+  },
+  "team-futebol-brasil-santa-cruz": {
+    "name": "Santa Cruz",
+    "sourceName": "Santa Cruz Futebol Clube",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Santa_Cruz_Futebol_Clube_logo.svg/330px-Santa_Cruz_Futebol_Clube_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Santa_Cruz_Futebol_Clube",
+    "description": "Brazilian association football club based in Recife, Pernambuco, Brazil",
+    "needsVisualReview": true
+  },
+  "team-automobilismo-estados-unidos-cadillac": {
+    "name": "Cadillac",
+    "sourceName": "Cadillac in Formula One",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bc/Cadillac_Formula_1_Team_Logo_%282025%29.svg/330px-Cadillac_Formula_1_Team_Logo_%282025%29.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Cadillac_in_Formula_One",
+    "description": "Formula One constructor",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-zaragoza": {
+    "name": "Zaragoza",
+    "sourceName": "Real Zaragoza",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/69/Real_Zaragoza_logo.svg/330px-Real_Zaragoza_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Real_Zaragoza",
+    "description": "Association football club in Spain",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-real-murcia": {
+    "name": "Real Murcia",
+    "sourceName": "Real Murcia CF",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/93/Real_Murcia_CF_logo.svg/330px-Real_Murcia_CF_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Real_Murcia_CF",
+    "description": "Spanish football club",
+    "needsVisualReview": true
+  },
+  "team-futebol-brasil-santos": {
+    "name": "Santos",
+    "sourceName": "Santos FC",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/330px-Santos_Logo.png",
+    "source": "https://en.wikipedia.org/wiki/Santos_FC",
+    "description": "Association football club in Brazil",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-deportivo-la-coruna": {
+    "name": "Deportivo La Coruña",
+    "sourceName": "Deportivo de A Coruña",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/56/RC_Deportivo_A_Coru%C3%B1a_logo_2026.svg/330px-RC_Deportivo_A_Coru%C3%B1a_logo_2026.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Deportivo_de_A_Coru%C3%B1a",
+    "description": "Spanish professional football club",
+    "needsVisualReview": true
+  },
+  "team-futebol-franca-rc-strasbourg": {
+    "name": "RC Strasbourg",
+    "sourceName": "Strasbourg",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+    "color": "0000bf",
+    "source": "https://www.espn.com/soccer/club/_/id/180/strasbourg"
+  },
+  "team-futebol-franca-rc-lens": {
+    "name": "RC Lens",
+    "sourceName": "Lens",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+    "color": "E91514",
+    "source": "https://www.espn.com/soccer/club/_/id/175/lens"
+  },
+  "team-futebol-franca-as-saint-etienne": {
+    "name": "AS Saint-Etienne",
+    "sourceName": "Saint-Étienne",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+    "color": "51cc5f",
+    "source": "https://www.espn.com/soccer/club/_/id/178/saint-etienne"
+  },
+  "team-automobilismo-reino-unido-mclaren": {
+    "name": "McLaren",
+    "sourceName": "McLaren",
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/03/McLarenF1Team.png",
+    "source": "https://en.wikipedia.org/wiki/McLaren",
+    "description": "British auto racing team",
+    "needsVisualReview": true
+  },
+  "team-futebol-estados-unidos-e-canada-los-angeles-fc": {
+    "name": "Los Angeles FC",
+    "sourceName": "LAFC",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/18966/lafc"
+  },
+  "team-futebol-italia-roma": {
+    "name": "Roma",
+    "sourceName": "AS Roma",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "color": "990a2c",
+    "source": "https://www.espn.com/soccer/club/_/id/104/as-roma"
+  },
+  "team-futebol-alemanha-1-fc-koln": {
+    "name": "1. FC Köln",
+    "sourceName": "FC Cologne",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+    "color": "ffffff",
+    "source": "https://www.espn.com/soccer/club/_/id/122/fc-cologne"
+  },
+  "team-futebol-espanha-athletic-bilbao": {
+    "name": "Athletic Bilbao",
+    "sourceName": "Athletic Club",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "color": "C8142F",
+    "source": "https://www.espn.com/soccer/club/_/id/93/athletic-club"
+  },
+  "team-futebol-alemanha-nurnberg-fc": {
+    "name": "Nurnberg FC",
+    "sourceName": "1. FC Nürnberg",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/269.png",
+    "color": "9f0000",
+    "source": "https://www.espn.com/soccer/club/_/id/269/1-fc-nurnberg"
+  },
+  "team-futebol-estados-unidos-e-canada-new-york-red-bulls": {
+    "name": "New York Red Bulls",
+    "sourceName": "Red Bull New York",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
+    "color": "ba0c2f",
+    "source": "https://www.espn.com/soccer/club/_/id/190/red-bull-new-york"
+  },
+  "team-futebol-brasil-sport-recife": {
+    "name": "Sport Recife",
+    "sourceName": "Sport",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+    "color": "C60000",
+    "source": "https://www.espn.com/soccer/club/_/id/7635/sport"
+  },
+  "team-futebol-argentina-atletico-rosario-central": {
+    "name": "Atlético Rosario Central",
+    "sourceName": "Rosario Central",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+    "color": "ffff00",
+    "source": "https://www.espn.com/soccer/club/_/id/17/rosario-central"
+  },
+  "team-futebol-espanha-cd-castellon": {
+    "name": "CD Castellón",
+    "sourceName": "Castellón",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4438.png",
+    "color": "000000",
+    "source": "https://www.espn.com/soccer/club/_/id/4438/castellon"
+  },
+  "team-rugby-australia-newcastle-knights": {
+    "name": "Newcastle Knights",
+    "sourceName": "Knights",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289207.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-australia-brisbane-broncos": {
+    "name": "Brisbane Broncos",
+    "sourceName": "Broncos",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289195.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-australia-sydney-roosters": {
+    "name": "Sydney Roosters",
+    "sourceName": "Roosters",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289204.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-australia-nsw-blues": {
+    "name": "NSW Blues",
+    "sourceName": "New South Wales",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289317.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-nova-zelandia-new-zealand-warriors": {
+    "name": "New Zealand Warriors",
+    "sourceName": "Warriors",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289201.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-futebol-coreia-do-sul-coreia-do-sul": {
+    "name": "Coreia do Sul",
+    "sourceName": "South Korea",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+    "color": "ce2028",
+    "source": "https://www.espn.com/soccer/team/_/id/451/south-korea"
+  },
+  "team-futebol-bosnia-e-herzegovina-bosnia-e-herzegovina": {
+    "name": "Bósnia e Herzegovina",
+    "sourceName": "Bosnia-Herzegovina",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+    "color": "112855",
+    "source": "https://www.espn.com/soccer/team/_/id/452/bosnia-herzegovina"
+  },
+  "team-futebol-franca-ogc-nice": {
+    "name": "OGC Nice",
+    "sourceName": "Nice",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+    "color": "ef2f24",
+    "source": "https://www.espn.com/soccer/club/_/id/2502/nice"
+  },
+  "team-rugby-australia-parramatta-eels": {
+    "name": "Parramatta Eels",
+    "sourceName": "Eels",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289194.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-australia-canterbury-bulldogs": {
+    "name": "Canterbury Bulldogs",
+    "sourceName": "Bulldogs",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289197.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-australia-canberra-raiders": {
+    "name": "Canberra Raiders",
+    "sourceName": "Raiders",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289198.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-australia-melbourne-storm": {
+    "name": "Melbourne Storm",
+    "sourceName": "Storm",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289208.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-australia-penrith-panthers": {
+    "name": "Penrith Panthers",
+    "sourceName": "Panthers",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289199.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-australia-south-sydney-rabbitohs": {
+    "name": "South Sydney Rabbitohs",
+    "sourceName": "Rabbitohs",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289205.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-rugby-australia-st-george-illawarra-dragons": {
+    "name": "St George Illawarra Dragons",
+    "sourceName": "Dragons",
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289209.png",
+    "source": "https://www.espn.com/nrl/fixtures/_/league/3"
+  },
+  "team-futebol-espanha-recreativo-de-huelva": {
+    "name": "Recreativo de Huelva",
+    "sourceName": "Recreativo de Huelva",
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/2c/Recreativo_huelva_crest.png",
+    "source": "https://en.wikipedia.org/wiki/Recreativo_de_Huelva",
+    "description": "Football club",
+    "needsVisualReview": true
+  },
+  "team-futebol-alemanha-wattenscheid": {
+    "name": "Wattenscheid",
+    "sourceName": "SG Wattenscheid 09",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/SG_Wattenscheid_09_crest.svg/330px-SG_Wattenscheid_09_crest.svg.png",
+    "source": "https://en.wikipedia.org/wiki/SG_Wattenscheid_09",
+    "description": "German football club",
+    "needsVisualReview": true
+  },
+  "team-futebol-alemanha-tsv-1860-munich": {
+    "name": "TSV 1860 Munich",
+    "sourceName": "TSV 1860 Munich",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/TSV_1860_M%C3%BCnchen.svg/330px-TSV_1860_M%C3%BCnchen.svg.png",
+    "source": "https://en.wikipedia.org/wiki/TSV_1860_Munich",
+    "description": "German sports club",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-cultural-leonesa": {
+    "name": "Cultural Leonesa",
+    "sourceName": "Cultural y Deportiva Leonesa",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5c/Logo_of_Cultural_y_Deportiva_Leonesa.svg/330px-Logo_of_Cultural_y_Deportiva_Leonesa.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Cultural_y_Deportiva_Leonesa",
+    "description": "Spanish professional football club",
+    "needsVisualReview": true
+  },
+  "team-futebol-escocia-rangers": {
+    "name": "Rangers",
+    "sourceName": "Rangers",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/257.png",
+    "color": "0046ff",
+    "source": "https://www.espn.com/soccer/club/_/id/257/rangers"
+  },
+  "team-futebol-italia-perugia": {
+    "name": "Perugia",
+    "sourceName": "AC Perugia Calcio",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/08/Ac_Perugia_logo.svg/330px-Ac_Perugia_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/AC_Perugia_Calcio",
+    "description": "Association football club based in Perugia, Italy",
+    "needsVisualReview": true
+  },
+  "team-futebol-brasil-vitoria": {
+    "name": "Vitória",
+    "sourceName": "Esporte Clube Vitória",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Esporte_Clube_Vit%C3%B3ria_%282024%29.svg/330px-Esporte_Clube_Vit%C3%B3ria_%282024%29.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Esporte_Clube_Vit%C3%B3ria",
+    "description": "Brazilian association football club based in Salvador, Bahia",
+    "needsVisualReview": true
+  },
+  "team-futebol-alemanha-fortuna-dusseldorf": {
+    "name": "Fortuna Düsseldorf",
+    "sourceName": "Fortuna Düsseldorf",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/330px-Fortuna_D%C3%BCsseldorf.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf",
+    "description": "German association football club",
+    "needsVisualReview": true
+  },
+  "team-futebol-irlanda-bohemians": {
+    "name": "Bohemians",
+    "sourceName": "Bohemian F.C.",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/50/Bohemian_F.C._crest.svg/330px-Bohemian_F.C._crest.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Bohemian_F.C.",
+    "description": "Association football club in Ireland",
+    "needsVisualReview": true
+  },
+  "team-futebol-tchecoslovaquia-historica-tchecoslovaquia": {
+    "name": "Tchecoslováquia",
+    "sourceName": "Czechoslovakia national football team",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/aa/Czechoslovakian_FA_Logo.svg/330px-Czechoslovakian_FA_Logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team",
+    "description": "National football team of Czechoslovakia from 1920 to 1992",
+    "needsVisualReview": true
+  },
+  "team-futebol-servia-red-star-belgrade": {
+    "name": "Red Star Belgrade",
+    "sourceName": "Red Star Belgrade",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c2/Red_Star_Belgrade_crest.svg/330px-Red_Star_Belgrade_crest.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Red_Star_Belgrade",
+    "description": "Association football club in Serbia",
+    "needsVisualReview": true
+  },
+  "team-futebol-irlanda-derry-city": {
+    "name": "Derry City",
+    "sourceName": "Derry City F.C.",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/52/Derry_City_F.C._crest.svg/330px-Derry_City_F.C._crest.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Derry_City_F.C.",
+    "description": "Association football club based in Northern Ireland",
+    "needsVisualReview": true
+  },
+  "team-futebol-brasil-paysandu": {
+    "name": "Paysandu",
+    "sourceName": "Paysandu Sport Club",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/db/Paysandu_Sport_Club_logo.svg/330px-Paysandu_Sport_Club_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Paysandu_Sport_Club",
+    "description": "Association football club based in Belém, Pará, Brazil",
+    "needsVisualReview": true
+  },
+  "team-futebol-alemanha-hansa-rostock": {
+    "name": "Hansa Rostock",
+    "sourceName": "FC Hansa Rostock",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/F.C._Hansa_Rostock_Logo.svg/330px-F.C._Hansa_Rostock_Logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/FC_Hansa_Rostock",
+    "description": "German football club",
+    "needsVisualReview": true
+  },
+  "team-futebol-alemanha-rot-weiss-essen": {
+    "name": "Rot-Weiss Essen",
+    "sourceName": "Rot-Weiss Essen",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Logo_of_Rot-Weiss_Essen.svg/330px-Logo_of_Rot-Weiss_Essen.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Rot-Weiss_Essen",
+    "description": "German football club",
+    "needsVisualReview": true
+  },
+  "team-esportes-gaelicos-irlanda-tipperary": {
+    "name": "Tipperary",
+    "sourceName": "Tipperary GAA",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/22/Tipperary_GAA_crest.svg/330px-Tipperary_GAA_crest.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Tipperary_GAA",
+    "description": "County board of the Gaelic Athletic Association in Ireland",
+    "needsVisualReview": true
+  },
+  "team-automobilismo-italia-racing-bulls": {
+    "name": "Racing Bulls",
+    "sourceName": "Racing Bulls",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2b/VCARB_F1_logo.svg/330px-VCARB_F1_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Racing_Bulls",
+    "description": "Motorsports team",
+    "needsVisualReview": true
+  },
+  "team-esportes-gaelicos-irlanda-kerry": {
+    "name": "Kerry",
+    "sourceName": "Kerry GAA",
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/39/Kerry_gaa_crest.png",
+    "source": "https://en.wikipedia.org/wiki/Kerry_GAA",
+    "description": "Governing body of Gaelic games in County Kerry",
+    "needsVisualReview": true
+  },
+  "team-rugby-nova-zelandia-crusaders": {
+    "name": "Crusaders",
+    "sourceName": "Crusaders (rugby union)",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bd/Crusaders_%28rugby_union%29_logo.png/330px-Crusaders_%28rugby_union%29_logo.png",
+    "source": "https://en.wikipedia.org/wiki/Crusaders_(rugby_union)",
+    "description": "Super Rugby franchise based in Christchurch, New Zealand",
+    "needsVisualReview": true
+  },
+  "team-esportes-gaelicos-irlanda-donegal": {
+    "name": "Donegal",
+    "sourceName": "Donegal GAA",
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/01/Donegal_GAA_crest.png",
+    "source": "https://en.wikipedia.org/wiki/Donegal_GAA",
+    "description": "Gaelic games governing body",
+    "needsVisualReview": true
+  },
+  "team-futebol-franca-girondins-de-bordeaux": {
+    "name": "Girondins de Bordeaux",
+    "sourceName": "FC Girondins de Bordeaux",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/11/FC_Girondins_de_Bordeaux_logo.svg/330px-FC_Girondins_de_Bordeaux_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/FC_Girondins_de_Bordeaux",
+    "description": "French football club",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-compostela": {
+    "name": "Compostela",
+    "sourceName": "SD Compostela",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2b/SD_Compostela_logo.svg/330px-SD_Compostela_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/SD_Compostela",
+    "description": "Association football club in Spain",
+    "needsVisualReview": true
+  },
+  "team-futebol-alemanha-msv-duisburg": {
+    "name": "MSV Duisburg",
+    "sourceName": "MSV Duisburg",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c8/Msv_duisburg%28new%29.svg/330px-Msv_duisburg%28new%29.svg.png",
+    "source": "https://en.wikipedia.org/wiki/MSV_Duisburg",
+    "description": "Association football club in Germany",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-hercules": {
+    "name": "Hércules",
+    "sourceName": "Hércules CF",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/84/Hercules_CF_crest.svg/330px-Hercules_CF_crest.svg.png",
+    "source": "https://en.wikipedia.org/wiki/H%C3%A9rcules_CF",
+    "description": "Spanish association football team",
+    "needsVisualReview": true
+  },
+  "team-futebol-franca-as-cannes": {
+    "name": "AS Cannes",
+    "sourceName": "AS Cannes",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/64/AS_Cannes_logo.svg/330px-AS_Cannes_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/AS_Cannes",
+    "description": "French football club, based in Cannes",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-cartagena": {
+    "name": "Cartagena",
+    "sourceName": "FC Cartagena",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/dc/FC_Cartagena_logo.svg/330px-FC_Cartagena_logo.svg.png",
+    "source": "https://en.wikipedia.org/wiki/FC_Cartagena",
+    "description": "Association football club in Spain",
+    "needsVisualReview": true
+  },
+  "team-futebol-italia-brescia-calcio": {
+    "name": "Brescia Calcio",
+    "sourceName": "Brescia Calcio",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/17/Brescia_calcio_badge.svg/330px-Brescia_calcio_badge.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Brescia_Calcio",
+    "description": "Defunct Italian association football club",
+    "needsVisualReview": true
+  },
+  "team-futebol-argentina-racing-club": {
+    "name": "Racing Club",
+    "sourceName": "Racing Club",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
+    "color": "409fff",
+    "source": "https://www.espn.com/soccer/club/_/id/15/racing-club"
+  },
+  "team-futebol-argentina-san-lorenzo": {
+    "name": "San Lorenzo",
+    "sourceName": "San Lorenzo",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
+    "color": "0060f0",
+    "source": "https://www.espn.com/soccer/club/_/id/18/san-lorenzo"
+  },
+  "team-futebol-iugoslavia-historica-iugoslavia-historica": {
+    "name": "Iugoslávia (histórica)",
+    "sourceName": "Yugoslavia national football team",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Football_Association_of_Yugoslavia_logo_%281991-1992%29.svg/330px-Football_Association_of_Yugoslavia_logo_%281991-1992%29.svg.png",
+    "source": "https://en.wikipedia.org/wiki/Yugoslavia_national_football_team",
+    "description": "Former men's national association football team representing Yugoslavia",
+    "needsVisualReview": true
+  },
+  "team-futebol-brasil-fortaleza": {
+    "name": "Fortaleza",
+    "sourceName": "Fortaleza",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+    "source": "https://www.espn.com/soccer/club/_/id/6272/fortaleza"
+  },
+  "team-rugby-fiji-fijian-drua": {
+    "name": "Fijian Drua",
+    "sourceName": "Fijian Drua",
+    "source": "https://en.wikipedia.org/wiki/Fijian_Drua",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/9c/FijianDruaLogo.svg/330px-FijianDruaLogo.svg.png",
+    "needsVisualReview": true
+  },
+  "team-rugby-franca-franca": {
+    "name": "França",
+    "sourceName": "France national rugby union team",
+    "source": "https://en.wikipedia.org/wiki/France_national_rugby_union_team",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1f/Logo_XV_de_France_masculin_2019.png/330px-Logo_XV_de_France_masculin_2019.png",
+    "needsVisualReview": true
+  },
+  "team-futebol-italia-ssc-bari": {
+    "name": "SSC Bari",
+    "sourceName": "SSC Bari",
+    "source": "https://en.wikipedia.org/wiki/SSC_Bari",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/85/SSC_Bari_crest.svg/330px-SSC_Bari_crest.svg.png",
+    "needsVisualReview": true
+  },
+  "team-futebol-espanha-basque-country": {
+    "name": "Basque Country",
+    "sourceName": "Basque Country national football team",
+    "source": "https://en.wikipedia.org/wiki/Basque_Country_national_football_team",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_of_the_Basque_Country.svg/330px-Flag_of_the_Basque_Country.svg.png",
+    "symbolType": "flag"
+  }
+}

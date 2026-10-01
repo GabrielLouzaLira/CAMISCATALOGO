@@ -3,10 +3,11 @@ const $$ = selector => [...document.querySelectorAll(selector)];
 
 let data = { settings: {}, categories: [], teams: [] };
 let productsById = new Map();
+let teamBranding = {};
 let discoveryProducts = new Map();
 let featuredProducts = [];
 let homeCatalog = { items: [], hasMore: false, loading: false, categoryId: "", group: "", league: "", kind: "", variant: "", teamId: "" };
-let discovery = { categoryId: "", group: "", league: "", teamId: "", items: [], loading: false, request: 0, pointerStart: null };
+let discovery = { kind: "clubes", categoryId: "", group: "", league: "", teamId: "", items: [], loading: false, request: 0, pointerStart: null };
 let view = { name: "home", categoryId: "", teamId: "", group: "", query: "", items: [], loading: false };
 let searchTimer = 0;
 let homeRequest = 0;
@@ -29,7 +30,11 @@ function extraFilters() {
   return '<div class="catalog-selects"><label>LIGA / COLEÇÃO<select id="home-league-filter"><option value="">Todas as ligas</option>' + optionList(leaguesFor(homeCatalog.categoryId,homeCatalog.group),homeCatalog.league) + '</select></label><label>EQUIPES<select id="home-kind-filter"><option value="">Clubes e seleções</option><option value="clubes" '+(homeCatalog.kind==='clubes'?'selected':'')+'>Clubes / equipes</option><option value="selecoes" '+(homeCatalog.kind==='selecoes'?'selected':'')+'>Seleções</option></select></label><label>MODELO<select id="home-variant-filter"><option value="">Todos os modelos</option>' + [['retro','Retrô'],['infantil','Infantil'],['feminino','Feminino'],['jogador','Versão jogador'],['manga-longa','Manga longa'],['kit','Kit']].map(([v,n])=>'<option value="'+v+'" '+(homeCatalog.variant===v?'selected':'')+'>'+n+'</option>').join('') + '</select></label><button class="secondary-catalog-button" type="button" data-clear-filters>Limpar filtros</button></div>';
 }
 const productForTeam = teamId => [...productsById.values()].find(product => product.teamKey === teamId);
-const presentationFor = team => team?.showcaseImage || team?.fallbackImage || productForTeam(team?.id)?.images?.[0] || null;
+const presentationFor = team => team?.logoImage || teamBranding[team?.id]?.image || null;
+function crest(team, className = "") {
+  const image = media(presentationFor(team));
+  return '<span class="crest ' + className + (team?.categoryId === 'automobilismo' ? ' crest--mark' : '') + '">' + (image ? '<img src="' + esc(image) + '" alt="Escudo de ' + esc(team.name) + '" loading="lazy" decoding="async">' : '<span class="crest-placeholder" aria-label="' + esc(team?.name || 'Equipe') + '">' + esc(initials(team?.name)) + '</span>') + '</span>';
+}
 const pageSize = () => Math.min(48, Math.max(8, Number(data.settings.catalogPageSize) || 24));
 
 function mergeProducts(items = []) {
@@ -75,7 +80,7 @@ function categoryCard(category) {
 function teamCard(team) {
   const image = media(presentationFor(team));
   return '<button class="team-card" type="button" data-team="' + esc(team.id) + '">' +
-    (image ? '<img class="team-card__image" src="' + esc(image) + '" alt="" loading="lazy">' : '<span class="team-card__monogram">' + esc(initials(team.name)) + '</span>') +
+    crest(team, 'team-card-symbol') +
     '<span><strong>' + esc(team.name) + '</strong><small>' + esc([categoryFor(team.categoryId)?.title, team.group].filter(Boolean).join(" / ")) + '</small></span><span aria-hidden="true">-&gt;</span></button>';
 }
 
@@ -108,42 +113,18 @@ function carouselDots(teams, activeIndex) {
 function renderDiscovery() {
   const categories = visibleCategories();
   const categoryId = discovery.categoryId || categories[0]?.id || "";
-  const groups = groupsFor(categoryId);
-  const teams = teamsFor(categoryId, discovery.group, discovery.league);
-  const activeIndex = Math.max(0, teams.findIndex(team => team.id === discovery.teamId));
-  const activeTeam = teams[activeIndex] || null;
-  const categoryButtons = categories.map(category => '<button class="filter-chip ' + (category.id === categoryId ? "is-active" : "") + '" type="button" data-discovery-category="' + esc(category.id) + '">' + esc(category.title) + '</button>').join("");
-  const groupButtons = groups.map(group => '<button class="league-tab ' + (group === discovery.group ? "is-active" : "") + '" type="button" data-discovery-group="' + esc(group) + '">' + esc(group) + '</button>').join("");
-
-  if (!teams.length) {
-    return '<section class="catalog-section team-discovery"><div class="section-heading"><div><p class="eyebrow"><span></span>NAVEGACAO VISUAL</p><h2>ENCONTRE SUA<br>EQUIPE</h2></div><p>Escolha um esporte e uma liga.</p></div><div class="filter-row">' + categoryButtons + '</div><div class="album-pending"><span>10</span><h2>Equipes em preparacao</h2><p>Nenhuma equipe visivel foi cadastrada nesta liga.</p></div></section>';
-  }
-
-  const offsets = Array.from({ length: Math.min(5, teams.length) }, (_, index) => index - Math.floor(Math.min(5, teams.length) / 2));
-  const used = new Set();
-  const visibleItems = offsets.map(offset => {
-    const index = (activeIndex + offset + teams.length) % teams.length;
-    if (used.has(index)) return "";
-    used.add(index);
-    return teamVisual(teams[index], index, activeIndex, teams.length, offset);
-  }).join("");
-  const logo = media(activeTeam?.logoImage);
-  const selectedProducts = discovery.loading
-    ? '<div class="catalog-loading" role="status"><span></span><p>Carregando camisas de ' + esc(activeTeam?.name || "equipe") + '...</p></div>'
-    : productGrid(discovery.items, "Os modelos desta equipe aparecerao aqui quando forem publicados.");
-
-  return '<section class="catalog-section team-discovery" id="team-discovery"><div class="section-heading"><div><p class="eyebrow"><span></span>NAVEGACAO VISUAL</p><h2>ESCOLHA O ESPORTE.<br>ENCONTRE SUA EQUIPE.</h2></div><p>Escolha o esporte, o país e a liga. Deslize para encontrar seu time.</p></div>' +
-    '<div class="filter-row discovery-sports" aria-label="Escolher esporte">' + categoryButtons + '</div>' +
-    '<div class="discovery-leagues"><h3>ESCOLHA O PAÍS</h3><div class="league-tabs">' + (groupButtons || '<span class="league-tab is-active">Todas as equipes</span>') + '</div></div>' +
-    '<label class="team-filter discovery-league-filter">LIGA / COLEÇÃO<select id="discovery-league-filter"><option value="">Todas as ligas</option>' + optionList(leaguesFor(categoryId, discovery.group), discovery.league) + '</select></label>' +
-    '<div class="team-carousel" tabindex="0" data-team-carousel style="--active-primary:' + esc(activeTeam?.primaryColor || "#d1a656") + ';--active-secondary:' + esc(activeTeam?.secondaryColor || "#101210") + '">' +
-    (logo ? '<img class="team-carousel__logo" src="' + esc(logo) + '" alt="">' : "") +
-    '<button class="team-carousel__arrow team-carousel__arrow--prev" type="button" data-discovery-prev aria-label="Equipe anterior"><span>&#8249;</span></button>' +
-    '<div class="team-carousel__stage">' + visibleItems + '</div>' +
-    '<button class="team-carousel__arrow team-carousel__arrow--next" type="button" data-discovery-next aria-label="Proxima equipe"><span>&#8250;</span></button>' +
-    carouselDots(teams, activeIndex) + '</div>' +
-    '<div class="team-carousel__selection"><div><p class="eyebrow"><span></span>EQUIPE SELECIONADA</p><h3>' + esc(activeTeam?.name || "") + '</h3><p>' + (discovery.loading ? "Consultando modelos..." : discovery.items.length + " modelo(s) carregado(s)") + '</p></div><button class="primary-button" type="button" data-discovery-products><span>VER CAMISAS</span><span>-&gt;</span></button></div>' +
-    '<div class="selected-team-products" id="selected-team-products"><div class="section-heading section-heading--compact"><div><p class="eyebrow"><span></span>CATALOGO DA EQUIPE</p><h2>CAMISAS DO ' + esc(activeTeam?.name || "").toUpperCase() + '</h2></div></div><div class="product-grid">' + selectedProducts + '</div><div class="load-more-row"><button type="button" class="secondary-catalog-button" data-team="' + esc(activeTeam.id) + '">VER TODOS OS MODELOS DA EQUIPE</button></div></div></section>';
+  const groups = [...new Set(teamsFor(categoryId,"","",discovery.kind).map(t=>t.group).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+  const teams = teamsFor(categoryId,discovery.group,discovery.league,discovery.kind);
+  const activeIndex = Math.max(0,teams.findIndex(t=>t.id===discovery.teamId));
+  const active = teams[activeIndex];
+  const page = Math.floor(activeIndex / 20);
+  const sports = categories.map(c=>'<button class="filter-chip '+(c.id===categoryId?'is-active':'')+'" type="button" data-discovery-category="'+esc(c.id)+'">'+esc(c.title)+'</button>').join('');
+  const kinds = [['clubes','Clubes / equipes'],['selecoes','Seleções']].filter(([kind])=>teamsFor(categoryId,"","",kind).length).map(([kind,name])=>'<button type="button" data-discovery-kind="'+kind+'" aria-pressed="'+(discovery.kind===kind)+'" class="'+(discovery.kind===kind?'is-active':'')+'">'+name+'</button>').join('');
+  const tiles = teams.slice(page*20,page*20+20).map((team,i)=>'<button type="button" class="roster-tile '+(team.id===active?.id?'is-selected':'')+'" data-discovery-team="'+esc(team.id)+'" aria-pressed="'+(team.id===active?.id)+'" aria-label="Selecionar '+esc(team.name)+'">'+crest(team)+'<span>'+esc(team.name)+'</span></button>').join('');
+  return '<section class="club-select" id="team-discovery"><div class="selector-heading"><div><p class="eyebrow"><span></span>VISTA SUA PAIXÃO</p><h2>ESCOLHA SUA <em>EQUIPE.</em></h2></div><p>O escudo vem primeiro.<br>A próxima camisa é sua.</p></div>'+
+    '<div class="discovery-sports filter-row" aria-label="Escolher esporte">'+sports+'</div><div class="selection-console"><div class="console-top"><span><i></i> SELEÇÃO DE EQUIPE</span><span>CAMISA 10 <b>/</b> MATCHDAY</span></div>'+
+    '<div class="selector-layout"><div class="roster-panel"><div class="roster-kind" aria-label="Tipo de equipe">'+kinds+'</div><div class="roster-filters"><label>PAÍS<select id="discovery-country-filter"><option value="">Todos os países</option>'+optionList(groups,discovery.group)+'</select></label><label>LIGA / COLEÇÃO<select id="discovery-league-filter"><option value="">Todas as ligas</option>'+optionList([...new Set(teamsFor(categoryId,discovery.group,"",discovery.kind).map(t=>t.league).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR")),discovery.league)+'</select></label></div><div class="roster-heading"><span>ENCONTRE SEU ESCUDO</span><span>'+teams.length+' EQUIPES</span></div><div class="crest-roster">'+(tiles||'<p>Nenhuma equipe neste filtro. Escolha outro país ou liga.</p>')+'</div><div class="roster-pagination"><button type="button" data-roster-page="-1" '+(page===0?'disabled':'')+' aria-label="Página anterior de equipes">←</button><span>'+Math.min(page+1,Math.ceil(teams.length/20))+' / '+Math.max(1,Math.ceil(teams.length/20))+'</span><button type="button" data-roster-page="1" '+((page+1)*20>=teams.length?'disabled':'')+' aria-label="Próxima página de equipes">→</button></div></div>'+
+    '<div class="selected-club" data-team-carousel tabindex="0" aria-label="Escolher equipe com as setas" style="--club-color:'+esc(teamBranding[active?.id]?.color || '#d1a656')+'"><div class="stadium-light"></div><div class="pitch-lines" aria-hidden="true"></div><p class="selection-step">01 <span>/</span> SUA EQUIPE</p><div class="crest-stage"><button type="button" data-discovery-prev aria-label="Equipe anterior" '+(!active?'disabled':'')+'>‹</button>'+(active?'<div class="hero-crest" key="'+esc(active.id)+'">'+crest(active)+'</div>':'')+'<button type="button" data-discovery-next aria-label="Proxima equipe" '+(!active?'disabled':'')+'>›</button></div><div class="selected-club-copy" aria-live="polite"><p>'+esc([active?.group,active?.league].filter(Boolean).join(' · '))+'</p><h3>'+esc(active?.name||'Escolha uma equipe')+'</h3><span class="selection-ready">'+(active?'EQUIPE SELECIONADA':'SELECIONE UM FILTRO')+'</span></div><button class="confirm-team" type="button" '+(active?'data-team="'+esc(active.id)+'"':'disabled')+'><span>VER CAMISAS DA EQUIPE</span><b>↗</b></button><p class="selector-hint">← → Navegue pelas equipes <span>•</span> No celular, deslize o escudo</p></div></div><div class="console-bottom"><span>SEU TIME. SUAS CORES.</span><span>02 / ESCOLHA A CAMISA <b>→</b></span></div></div></section>';
 }
 
 function renderHome() {
@@ -191,11 +172,13 @@ function renderProducts() {
   if (!team || team.hidden) return renderHome();
   const category = categoryFor(team.categoryId);
   const content = view.loading ? '<div class="catalog-loading"><span></span><p>Carregando modelos...</p></div>' : productGrid(view.items, "Os modelos desta equipe aparecerao aqui quando forem publicados.");
-  return '<section class="inner-page"><button type="button" class="back-button" data-category="' + esc(team.categoryId) + '">&lt;- Voltar para ' + esc(category?.title || "equipes") + '</button><div class="page-heading"><div><p class="eyebrow"><span></span>' + esc([category?.title, team.group].filter(Boolean).join(" / ")) + '</p><h1>' + esc(team.name) + '</h1></div><p>Escolha um modelo para abrir todas as fotos e solicitar pelo WhatsApp.</p></div><div class="product-grid">' + content + '</div>' + (view.hasMore ? '<div class="load-more-row"><button type="button" class="secondary-catalog-button" data-team-more ' + (view.loading ? 'disabled' : '') + '>CARREGAR MAIS MODELOS</button></div>' : '') + '</section>';
+  return '<section class="inner-page">' + crest(team, 'team-page-crest') + '<button type="button" class="back-button" data-category="' + esc(team.categoryId) + '">&lt;- Voltar para ' + esc(category?.title || "equipes") + '</button><div class="page-heading"><div><p class="eyebrow"><span></span>' + esc([category?.title, team.group].filter(Boolean).join(" / ")) + '</p><h1>' + esc(team.name) + '</h1></div><p>Escolha um modelo para abrir todas as fotos e solicitar pelo WhatsApp.</p></div><div class="product-grid">' + content + '</div>' + (view.hasMore ? '<div class="load-more-row"><button type="button" class="secondary-catalog-button" data-team-more ' + (view.loading ? 'disabled' : '') + '>CARREGAR MAIS MODELOS</button></div>' : '') + '</section>';
 }
 
 function render() {
   const focused = document.activeElement;
+  const carouselFocused = focused?.hasAttribute("data-team-carousel");
+  const selectedTile = focused?.getAttribute("data-discovery-team");
   const searchFocus = focused?.id === "team-search" ? { start: focused.selectionStart, end: focused.selectionEnd } : null;
   document.title = (data.settings.storeName || "Camisa 10") + " - Catalogo";
   $("#brand-name").textContent = (data.settings.storeName || "Camisa 10").toUpperCase();
@@ -205,6 +188,8 @@ function render() {
     $("#team-search").focus({ preventScroll: true });
     $("#team-search").setSelectionRange(searchFocus.start, searchFocus.end);
   }
+  if (carouselFocused) $("[data-team-carousel]")?.focus({preventScroll:true});
+  if (selectedTile) $$('[data-discovery-team]').find(el=>el.dataset.discoveryTeam===selectedTile)?.focus({preventScroll:true});
   const headerSearch = $("#header-search-input");
   if (headerSearch && document.activeElement !== headerSearch) headerSearch.value = view.name === "search" ? view.query : "";
   scheduleAutoplay();
@@ -272,9 +257,10 @@ async function changeDiscoveryScope(categoryId, group = "", league = "") {
   discovery.league = league;
   discovery.request++;
   discovery.categoryId = categoryId;
-  const groups = groupsFor(categoryId);
-  discovery.group = group && groups.includes(group) ? group : (groups[0] || "");
-  const first = teamsFor(discovery.categoryId, discovery.group, discovery.league)[0];
+  if (!teamsFor(categoryId,"","",discovery.kind).length) discovery.kind = teamsFor(categoryId,"","","clubes").length ? "clubes" : "selecoes";
+  const groups = [...new Set(teamsFor(categoryId,"","",discovery.kind).map(t=>t.group))];
+  discovery.group = group && groups.includes(group) ? group : "";
+  const first = teamsFor(discovery.categoryId, discovery.group, discovery.league, discovery.kind)[0];
   discovery.teamId = first?.id || "";
   discovery.items = [];
   if (first) await loadDiscoveryTeam(first.id);
@@ -320,7 +306,7 @@ async function performSearch(query, append = false) {
 
 function scheduleAutoplay() {
   clearTimeout(autoplayTimer);
-  const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league);
+  const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league, discovery.kind);
   if (view.name !== "home" || !data.settings.carouselAutoplay || teams.length < 2 || $("#details").open) return;
   const delay = Math.min(15, Math.max(3, Number(data.settings.carouselInterval) || 6)) * 1000;
   autoplayTimer = setTimeout(() => {
@@ -393,6 +379,10 @@ function closeDetails() {
 }
 
 document.addEventListener("click", async event => {
+  const kindButton = event.target.closest("[data-discovery-kind]");
+  if (kindButton) { discovery.kind=kindButton.dataset.discoveryKind; await changeDiscoveryScope(discovery.categoryId); return; }
+  const rosterButton = event.target.closest("[data-roster-page]");
+  if (rosterButton) { const teams=teamsFor(discovery.categoryId,discovery.group,discovery.league,discovery.kind);const index=Math.max(0,teams.findIndex(t=>t.id===discovery.teamId));const next=(Math.floor(index/20)+Number(rosterButton.dataset.rosterPage))*20;if(teams[next])await loadDiscoveryTeam(teams[next].id);return; }
   if (event.target.closest("[data-clear-filters]")) { Object.assign(homeCatalog,{categoryId:"",group:"",league:"",kind:"",variant:"",teamId:""}); await loadHomeCatalog(); return; }
   if (event.target.closest("[data-search-more]")) { await performSearch(view.query, true); return; }
   if (event.target.closest("[data-team-more]")) { await openTeamProducts(view.teamId, true); return; }
@@ -419,10 +409,10 @@ document.addEventListener("click", async event => {
   else if (target.hasAttribute("data-discovery-group")) await changeDiscoveryScope(discovery.categoryId, target.dataset.discoveryGroup);
   else if (target.hasAttribute("data-discovery-team")) await loadDiscoveryTeam(target.dataset.discoveryTeam);
   else if (target.hasAttribute("data-discovery-index")) {
-    const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league);
+    const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league, discovery.kind);
     if (teams[Number(target.dataset.discoveryIndex)]) await loadDiscoveryTeam(teams[Number(target.dataset.discoveryIndex)].id);
   } else if (target.hasAttribute("data-discovery-prev") || target.hasAttribute("data-discovery-next")) {
-    const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league);
+    const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league, discovery.kind);
     const index = Math.max(0, teams.findIndex(team => team.id === discovery.teamId));
     const direction = target.hasAttribute("data-discovery-prev") ? -1 : 1;
     if (teams.length) await loadDiscoveryTeam(teams[(index + direction + teams.length) % teams.length].id);
@@ -440,6 +430,7 @@ document.addEventListener("click", async event => {
 document.addEventListener("change", async event => {
   const field = {"home-league-filter":"league","home-kind-filter":"kind","home-variant-filter":"variant"}[event.target.id];
   if (field) { homeCatalog[field] = event.target.value; homeCatalog.teamId = ""; await loadHomeCatalog(); return; }
+  if (event.target.id === "discovery-country-filter") { await changeDiscoveryScope(discovery.categoryId,event.target.value); return; }
   if (event.target.id === "discovery-league-filter") { await changeDiscoveryScope(discovery.categoryId,discovery.group,event.target.value); return; }
   if (event.target.id !== "home-team-filter") return;
   homeCatalog.teamId = event.target.value;
@@ -467,9 +458,10 @@ document.addEventListener("keydown", event => {
     if (event.key === "ArrowRight") { event.preventDefault(); setDialogPhoto(galleryState.photoIndex + 1, 1); }
     return;
   }
+  if (view.name === "home" && event.target.matches("[data-team-carousel]") && event.key === "Enter" && discovery.teamId) { event.preventDefault(); openTeamProducts(discovery.teamId); return; }
   if (view.name === "home" && event.target.closest("[data-team-carousel]") && ["ArrowLeft", "ArrowRight"].includes(event.key)) {
     event.preventDefault();
-    const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league);
+    const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league, discovery.kind);
     const index = Math.max(0, teams.findIndex(team => team.id === discovery.teamId));
     if (teams.length) loadDiscoveryTeam(teams[(index + (event.key === "ArrowLeft" ? -1 : 1) + teams.length) % teams.length].id);
   }
@@ -489,7 +481,7 @@ document.addEventListener("pointerup", event => {
     const dx = event.clientX - carouselStart.x;
     const dy = event.clientY - carouselStart.y;
     if (Math.abs(dx) > 48 && Math.abs(dx) > Math.abs(dy)) {
-      const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league);
+      const teams = teamsFor(discovery.categoryId, discovery.group, discovery.league, discovery.kind);
       const index = Math.max(0, teams.findIndex(team => team.id === discovery.teamId));
       if (teams.length) loadDiscoveryTeam(teams[(index + (dx < 0 ? 1 : -1) + teams.length) % teams.length].id);
     }
@@ -512,13 +504,14 @@ $("#details").addEventListener("close", () => {
 });
 
 async function load() {
-  const bootstrap = await fetchJson("/api/catalog/bootstrap", { cache: "no-store" });
+  const [bootstrap, branding] = await Promise.all([fetchJson("/api/catalog/bootstrap", { cache: "no-store" }),fetchJson("/team-branding.json").catch(()=>({}))]);
+  teamBranding = branding;
   data = { settings: bootstrap.settings || {}, categories: bootstrap.categories || [], teams: bootstrap.teams || [] };
   const categories = visibleCategories();
   discovery.categoryId = data.settings.initialCategoryId && categories.some(category => category.id === data.settings.initialCategoryId) ? data.settings.initialCategoryId : (categories[0]?.id || "");
   const groups = groupsFor(discovery.categoryId);
   discovery.group = data.settings.initialGroup && groups.includes(data.settings.initialGroup) ? data.settings.initialGroup : (groups[0] || "");
-  discovery.teamId = teamsFor(discovery.categoryId, discovery.group, discovery.league)[0]?.id || "";
+  discovery.teamId = teamsFor(discovery.categoryId, discovery.group, discovery.league, discovery.kind)[0]?.id || "";
   const jobs = [
     fetchProducts({ featured: 1, limit: 8, offset: 0 }).then(page => { featuredProducts = page.items; }),
     fetchProducts({ limit: pageSize(), offset: 0 }).then(page => { homeCatalog.items = page.items; homeCatalog.hasMore = page.hasMore; })

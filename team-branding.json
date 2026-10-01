@@ -1,0 +1,1512 @@
+{
+  "team-automobilismo-alemanha-mercedes": {
+    "image": "/media/brands/8c9746c20b65b25be181b55fc8f37bda.png"
+  },
+  "team-automobilismo-estados-unidos-cadillac": {
+    "image": "/media/brands/af3ad8ecc04ac7385ffd9ce879bcb1e0.png"
+  },
+  "team-automobilismo-italia-ferrari": {
+    "image": "/media/brands/c75d4595504c447232d5c4bb25dcf67c.png"
+  },
+  "team-automobilismo-austria-red-bull-racing": {
+    "image": "/media/brands/b8a1f32cbc06015376fbe1bd1ef92e43.png"
+  },
+  "team-automobilismo-alemanha-audi": {
+    "image": "/media/brands/cf9b9a4a9bb6125a222f246e90beab62.png"
+  },
+  "team-futebol-espanha-sevilla": {
+    "image": "/media/brands/1d934d1239fc65c4eaef667ef464374d.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-espanha-real-madrid": {
+    "image": "/media/brands/6b0b9bab7a0770372ab75cf214ab8962.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-franca-psg": {
+    "image": "/media/brands/d82373d3e95dc1341c0a6852574133be.png",
+    "color": "#011F68"
+  },
+  "team-futebol-portugal-portugal": {
+    "image": "/media/brands/1c73b6936a941ec98ae666ea61dbbe0d.png",
+    "color": "#da291c"
+  },
+  "team-futebol-mexico-mexico": {
+    "image": "/media/brands/e65eaa46aa53b1d3f4a2c78504b5f944.png",
+    "color": "#006847"
+  },
+  "team-futebol-inglaterra-manchester-united": {
+    "image": "/media/brands/664d0eb3b134308f941da8e6382e20f9.png",
+    "color": "#da020e"
+  },
+  "team-futebol-irlanda-irlanda": {
+    "image": "/media/brands/a99ad8ad1c1988180c2a198d516baaea.png"
+  },
+  "team-futebol-alemanha-alemanha": {
+    "image": "/media/brands/81744f38ea75fdefeba4d228f3a7d978.png",
+    "color": "#FFFFFF"
+  },
+  "team-futebol-italia-fiorentina": {
+    "image": "/media/brands/b2b6ebb4cf18a35f0fd708d0e4daa072.png",
+    "color": "#4c1d84"
+  },
+  "team-futebol-inglaterra-inglaterra": {
+    "image": "/media/brands/4fcb8ca5d240841be74b0ebaa6d83707.png",
+    "color": "#FFFFFF"
+  },
+  "team-futebol-croacia-croacia": {
+    "image": "/media/brands/4d0a81c16f17ef7f3a6cfef0ae00a1fe.png",
+    "color": "#ff0000"
+  },
+  "team-futebol-alemanha-bayern-munich": {
+    "image": "/media/brands/07fcd40f20ba8f0b18b403c6613449d7.png",
+    "color": "#dc052d"
+  },
+  "team-futebol-espanha-barcelona": {
+    "image": "/media/brands/545419bb2f40a648c6467e8a10bd01a2.png",
+    "color": "#990000"
+  },
+  "team-futebol-argentina-argentina": {
+    "image": "/media/brands/a737437b1d8b3226d454639a72ba27df.png",
+    "color": "#74acdf"
+  },
+  "team-futebol-espanha-ud-almeria": {
+    "image": "/media/brands/e2233ac3265b6e04a2c1d5f3a1ac311d.png",
+    "color": "#C8142F"
+  },
+  "team-futebol-inglaterra-sunderland": {
+    "image": "/media/brands/8e3cdeb9baad552f4433ab79f3c0a7a4.png",
+    "color": "#EB172B"
+  },
+  "team-futebol-espanha-sporting-de-gijon": {
+    "image": "/media/brands/b1e6f99344db0d3ebcea85eeefc496d4.png",
+    "color": "#C8142F"
+  },
+  "team-futebol-espanha-real-valladolid": {
+    "image": "/media/brands/2738f822b6212f02917dc0a3d9ab6214.png",
+    "color": "#7a2d9d"
+  },
+  "team-futebol-espanha-real-sociedad": {
+    "image": "/media/brands/dc3fc34977e456d90c6a58dbfa880b82.png",
+    "color": "#3366CC"
+  },
+  "team-futebol-espanha-real-betis": {
+    "image": "/media/brands/73eea6fd581d8839c4231a1dbc9f7f9f.png",
+    "color": "#288A00"
+  },
+  "team-futebol-espanha-osasuna": {
+    "image": "/media/brands/a68df398708085e0c1d573402f7d03a9.png",
+    "color": "#cd0000"
+  },
+  "team-futebol-espanha-malaga": {
+    "image": "/media/brands/afe8a34070ee36a806760e13833917f5.png",
+    "color": "#b9e8f0"
+  },
+  "team-futebol-japao-japao": {
+    "image": "/media/brands/4a2ef57f745f24c52e8733a1cff78418.png",
+    "color": "#000555"
+  },
+  "team-futebol-inglaterra-hull-city": {
+    "image": "/media/brands/c5a54139254286cc14083b8103a7789c.png",
+    "color": "#f28800"
+  },
+  "team-futebol-alemanha-hamburger-sv": {
+    "image": "/media/brands/aae9d863ae57367e09a24e1a52c63615.png",
+    "color": "#1a26af"
+  },
+  "team-futebol-espanha-elche": {
+    "image": "/media/brands/d099c68416a64f17869d860e7d7ac34b.png",
+    "color": "#288A00"
+  },
+  "team-futebol-alemanha-dynamo-dresden": {
+    "image": "/media/brands/a9053dfbad68ffa214467a2e4716c712.png",
+    "color": "#f2a71d"
+  },
+  "team-futebol-inglaterra-derby-county": {
+    "image": "/media/brands/32a2c777a6207f83fcb4970135f8c345.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-espanha-deportivo-alaves": {
+    "image": "/media/brands/971ec444c9afdb30d13fd61c8ac8bd9c.png",
+    "color": "#0000ff"
+  },
+  "team-futebol-inglaterra-crystal-palace": {
+    "image": "/media/brands/657171029f885e2a97934664cf9fd4f8.png",
+    "color": "#0202fb"
+  },
+  "team-futebol-chile-colo-colo": {
+    "image": "/media/brands/5395fe50e5f8ff9b920529b0666a5761.png",
+    "color": "#050505"
+  },
+  "team-futebol-inglaterra-arsenal": {
+    "image": "/media/brands/9ccb335946107299818e6e2c39c970c5.png",
+    "color": "#e20520"
+  },
+  "team-futebol-brasil-nautico": {
+    "image": "/media/brands/85528fdeba786d0f6e48e926e0048083.png",
+    "color": "#C60000"
+  },
+  "team-futebol-brasil-santa-cruz": {
+    "image": "/media/brands/8a454b078574fb773c4b535ba8a33579.png"
+  },
+  "team-futebol-brasil-palmeiras": {
+    "image": "/media/brands/498825423e16bdbebc0b2364d1905e84.png",
+    "color": "#417505"
+  },
+  "team-futebol-brasil-internacional": {
+    "image": "/media/brands/543610a7c076b50207bc559062a4f94b.png",
+    "color": "#C60000"
+  },
+  "team-futebol-espanha-rayo-vallecano": {
+    "image": "/media/brands/6a6f4d839097f9cf72c77931270a9eb3.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-espanha-levante-ud": {
+    "image": "/media/brands/75794fdb1a82e4355546e973ac3807ad.png",
+    "color": "#C8142F"
+  },
+  "team-futebol-espanha-getafe": {
+    "image": "/media/brands/e7055ae7e4881a84e85149273676e62d.png",
+    "color": "#0000ff"
+  },
+  "team-futebol-espanha-celta-de-vigo": {
+    "image": "/media/brands/0d5ee633d9f7e09d92aa827143ed1cf6.png",
+    "color": "#6cace4"
+  },
+  "team-futebol-franca-olympique-de-marseille": {
+    "image": "/media/brands/a72d4449091b31ba67771a9446b27e3c.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-espanha-real-oviedo": {
+    "image": "/media/brands/586611d55c4f4ee4ebbd578519a1e37e.png",
+    "color": "#e23627"
+  },
+  "team-futebol-italia-venezia": {
+    "image": "/media/brands/e0f4d6a99328421158d219b473f52063.png",
+    "color": "#000000"
+  },
+  "team-futebol-espanha-valencia": {
+    "image": "/media/brands/cbea42e967d85654d6d121d15ae3cda1.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-portugal-sporting-cp": {
+    "image": "/media/brands/02862e69da0657055c40f05104867fc3.png",
+    "color": "#008127"
+  },
+  "team-futebol-espanha-espanha": {
+    "image": "/media/brands/684aee1087a881dd8a116c4734d28194.png",
+    "color": "#c60b1e"
+  },
+  "team-futebol-espanha-zaragoza": {
+    "image": "/media/brands/e26e3adaef31bb95135ed3a9949e2389.png"
+  },
+  "team-futebol-espanha-real-murcia": {
+    "image": "/media/brands/ccf0f950e244f1821a51c7fad50705f1.png"
+  },
+  "team-futebol-espanha-mallorca": {
+    "image": "/media/brands/e5b032d31496319989f2ce57baf18ce8.png",
+    "color": "#C8142F"
+  },
+  "team-futebol-espanha-racing-de-santander": {
+    "image": "/media/brands/8d00248eb14c47d4561a6047996c7351.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-portugal-porto": {
+    "image": "/media/brands/d1fd4480efe7143f312e8932ef5d2505.png",
+    "color": "#0000dd"
+  },
+  "team-futebol-franca-olympique-lyonnais": {
+    "image": "/media/brands/edaf7abce693a7b8ec9451d99683ffb1.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-espanha-leganes": {
+    "image": "/media/brands/7add55e3f64b7e7a77933a067679833d.png",
+    "color": "#6cace4"
+  },
+  "team-futebol-espanha-granada": {
+    "image": "/media/brands/caebee3678102bf34d92a02511715d06.png",
+    "color": "#C8142F"
+  },
+  "team-futebol-espanha-deportivo-la-coruna": {
+    "image": "/media/brands/2436a4e0f8fee02bd0e4dc6c98d6dd9d.png"
+  },
+  "team-futebol-colombia-colombia": {
+    "image": "/media/brands/a263e56e26fa9f95f9c8a07603084616.png",
+    "color": "#fbd632"
+  },
+  "team-futebol-espanha-cadiz": {
+    "image": "/media/brands/2fe7e004946003a51eb6dac503ecd0b1.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-espanha-burgos": {
+    "image": "/media/brands/f5834ee75944287bb32ce72ccf0e3ec0.png",
+    "color": "#000000"
+  },
+  "team-futebol-portugal-braga": {
+    "image": "/media/brands/7a113a10ffb56f3912b26b0336f24c95.png",
+    "color": "#de1f26"
+  },
+  "team-futebol-portugal-benfica": {
+    "image": "/media/brands/32f88392e44a8b5c693bc13033000a77.png",
+    "color": "#ca281d"
+  },
+  "team-futebol-espanha-atletico-madrid": {
+    "image": "/media/brands/0a19237e80a62e7502552359857068ad.png",
+    "color": "#ca3624"
+  },
+  "team-futebol-portugal-alverca": {
+    "image": "/media/brands/b556effda1ecbdf5c443d086a8745bc7.png",
+    "color": "#0047AB"
+  },
+  "team-futebol-espanha-albacete": {
+    "image": "/media/brands/0e5c77f8b449e25fab9907d4ef4e9619.png",
+    "color": "#BC0814"
+  },
+  "team-futebol-brasil-santos": {
+    "image": "/media/brands/d674914993993b98987f69d44973c175.png"
+  },
+  "team-futebol-brasil-corinthians": {
+    "image": "/media/brands/9891040c9ce0bce3c466530abf9301ea.png",
+    "color": "#000000"
+  },
+  "team-futebol-brasil-atletico-mineiro": {
+    "image": "/media/brands/b60c08fd1f767fbaf0137b8b37c8a17e.png",
+    "color": "#000000"
+  },
+  "team-futebol-espanha-recreativo-de-huelva": {
+    "image": "/media/brands/859a125b194397520162470769699344.png"
+  },
+  "team-futebol-portugal-famalicao": {
+    "image": "/media/brands/c4ccefa4a6489b832ddb418398713dab.png",
+    "color": "#FFFFFF"
+  },
+  "team-futebol-inglaterra-wolves": {
+    "image": "/media/brands/efbd01bcaac12cb152179a281b54ec8a.png",
+    "color": "#fdb913"
+  },
+  "team-futebol-inglaterra-west-ham-united": {
+    "image": "/media/brands/0978c7fb7c7806f9a6b9ca8d4abf3d9f.png",
+    "color": "#7c2c3b"
+  },
+  "team-futebol-inglaterra-west-bromwich-albion": {
+    "image": "/media/brands/26acbf241b331e5c80f27d34d5937592.png",
+    "color": "#091453"
+  },
+  "team-futebol-alemanha-wattenscheid": {
+    "image": "/media/brands/574ae96209b4a2cece2076a1cfcf3d19.png"
+  },
+  "team-futebol-inglaterra-watford": {
+    "image": "/media/brands/21dccad885425924d03f84172fc7b90c.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-alemanha-vfb-stuttgart": {
+    "image": "/media/brands/fa2cb64f3b48ce4783d80626342d709b.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-italia-sampdoria": {
+    "image": "/media/brands/5f19188f98682e8d702d4194284e5ebc.png",
+    "color": "#2234a4"
+  },
+  "team-futebol-alemanha-tsv-1860-munich": {
+    "image": "/media/brands/e19904f13c488fe583cdc3077ff41764.png"
+  },
+  "team-futebol-franca-toulouse": {
+    "image": "/media/brands/f273d0c53986ff216afa21b7e754d43f.png",
+    "color": "#560080"
+  },
+  "team-futebol-italia-torino": {
+    "image": "/media/brands/43abea56d19259489f91b36bcea6383a.png",
+    "color": "#9f0000"
+  },
+  "team-futebol-mexico-toluca": {
+    "image": "/media/brands/c6a736b5f7364840701c2eecbaa1dda2.png",
+    "color": "#EF0107"
+  },
+  "team-futebol-alemanha-werder-bremen": {
+    "image": "/media/brands/fb943f195238ea932cb7c44e88d73c2c.png",
+    "color": "#03915c"
+  },
+  "team-futebol-inglaterra-stoke-city": {
+    "image": "/media/brands/61922172371f5cdca21c58bcbd70e69d.png",
+    "color": "#f42727"
+  },
+  "team-futebol-franca-rc-strasbourg": {
+    "image": "/media/brands/b04b7e0254327efa287fc30e4e71beb6.png",
+    "color": "#0000bf"
+  },
+  "team-futebol-franca-rc-lens": {
+    "image": "/media/brands/38bf88e115acc6746b3c8c54fca6f38e.png",
+    "color": "#E91514"
+  },
+  "team-futebol-inglaterra-nottingham-forest": {
+    "image": "/media/brands/52828a7365f3d2f853be579b5789c014.png",
+    "color": "#c8102e"
+  },
+  "team-futebol-italia-napoli": {
+    "image": "/media/brands/307cbddd83c59faac0155ae7189ed376.png",
+    "color": "#0677d2"
+  },
+  "team-futebol-inglaterra-fulham": {
+    "image": "/media/brands/dd4bf81d56f200e322d1ff8af141c848.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-turquia-fenerbahce": {
+    "image": "/media/brands/c045efb97ffc08b60b7dd24854fc9f0b.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-espanha-cultural-leonesa": {
+    "image": "/media/brands/e91f409e1f47921e915abda491330fbd.png"
+  },
+  "team-futebol-mexico-cruz-azul": {
+    "image": "/media/brands/f2c00db9692ca717589d634d45c306c5.png",
+    "color": "#0000ff"
+  },
+  "team-futebol-inglaterra-coventry-city": {
+    "image": "/media/brands/4100d528b6952b6fccbc0f75941f2363.png",
+    "color": "#87cced"
+  },
+  "team-futebol-mexico-club-leon": {
+    "image": "/media/brands/a96d14da31e23b8b4ceee9d42916659a.png",
+    "color": "#008000"
+  },
+  "team-futebol-mexico-chivas": {
+    "image": "/media/brands/d68671aace8f46a65caf6946a5b190a4.png",
+    "color": "#EF0107"
+  },
+  "team-futebol-estados-unidos-chicago-fire": {
+    "image": "/media/brands/d2b4623bb2cbde2d3cdd5b9ac0a15ef7.png",
+    "color": "#7ccdef"
+  },
+  "team-futebol-inglaterra-burnley": {
+    "image": "/media/brands/fc3daf34b1f8a6c3dbf9b5477a8fdc5c.png",
+    "color": "#6C1D45"
+  },
+  "team-futebol-inglaterra-brighton": {
+    "image": "/media/brands/579aefa8cd8b24f6e283e5715bd28d2a.png",
+    "color": "#0606fa"
+  },
+  "team-futebol-alemanha-borussia-monchengladbach": {
+    "image": "/media/brands/0ec22a981c364bec784faec5c818e3e3.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-inglaterra-blackburn-rovers": {
+    "image": "/media/brands/e3a5889db7c24f785c77da806c20a5bf.png",
+    "color": "#0000fa"
+  },
+  "team-futebol-turquia-besiktas": {
+    "image": "/media/brands/a0dd461e275e32cf5173f0dc52b60f84.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-mexico-atletico-san-luis": {
+    "image": "/media/brands/94ac0ed0f77418283a36ecb5cb08faa0.png",
+    "color": "#EF0107"
+  },
+  "team-futebol-mexico-atlante-fc": {
+    "image": "/media/brands/4a3046c01111d3765481d2ff6a5f2652.png",
+    "color": "#022789"
+  },
+  "team-futebol-franca-as-saint-etienne": {
+    "image": "/media/brands/d77009fb672f01db4c0cf8cf38040807.png",
+    "color": "#51cc5f"
+  },
+  "team-futebol-franca-monaco": {
+    "image": "/media/brands/f36451959ce90715a6e9279d600a5b5f.png",
+    "color": "#E91514"
+  },
+  "team-futebol-inglaterra-afc-bournemouth": {
+    "image": "/media/brands/9755380ff022d7fdd9b1f58eac02c3f9.png",
+    "color": "#f42727"
+  },
+  "team-futebol-brasil-cruzeiro": {
+    "image": "/media/brands/ed2e1e6d90ce60b5a5945f693dbf78c2.png",
+    "color": "#0093EC"
+  },
+  "team-futebol-brasil-gremio": {
+    "image": "/media/brands/9c5242af291e7bff11cf18abadc27b97.png",
+    "color": "#0093EC"
+  },
+  "team-automobilismo-reino-unido-mclaren": {
+    "image": "/media/brands/c89b8d2207078dc9fa782f1b88d36ef9.png"
+  },
+  "team-futebol-escocia-rangers": {
+    "image": "/media/brands/17d6513f41fc1fc34198bc6961ab7a7f.png",
+    "color": "#0046ff"
+  },
+  "team-futebol-escocia-celtic": {
+    "image": "/media/brands/fdb3a6022e6c9cb529360f508742e9d0.png",
+    "color": "#009921"
+  },
+  "team-futebol-chile-universidad-de-chile": {
+    "image": "/media/brands/c18ebb1680c2f610ad01f18f08a898cc.png",
+    "color": "#0232cc"
+  },
+  "team-futebol-chile-universidad-catolica": {
+    "image": "/media/brands/7efc9e7397542356097cc58fec467c63.png",
+    "color": "#0a4f8d"
+  },
+  "team-futebol-canada-toronto-fc": {
+    "image": "/media/brands/9127bc4005fae2ce0dad7e8559889453.png",
+    "color": "#aa182c"
+  },
+  "team-futebol-mexico-tigres-uanl": {
+    "image": "/media/brands/c66e4845c7cc126f9d07fca9eb2e0105.png",
+    "color": "#ffd011"
+  },
+  "team-futebol-franca-stade-rennais": {
+    "image": "/media/brands/e7a4e0768592b0e5cf83e725c00129b6.png",
+    "color": "#ef2f24"
+  },
+  "team-futebol-estados-unidos-e-canada-san-diego-fc": {
+    "image": "/media/brands/127a32ef445315af0b29398d3e516833.png",
+    "color": "#697a7C"
+  },
+  "team-futebol-mexico-pumas-unam": {
+    "image": "/media/brands/65ee4867549ca1ab7dd7c5e39d533e74.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-africa-do-sul-orlando-pirates": {
+    "image": "/media/brands/cae1468817e0b67fd6fa05f12c132b60.png",
+    "color": "#000000"
+  },
+  "team-futebol-grecia-olympiacos": {
+    "image": "/media/brands/2215f84fa31cfa8d2ca23d563efe8d5f.png",
+    "color": "#d01729"
+  },
+  "team-futebol-estados-unidos-e-canada-los-angeles-fc": {
+    "image": "/media/brands/9c21b861c517d2c423a41c3b9afc1da5.png",
+    "color": "#000000"
+  },
+  "team-futebol-estados-unidos-e-canada-la-galaxy": {
+    "image": "/media/brands/e30d7ea22e01e8fc3ff4e1dd1676d1b6.png",
+    "color": "#00235d"
+  },
+  "team-futebol-estados-unidos-e-canada-inter-miami": {
+    "image": "/media/brands/2c6cbf5655536d8c8f9d1be8db65817c.png",
+    "color": "#231f20"
+  },
+  "team-futebol-mexico-club-america": {
+    "image": "/media/brands/2711871235225f88f85feddd763d2f94.png",
+    "color": "#ffff91"
+  },
+  "team-futebol-chile-chile": {
+    "image": "/media/brands/ec7f9ca3c370bd79eef882c6221ebe15.png",
+    "color": "#d3362a"
+  },
+  "team-futebol-canada-cf-montreal": {
+    "image": "/media/brands/7278890432261efef571fa6ec0597492.png",
+    "color": "#003da6"
+  },
+  "team-futebol-mexico-atlas": {
+    "image": "/media/brands/b071b074b87413858c7d50f6f5b9d688.png",
+    "color": "#EF0107"
+  },
+  "team-futebol-italia-atalanta": {
+    "image": "/media/brands/b23238054fa57d8b5da56b65c55ea4c0.png",
+    "color": "#1157bf"
+  },
+  "team-futebol-italia-roma": {
+    "image": "/media/brands/e168723b8c812e92134f9174c50a1e8d.png",
+    "color": "#990a2c"
+  },
+  "team-futebol-italia-parma-calcio": {
+    "image": "/media/brands/8ff3ea69b3834624cc23d3ffe40bb2aa.png",
+    "color": "#19161D"
+  },
+  "team-futebol-italia-ac-milan": {
+    "image": "/media/brands/ec4cdaccef7f46329f47a1aa4dc8019e.png",
+    "color": "#e4002b"
+  },
+  "team-futebol-italia-perugia": {
+    "image": "/media/brands/ad181b799833c2885be4566b4e3e2bf3.png"
+  },
+  "team-futebol-italia-lazio": {
+    "image": "/media/brands/5a70142586fbc4da88b74a1a574b102c.png",
+    "color": "#74bde7"
+  },
+  "team-futebol-italia-inter-milan": {
+    "image": "/media/brands/c6097bc86cf9eced8e3dea735f8698d4.png",
+    "color": "#00239c"
+  },
+  "team-futebol-italia-como": {
+    "image": "/media/brands/b5fcd4772270cd34c8f1183ee0d13461.png",
+    "color": "#4169E1"
+  },
+  "team-futebol-italia-cagliari": {
+    "image": "/media/brands/64bf69dcac0b5e0da169770caeb0c8e6.png",
+    "color": "#282846"
+  },
+  "team-futebol-italia-bologna": {
+    "image": "/media/brands/dbb0b1107a115ed77b96f30e45ef7df3.png",
+    "color": "#04043d"
+  },
+  "team-futebol-alemanha-schalke-04": {
+    "image": "/media/brands/200e98cc02e4b0bc2ba7854bd88664cb.png",
+    "color": "#0000dd"
+  },
+  "team-futebol-alemanha-borussia-dortmund": {
+    "image": "/media/brands/1d45340173cd76229b1db70ca7b92491.png",
+    "color": "#ffee00"
+  },
+  "team-futebol-inglaterra-aston-villa": {
+    "image": "/media/brands/c275d579f1b7a4d5ce0b892886ae336c.png",
+    "color": "#660e36"
+  },
+  "team-futebol-inglaterra-chelsea": {
+    "image": "/media/brands/eaabb3995384efc089bf9bd4489168c3.png",
+    "color": "#144992"
+  },
+  "team-futebol-inglaterra-norwich-city": {
+    "image": "/media/brands/fddaed9c91c1499ee9f386288f6462d3.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-inglaterra-newcastle-united": {
+    "image": "/media/brands/062eabdac65b09d2b51edc480f26d48c.png",
+    "color": "#000000"
+  },
+  "team-futebol-inglaterra-manchester-city": {
+    "image": "/media/brands/3e9f9da7593e8aa99216a4bc14803a63.png",
+    "color": "#99c5ea"
+  },
+  "team-futebol-alemanha-st-pauli": {
+    "image": "/media/brands/998af30816430831f86c7df4d3dfd268.png",
+    "color": "#442e23"
+  },
+  "team-futebol-alemanha-1-fc-koln": {
+    "image": "/media/brands/cc4925ab9b11362bcb3cc44733c9ce68.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-espanha-villarreal": {
+    "image": "/media/brands/9611443b459252444281ed6651874dfe.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-espanha-ceuta": {
+    "image": "/media/brands/52ce3b773536d83dcca61d22fabd7386.png",
+    "color": "#000000"
+  },
+  "team-futebol-espanha-athletic-bilbao": {
+    "image": "/media/brands/df9093c7751c2e8a8e828819d06b37bb.png",
+    "color": "#C8142F"
+  },
+  "team-futebol-brasil-vasco-da-gama": {
+    "image": "/media/brands/39bfe18700223e830699b1685a94cc06.png",
+    "color": "#000000"
+  },
+  "team-futebol-brasil-sao-paulo": {
+    "image": "/media/brands/600582bc0ad6fc0c47400a3f7cf2f79d.png",
+    "color": "#C60000"
+  },
+  "team-futebol-brasil-fluminense": {
+    "image": "/media/brands/253ede12d257d56f92f72865977c7f64.png",
+    "color": "#7E0202"
+  },
+  "team-futebol-brasil-flamengo": {
+    "image": "/media/brands/d5e2a57d7df41021d8da5af2abb19630.png",
+    "color": "#C60000"
+  },
+  "team-futebol-brasil-brasil": {
+    "image": "/media/brands/29956567367d7593a887761fcef2b579.png",
+    "color": "#fee000"
+  },
+  "team-futebol-brasil-botafogo": {
+    "image": "/media/brands/0dff3441044512db2f40fea3188c63e4.png",
+    "color": "#000000"
+  },
+  "team-futebol-brasil-bahia": {
+    "image": "/media/brands/0b528ed963c6d8911c64ccc58e73ccad.png",
+    "color": "#C60000"
+  },
+  "team-futebol-brasil-vitoria": {
+    "image": "/media/brands/5f8ed4dc247af27da4274fe459725e92.png"
+  },
+  "team-futebol-mexico-monterrey": {
+    "image": "/media/brands/8489d0943e5fb546300321b00514b360.png",
+    "color": "#001C58"
+  },
+  "team-futebol-pais-de-gales-wrexham": {
+    "image": "/media/brands/cef83304ce77391504c244b49b9ab2ab.png",
+    "color": "#C8142F"
+  },
+  "team-futebol-espanha-las-palmas": {
+    "image": "/media/brands/d14e05cac2003257bd560e384ca8eb1d.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-espanha-tenerife": {
+    "image": "/media/brands/f6565b460ee7445bc194ba961bb45655.png",
+    "color": "#008bc4"
+  },
+  "team-futebol-inglaterra-sheffield-wednesday": {
+    "image": "/media/brands/18d3c139b8b8eda1bf0f3cb295b7bd97.png",
+    "color": "#0000ff"
+  },
+  "team-futebol-inglaterra-sheffield-united": {
+    "image": "/media/brands/90969f5884bf50ed4dc537fcfe968b84.png",
+    "color": "#f42727"
+  },
+  "team-futebol-espanha-espanyol": {
+    "image": "/media/brands/e8e3d4a33a3a846e8cc09e456ff26a8f.png",
+    "color": "#3366CC"
+  },
+  "team-futebol-inglaterra-leeds-united": {
+    "image": "/media/brands/369e54f9761c1ee183d1a08ed4d6a411.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-alemanha-nurnberg-fc": {
+    "image": "/media/brands/a27547f2f37061e609e3f0998428f545.png",
+    "color": "#9f0000"
+  },
+  "team-futebol-alemanha-eintracht-frankfurt": {
+    "image": "/media/brands/27f70d2584ef33623a49921c4f593cf1.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-inglaterra-bolton-wanderers": {
+    "image": "/media/brands/903c4eb20f532450a952d931236402d9.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-inglaterra-birmingham-city": {
+    "image": "/media/brands/5bcb1a6c2cceed1a9e0c140ca31ba026.png",
+    "color": "#0000fa"
+  },
+  "team-futebol-espanha-cordoba": {
+    "image": "/media/brands/8a26317c21c204b0fda0a274ea9dcbaa.png",
+    "color": "#288A00"
+  },
+  "team-futebol-alemanha-tsg-hoffenheim": {
+    "image": "/media/brands/bd975768d7ac6a7ebfbb123072730ec3.png",
+    "color": "#003399"
+  },
+  "team-futebol-inglaterra-portsmouth": {
+    "image": "/media/brands/09a29a8d593c0684efc1873988b2c50f.png",
+    "color": "#0000fa"
+  },
+  "team-futebol-franca-paris-fc": {
+    "image": "/media/brands/5b76fc2678f2e7f40896670427653798.png",
+    "color": "#000000"
+  },
+  "team-futebol-franca-nantes": {
+    "image": "/media/brands/57595eb90348572eb3af3dee12b49b98.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-inglaterra-middlesbrough": {
+    "image": "/media/brands/3fc5a3767ec3e2ae605adbd70f18e376.png",
+    "color": "#f42727"
+  },
+  "team-futebol-alemanha-freiburg": {
+    "image": "/media/brands/575f9fcf3a8c7126b753d06ca9542664.png",
+    "color": "#DA0308"
+  },
+  "team-futebol-inglaterra-everton": {
+    "image": "/media/brands/9e98bf04b25c96dec9a8a79175cd6ef9.png",
+    "color": "#0606fa"
+  },
+  "team-futebol-inglaterra-cardiff-city": {
+    "image": "/media/brands/fac7e6ce19d69dcb597f598bb8d06531.png",
+    "color": "#0000fa"
+  },
+  "team-futebol-arabia-saudita-al-nassr": {
+    "image": "/media/brands/1910cab422766b42debfd748d9f7af1b.png",
+    "color": "#f7f316"
+  },
+  "team-futebol-inglaterra-tottenham-hotspur": {
+    "image": "/media/brands/9732b8bccc164215e1eb77e792d670df.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-argentina-boca-juniors": {
+    "image": "/media/brands/eb892a1cd83eddcfe9140eb334906fbb.png",
+    "color": "#fcb000"
+  },
+  "team-futebol-holanda-ajax": {
+    "image": "/media/brands/f76d053fd2d394d07b04e73f622cf3df.png",
+    "color": "#DF1B27"
+  },
+  "team-futebol-canada-vancouver-whitecaps": {
+    "image": "/media/brands/c17370cd6dcfd38f8f9cd29b7fe051d5.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-holanda-psv-eindhoven": {
+    "image": "/media/brands/b658fba5e772a9bbf92670d850ed7e8f.png",
+    "color": "#ef2f24"
+  },
+  "team-futebol-uruguai-penarol": {
+    "image": "/media/brands/cdae16110bf390132d2ce67c9f321fd2.png",
+    "color": "#000000"
+  },
+  "team-futebol-inglaterra-leicester-city": {
+    "image": "/media/brands/28cfbc462017f54a195c122acdfcb7b5.png",
+    "color": "#0202fb"
+  },
+  "team-futebol-espanha-girona": {
+    "image": "/media/brands/24bd168de9b2ee41ff402be826e89505.png",
+    "color": "#C60000"
+  },
+  "team-futebol-alemanha-fortuna-dusseldorf": {
+    "image": "/media/brands/63607c4c9ffdf1800897afdd0671bce8.png"
+  },
+  "team-futebol-belgica-belgica": {
+    "image": "/media/brands/1e4fd3d2f4b53afd4b0c7236aa6fb093.png",
+    "color": "#E30613"
+  },
+  "team-futebol-argentina-river-plate": {
+    "image": "/media/brands/e1413541cc7648061349ad4f01a96b40.png",
+    "color": "#C60000"
+  },
+  "team-futebol-grecia-panathinaikos": {
+    "image": "/media/brands/93b10fecefd4bf1cf1378ea2f43052cc.png",
+    "color": "#2b6a36"
+  },
+  "team-futebol-escocia-dundee-united": {
+    "image": "/media/brands/9f345adb3260aec4380532a1e35034e6.png",
+    "color": "#FF621A"
+  },
+  "team-futebol-brasil-remo": {
+    "image": "/media/brands/da0a5999b6f658e828e6e6e445ea6e4b.png",
+    "color": "#265891"
+  },
+  "team-futebol-tunisia-tunisia": {
+    "image": "/media/brands/ef711ddf9867f520e7f79d358f328ebe.png",
+    "color": "#D20300"
+  },
+  "team-futebol-senegal-senegal": {
+    "image": "/media/brands/f176ddba2c47c63f16d3796f735618cb.png",
+    "color": "#FFFFFF"
+  },
+  "team-futebol-inglaterra-millwall": {
+    "image": "/media/brands/e53b41322bfe4224d113392da5a0391d.png",
+    "color": "#091453"
+  },
+  "team-futebol-escocia-hearts": {
+    "image": "/media/brands/dbdb20792b463a4c91d9492b67ae6496.png",
+    "color": "#8E003B"
+  },
+  "team-futebol-franca-franca": {
+    "image": "/media/brands/61ab2f906e7d63282ce0e2a5a4e8ae30.png",
+    "color": "#000080"
+  },
+  "team-futebol-inglaterra-doncaster": {
+    "image": "/media/brands/05c8ccb5033b773b5ea79b239feef6c9.png",
+    "color": "#C8142F"
+  },
+  "team-futebol-congo-congo": {
+    "image": "/media/brands/e0fc75540eadc75fe932a8232ce9cd95.png",
+    "color": "#d50032"
+  },
+  "team-futebol-irlanda-bohemians": {
+    "image": "/media/brands/e07bfe53a8fed5fffddbf43a24b89351.png"
+  },
+  "team-futebol-alemanha-hannover-96": {
+    "image": "/media/brands/eaffb76651d4ad16e2dcf8d04815af7a.png",
+    "color": "#179D33"
+  },
+  "team-futebol-inglaterra-brentford": {
+    "image": "/media/brands/203c7c849efeee5453c93bf4c114dd55.png",
+    "color": "#f42727"
+  },
+  "team-futebol-italia-palermo": {
+    "image": "/media/brands/2b3b02394fe5c579c10b9887db431ebf.png",
+    "color": "#F9BED4"
+  },
+  "team-futebol-estados-unidos-e-canada-new-york-city-fc": {
+    "image": "/media/brands/b370e9080b08aded5eee50653934530c.png",
+    "color": "#9fd2ff"
+  },
+  "team-futebol-inglaterra-ipswich-town": {
+    "image": "/media/brands/3ae4d86323ba5323c7c610ee4dd79d06.png",
+    "color": "#0000fa"
+  },
+  "team-futebol-holanda-feyenoord": {
+    "image": "/media/brands/a6d85f2f90423d66701f6a80cc2d40e8.png",
+    "color": "#ef2f24"
+  },
+  "team-futebol-japao-yokohama-f-marinos": {
+    "image": "/media/brands/e0433c6065f9d3babce1effdf6c067ce.png",
+    "color": "#000000"
+  },
+  "team-futebol-japao-vissel-kobe": {
+    "image": "/media/brands/6a7ffb59a6accb216023dcbb4b8925c5.png",
+    "color": "#000000"
+  },
+  "team-futebol-argentina-velez-sarsfield": {
+    "image": "/media/brands/0bfc20113efc92af227b66932cceb056.png",
+    "color": "#0070b0"
+  },
+  "team-futebol-uruguai-uruguai": {
+    "image": "/media/brands/e887046a8c24c9c45e6382f7aa94e4fe.png",
+    "color": "#55B5E5"
+  },
+  "team-futebol-japao-shimizu-s-pulse": {
+    "image": "/media/brands/eec89587e070afcf17cfa36079b34aee.png",
+    "color": "#ed561d"
+  },
+  "team-futebol-japao-sanfrecce-hiroshima": {
+    "image": "/media/brands/1bdb7d940e06509cac2c9c493eb246f5.png",
+    "color": "#69519F"
+  },
+  "team-futebol-estados-unidos-e-canada-new-york-red-bulls": {
+    "image": "/media/brands/1f2be0d3c9c711c39698b43d90109e35.png",
+    "color": "#ba0c2f"
+  },
+  "team-futebol-brasil-red-bull-bragantino": {
+    "image": "/media/brands/bfb14bfa8db31abdac1ea3e88f17deeb.png",
+    "color": "#000000"
+  },
+  "team-futebol-japao-nagoya-grampus": {
+    "image": "/media/brands/42eea528513e66431302b3b7222d0337.png",
+    "color": "#000000"
+  },
+  "team-futebol-japao-kyoto-sanga": {
+    "image": "/media/brands/02875f86f61db32a4a5c87f78be4ac1f.png",
+    "color": "#000000"
+  },
+  "team-futebol-japao-kawasaki-frontale": {
+    "image": "/media/brands/0551b30397a5922fd93314bb0d238089.png",
+    "color": "#b0d5fc"
+  },
+  "team-futebol-japao-kashiwa-reysol": {
+    "image": "/media/brands/23b724a85bb4b8a32ff2d790e911a221.png",
+    "color": "#000000"
+  },
+  "team-futebol-japao-kashima-antlers": {
+    "image": "/media/brands/93ba39f18d2f2ab3ed534154bd3a1f3a.png",
+    "color": "#EF0107"
+  },
+  "team-futebol-japao-gamba-osaka": {
+    "image": "/media/brands/bf32369df196e56249caad1ac2337dc3.png",
+    "color": "#0105bc"
+  },
+  "team-futebol-japao-fc-tokyo": {
+    "image": "/media/brands/2076a516f2062f0b17e1085309bd0740.png",
+    "color": "#000000"
+  },
+  "team-futebol-estados-unidos-e-canada-charlotte-fc": {
+    "image": "/media/brands/28e769cbe6211bf3d08a5888f4c9d788.png",
+    "color": "#0085ca"
+  },
+  "team-futebol-japao-cerezo-osaka": {
+    "image": "/media/brands/3fe18c562e167563f615daae3f6c13f1.png",
+    "color": "#FFC0CB"
+  },
+  "team-futebol-japao-avispa-fukuoka": {
+    "image": "/media/brands/9707ece9e31513af94cc3df92d8ed1ca.png",
+    "color": "#000000"
+  },
+  "team-futebol-argentina-argentinos-juniors": {
+    "image": "/media/brands/27b865afb238f8f99ab71cb9189c0cf1.png",
+    "color": "#C60000"
+  },
+  "team-futebol-inglaterra-queens-park-rangers": {
+    "image": "/media/brands/8795d4a6af0414cde66ecd02bf892678.png",
+    "color": "#0000d4"
+  },
+  "team-futebol-inglaterra-preston": {
+    "image": "/media/brands/f2962f924fbd9d533c95b34df0fb7200.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-alemanha-kaiserslautern": {
+    "image": "/media/brands/94fb920e9c04701f6e16ead961db8bdd.png",
+    "color": "#8C273D"
+  },
+  "team-futebol-alemanha-union-berlin": {
+    "image": "/media/brands/9be5bd92cdd2b1754f6e492abe0466c4.png",
+    "color": "#DA0308"
+  },
+  "team-futebol-holanda-holanda": {
+    "image": "/media/brands/f543ce9123be2ed2c1433ea6ce5786bd.png",
+    "color": "#fb5d00"
+  },
+  "team-futebol-brasil-sport-recife": {
+    "image": "/media/brands/cb6207f5399de9cd7866eb8575e6d097.png",
+    "color": "#C60000"
+  },
+  "team-futebol-alemanha-karlsruher": {
+    "image": "/media/brands/974df6ab03fd9b6b401adaa5833e4353.png",
+    "color": "#2563B8"
+  },
+  "team-futebol-grecia-aek-athens": {
+    "image": "/media/brands/67c444439b138b1598e14ff35a1790ea.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-escocia-aberdeen": {
+    "image": "/media/brands/1884e838337937e6f966bf0d6258fb73.png",
+    "color": "#C8142F"
+  },
+  "team-futebol-estados-unidos-estados-unidos": {
+    "image": "/media/brands/80a9269b3fcc4fe422a229741b66748a.png",
+    "color": "#213065"
+  },
+  "team-futebol-venezuela-venezuela": {
+    "image": "/media/brands/102f28c44269bf0bb012d21c3e1793c3.png",
+    "color": "#d02a36"
+  },
+  "team-futebol-turquia-galatasaray": {
+    "image": "/media/brands/b502c6a3456e88b3075bcffde36d0091.png",
+    "color": "#aa0031"
+  },
+  "team-futebol-argentina-atletico-rosario-central": {
+    "image": "/media/brands/7a05d5df6be70610cfd90fa6075c42d8.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-tchecoslovaquia-historica-tchecoslovaquia": {
+    "image": "/media/brands/bce4b45c9a7f5885a668906fc9082ea5.png"
+  },
+  "team-futebol-canada-canada": {
+    "image": "/media/brands/c4de76f7b932af3f635006f80cd51056.png",
+    "color": "#000000"
+  },
+  "team-futebol-dinamarca-brndby": {
+    "image": "/media/brands/83579110f1a14917e613b390cde161f2.png",
+    "color": "#ffff00"
+  },
+  "team-futebol-bulgaria-bulgaria": {
+    "image": "/media/brands/27a44c5c396ef4316fa184f5768ec11e.png",
+    "color": "#d62612"
+  },
+  "team-futebol-italia-padova": {
+    "image": "/media/brands/2e2626c9eb5a99d1a186d888e7a732b1.png",
+    "color": "#aa0001"
+  },
+  "team-futebol-argelia-argelia": {
+    "image": "/media/brands/b62d74e3dc9dedfc0bcd522c9b0dde79.png",
+    "color": "#4F9A44"
+  },
+  "team-futebol-austria-austria": {
+    "image": "/media/brands/a41ec1393221efc7fa63b97fae7fd88a.png",
+    "color": "#d72b2c"
+  },
+  "team-futebol-panama-panama": {
+    "image": "/media/brands/ad4a92e20335c940a8e539d78a38e1f7.png",
+    "color": "#d21034"
+  },
+  "team-futebol-ira-ira": {
+    "image": "/media/brands/24f106eb1ea52481332c9b1e6ad4655d.png",
+    "color": "#FFFFFF"
+  },
+  "team-futebol-iraque-iraque": {
+    "image": "/media/brands/0ca77be0140c9170cbc03f7ba0e9c7db.png",
+    "color": "#FFFFFF"
+  },
+  "team-futebol-haiti-haiti": {
+    "image": "/media/brands/ead0785050b4654aceac4d5b266b445d.png",
+    "color": "#0033a0"
+  },
+  "team-futebol-uzbequistao-uzbequistao": {
+    "image": "/media/brands/137cb0c51180e45241216365fd24ad39.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-alemanha-rb-leipzig": {
+    "image": "/media/brands/fccb2060111031036b4c28307545eeff.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-marrocos-marrocos": {
+    "image": "/media/brands/db81941c1754e76529533440cdf1ab11.png",
+    "color": "#df2027"
+  },
+  "team-futebol-italia-italia": {
+    "image": "/media/brands/0acd2bc2895ef53c76b9b4ff1ae46c91.png",
+    "color": "#103cd6"
+  },
+  "team-futebol-servia-red-star-belgrade": {
+    "image": "/media/brands/9636d1fdd4b805ddde96e29696824c60.png"
+  },
+  "team-futebol-uruguai-montevideo-city-torque": {
+    "image": "/media/brands/f43e88fa3614a8416fe0f700313e56e1.png",
+    "color": "#6bc7f5"
+  },
+  "team-futebol-irlanda-derry-city": {
+    "image": "/media/brands/d79bd68ade09c9e7419b9498837c1eca.png"
+  },
+  "team-futebol-curacao-curacao": {
+    "image": "/media/brands/81567eedbc1146f4f5aa3a803d1e4dec.png",
+    "color": "#0537e4"
+  },
+  "team-futebol-brasil-atletico-paranaense": {
+    "image": "/media/brands/975508c7b0e6e00570f3296ee2e0cd86.png",
+    "color": "#D80518"
+  },
+  "team-futebol-inglaterra-plymouth-argyle": {
+    "image": "/media/brands/7e4ca6cfd36d27bbde27deace7f04556.png",
+    "color": "#003e00"
+  },
+  "team-futebol-argentina-newell-s-old-boys": {
+    "image": "/media/brands/3b5c2337ab6529bf7d6f83a8b9b4cf1b.png",
+    "color": "#000000"
+  },
+  "team-futebol-paraguai-cerro-porteno": {
+    "image": "/media/brands/0f5c8bc451e782a12f20a244e30f2e86.png",
+    "color": "#EF2D24"
+  },
+  "team-futebol-inglaterra-bradford-city": {
+    "image": "/media/brands/5eeb36adae64440074ab790fe4cb62a1.png",
+    "color": "#890000"
+  },
+  "team-futebol-brasil-paysandu": {
+    "image": "/media/brands/24c859ccf09e7c3db1ff8312f3d414e9.png"
+  },
+  "team-futebol-jordania-jordania": {
+    "image": "/media/brands/af9902d94079d847483f7e2a49090734.png",
+    "color": "#E70000"
+  },
+  "team-futebol-alemanha-hansa-rostock": {
+    "image": "/media/brands/4d546fa7f83063bc400ff05435f9f8e8.png"
+  },
+  "team-futebol-alemanha-holstein-kiel": {
+    "image": "/media/brands/8201147042f3beda78ee119d04c5048e.png",
+    "color": "#0754ba"
+  },
+  "team-futebol-alemanha-vfl-bochum": {
+    "image": "/media/brands/c484286e20bf44685bfe3ddd3b5eede6.png",
+    "color": "#000055"
+  },
+  "team-futebol-costa-do-marfim-costa-do-marfim": {
+    "image": "/media/brands/a1736f6323903cad9a7e8242f9f9b09e.png",
+    "color": "#FF8200"
+  },
+  "team-futebol-suecia-suecia": {
+    "image": "/media/brands/3206692ed71f5f022ee0ede7c2e13a18.png",
+    "color": "#fecb00"
+  },
+  "team-futebol-alemanha-rot-weiss-essen": {
+    "image": "/media/brands/68629c62472eddeaf638b56b5e7721ac.png"
+  },
+  "team-futebol-nigeria-nigeria": {
+    "image": "/media/brands/ff3f4ce1dd65851a3af804a63d9aa736.png",
+    "color": "#008751"
+  },
+  "team-futebol-japao-urawa-red-diamonds": {
+    "image": "/media/brands/1dbec5b9a5aa3e2f4efe3c534a72cee0.png",
+    "color": "#e5370b"
+  },
+  "team-esportes-gaelicos-irlanda-tipperary": {
+    "image": "/media/brands/361840bab39d28befd1a9402cf5bd6dc.png"
+  },
+  "team-futebol-mexico-tijuana": {
+    "image": "/media/brands/d1373dfcb442d94cdb40c64509c7f319.png",
+    "color": "#EF0107"
+  },
+  "team-futebol-eslovenia-eslovenia": {
+    "image": "/media/brands/33e83799d257af0f0ae0a611d67357a7.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-catar-catar": {
+    "image": "/media/brands/877d29e74b18d94972f60f7dd5573fc5.png",
+    "color": "#691a40"
+  },
+  "team-futebol-finlandia-finlandia": {
+    "image": "/media/brands/bf394de38db86b799f6644ca69035ebb.png",
+    "color": "#003580"
+  },
+  "team-futebol-dinamarca-dinamarca": {
+    "image": "/media/brands/91c315616ab71f5b71948ce313ea0bd2.png",
+    "color": "#d02a3e"
+  },
+  "team-futebol-inglaterra-southampton": {
+    "image": "/media/brands/fbfd49371b13f4064e86a5bd34d973c2.png",
+    "color": "#ED1A3B"
+  },
+  "team-automobilismo-italia-racing-bulls": {
+    "image": "/media/brands/7b723da773b52702ca259ffb54d21cf7.png"
+  },
+  "team-esportes-gaelicos-irlanda-kerry": {
+    "image": "/media/brands/07100c2ac3f6b31d7fe540bcccb5bca2.png"
+  },
+  "team-futebol-nova-zelandia-nova-zelandia": {
+    "image": "/media/brands/bb14dc5146926bde6a391ffa781a3cd0.png",
+    "color": "#000000"
+  },
+  "team-futebol-espanha-cd-castellon": {
+    "image": "/media/brands/eb9f1349beaac8d7200ebb455a76ff0c.png",
+    "color": "#000000"
+  },
+  "team-futebol-el-salvador-el-salvador": {
+    "image": "/media/brands/fcc615dc088d7ed9100ec489800a35e8.png",
+    "color": "#0537e4"
+  },
+  "team-rugby-nova-zelandia-crusaders": {
+    "image": "/media/brands/2945b6c81c2c6d259648b1fe8ea682ba.png"
+  },
+  "team-futebol-cabo-verde-cabo-verde": {
+    "image": "/media/brands/6553736c9164bebeee62ab9b2e67d836.png",
+    "color": "#000080"
+  },
+  "team-rugby-australia-newcastle-knights": {
+    "image": "/media/brands/bb20e812fa8438292c87c673c7f4a815.png"
+  },
+  "team-rugby-australia-brisbane-broncos": {
+    "image": "/media/brands/118bb60860f3f9c0d9d260521b6bfc98.png"
+  },
+  "team-rugby-australia-sydney-roosters": {
+    "image": "/media/brands/54b27b6cb3209b691b7a19d1b40cbb94.png"
+  },
+  "team-rugby-australia-nsw-blues": {
+    "image": "/media/brands/0b75444e40f4d398771d7fb24881f048.png"
+  },
+  "team-rugby-fiji-fijian-drua": {
+    "image": "/media/brands/b4091ef1308904617c28b2c8ca3023bf.png"
+  },
+  "team-esportes-gaelicos-irlanda-donegal": {
+    "image": "/media/brands/bfb1d194abc1023f2d052ccc03e67ccf.png"
+  },
+  "team-futebol-emirados-arabes-unidos-emirados-arabes-unidos": {
+    "image": "/media/brands/62f54f2b91736d84624d75e0c2cf8710.png",
+    "color": "#E70000"
+  },
+  "team-futebol-arabia-saudita-arabia-saudita": {
+    "image": "/media/brands/eb4bc9775e82d62d4d8532e5ee35c807.png",
+    "color": "#FFFFFF"
+  },
+  "team-futebol-polonia-polonia": {
+    "image": "/media/brands/9b53b3a1ccaabace61f1349731cc2058.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-peru-peru": {
+    "image": "/media/brands/485441dc02a09ab0834366686b441e04.png",
+    "color": "#cb292e"
+  },
+  "team-futebol-paraguai-paraguai": {
+    "image": "/media/brands/09cdbb1ed37d78fb2b9ac3f3aa9810ab.png",
+    "color": "#ea2300"
+  },
+  "team-futebol-hungria-hungria": {
+    "image": "/media/brands/7a9a6cfac24ea04c009299411a9a7794.png",
+    "color": "#ce2029"
+  },
+  "team-futebol-franca-girondins-de-bordeaux": {
+    "image": "/media/brands/a3878003979d8746b74a1cd69853493a.png"
+  },
+  "team-futebol-costa-rica-costa-rica": {
+    "image": "/media/brands/a766892cb4853e656cc6360e440c150f.png",
+    "color": "#ce1126"
+  },
+  "team-futebol-australia-australia": {
+    "image": "/media/brands/c42de8a6fe1e230270a674093d4c02ba.png",
+    "color": "#FFCD00"
+  },
+  "team-futebol-jamaica-jamaica": {
+    "image": "/media/brands/466d07fb209b9887ed517e26c8cc3ec7.png",
+    "color": "#348b42"
+  },
+  "team-futebol-alemanha-wolfsburg": {
+    "image": "/media/brands/7ca450fa24cdcbad7499cfd2fc28b1ab.png",
+    "color": "#81f733"
+  },
+  "team-futebol-italia-cremonese": {
+    "image": "/media/brands/e0246d19dcd532826a1c9adb4047c86d.png",
+    "color": "#FF0000"
+  },
+  "team-futebol-turquia-trabzonspor": {
+    "image": "/media/brands/98741d84bd40f38cdae2ff3620733a13.png",
+    "color": "#5699eb"
+  },
+  "team-futebol-turquia-turquia": {
+    "image": "/media/brands/786965f55a8bbe5072823ee708538f37.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-noruega-noruega": {
+    "image": "/media/brands/7e28d8641b6157a651022f99160f56d7.png",
+    "color": "#C8102E"
+  },
+  "team-futebol-colombia-millonarios": {
+    "image": "/media/brands/89e531f0e6fb7176db1ef50d012ab67d.png",
+    "color": "#0202db"
+  },
+  "team-futebol-inglaterra-lincoln-city": {
+    "image": "/media/brands/9bd2f69e712b12344bd86233ff9133ef.png",
+    "color": "#C8142F"
+  },
+  "team-rugby-nova-zelandia-new-zealand-warriors": {
+    "image": "/media/brands/bf52c7786acbbcce9f33da15630bbe29.png"
+  },
+  "team-futebol-republica-tcheca-republica-tcheca": {
+    "image": "/media/brands/580c37249ad58e70b36e2b08f527fe4b.png",
+    "color": "#d7141a"
+  },
+  "team-futebol-equador-equador": {
+    "image": "/media/brands/fc6a54317c090c03c1a91f538e178c89.png",
+    "color": "#ffdd00"
+  },
+  "team-futebol-africa-do-sul-africa-do-sul": {
+    "image": "/media/brands/b70a8d4b39078aa4d2bab63f763f8db3.png",
+    "color": "#FFB81C"
+  },
+  "team-futebol-coreia-do-sul-coreia-do-sul": {
+    "image": "/media/brands/9536691197043a46fea1d7069a732104.png",
+    "color": "#ce2028"
+  },
+  "team-futebol-honduras-honduras": {
+    "image": "/media/brands/4885a889c70f881c18fa56e1418ed484.png",
+    "color": "#333ebd"
+  },
+  "team-futebol-gana-gana": {
+    "image": "/media/brands/86adf3ebe7bd0ea51d48948824f21065.png",
+    "color": "#fbd632"
+  },
+  "team-futebol-bosnia-e-herzegovina-bosnia-e-herzegovina": {
+    "image": "/media/brands/3f81f211061e19207ef4e9dcde08a9e1.png",
+    "color": "#112855"
+  },
+  "team-futebol-albania-albania": {
+    "image": "/media/brands/f2ffc47c7e55b7f256c43b5e4b7ba72f.png",
+    "color": "#E70000"
+  },
+  "team-futebol-escocia-escocia": {
+    "image": "/media/brands/b4f8183e6c7364b8d7274d1fcdd41be5.png",
+    "color": "#1a2d69"
+  },
+  "team-futebol-guatemala-guatemala": {
+    "image": "/media/brands/313fd3cf63d6953781bbfac148067265.png",
+    "color": "#4997d0"
+  },
+  "team-futebol-suecia-aik": {
+    "image": "/media/brands/46c6719445253d74a2b6445b20af04ab.png",
+    "color": "#c9ad00"
+  },
+  "team-futebol-alemanha-bayer-leverkusen": {
+    "image": "/media/brands/7272862327d07edbba217fc48cbb0cfa.png",
+    "color": "#DA0308"
+  },
+  "team-futebol-brasil-chapecoense": {
+    "image": "/media/brands/6fc6a07a3607f399d5e716fbb9a5925f.png",
+    "color": "#417505"
+  },
+  "team-futebol-pais-de-gales-pais-de-gales": {
+    "image": "/media/brands/27bc85889623756431f09d0a0ae07369.png",
+    "color": "#E70000"
+  },
+  "team-rugby-franca-franca": {
+    "image": "/media/brands/9b58fc6e4efcae8de4a83bd2d2cc2896.png"
+  },
+  "team-futebol-noruega-rosenborg": {
+    "image": "/media/brands/ec2485aa5a60c9ca52806d51890e3f0e.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-grecia-grecia": {
+    "image": "/media/brands/1be12c8fe16b86ce6621c488db576729.png",
+    "color": "#295da8"
+  },
+  "team-futebol-argentina-estudiantes-de-la-plata": {
+    "image": "/media/brands/2a1f728f5f2f1a60932639e1a1b73847.png",
+    "color": "#C60000"
+  },
+  "team-futebol-colombia-atletico-nacional": {
+    "image": "/media/brands/8a707ccbee6998655d23c940b8152370.png",
+    "color": "#06933c"
+  },
+  "team-futebol-brasil-ceara-sporting": {
+    "image": "/media/brands/09159d05bbb10d4cfbcad648ccc13b41.png",
+    "color": "#010101"
+  },
+  "team-futebol-espanha-compostela": {
+    "image": "/media/brands/7c2f83bcfe2615529324acdea4f66ef9.png"
+  },
+  "team-futebol-franca-ogc-nice": {
+    "image": "/media/brands/fe028afd93929a33e5d9142e9e4da83a.png",
+    "color": "#ef2f24"
+  },
+  "team-futebol-alemanha-msv-duisburg": {
+    "image": "/media/brands/b12d90045d2132cbc8e5fc983be5e8b3.png"
+  },
+  "team-futebol-guine-equatorial-guine-equatorial": {
+    "image": "/media/brands/1d6786312fe45ee74eb0e5be43a7790b.png",
+    "color": "#d50032"
+  },
+  "team-futebol-austria-sturm-graz": {
+    "image": "/media/brands/54c31404e808a70b731c2fc27bbc700c.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-suica-suica": {
+    "image": "/media/brands/3a6644674c20aa093d4cd8ce738df1f9.png",
+    "color": "#FF0000"
+  },
+  "team-futebol-mali-mali": {
+    "image": "/media/brands/00ef40701d157fc995eb386205181e1b.png",
+    "color": "#14b53a"
+  },
+  "team-futebol-islandia-islandia": {
+    "image": "/media/brands/347da257ed0ca5b3596b3c0a95f4b5c6.png",
+    "color": "#0c2fff"
+  },
+  "team-futebol-camaroes-camaroes": {
+    "image": "/media/brands/c55aab5daf1672df54c24fd0cd51c0b8.png",
+    "color": "#197b63"
+  },
+  "team-futebol-italia-genoa": {
+    "image": "/media/brands/187bd637dbd7168a23c514af692ef9b0.png",
+    "color": "#08305d"
+  },
+  "team-futebol-egito-egito": {
+    "image": "/media/brands/d96e45fb892e4611c813e3b7a88d0b81.png",
+    "color": "#D20300"
+  },
+  "team-futebol-italia-sassuolo": {
+    "image": "/media/brands/420b71daecd0e6080e74341aab9718ab.png",
+    "color": "#0fa653"
+  },
+  "team-futebol-irlanda-do-norte-irlanda-do-norte": {
+    "image": "/media/brands/f53f8c192b1360053d351300280b0f54.png",
+    "color": "#cc0000"
+  },
+  "team-futebol-espanha-hercules": {
+    "image": "/media/brands/3cfc73d97a2dc653c9877fd15faae3f9.png"
+  },
+  "team-rugby-australia-parramatta-eels": {
+    "image": "/media/brands/df0849c3cc4e76cdc11ce5cbddec2dee.png"
+  },
+  "team-rugby-australia-dolphins": {
+    "image": "/media/brands/1a174cdf40287255984fdf180e3b0a24.png"
+  },
+  "team-rugby-australia-canterbury-bulldogs": {
+    "image": "/media/brands/34f28c2128b27a76f99f40c805fad61f.png"
+  },
+  "team-rugby-australia-canberra-raiders": {
+    "image": "/media/brands/38ec80be9b7a545dd3de4265dddc28bb.png"
+  },
+  "team-futebol-americano-estados-unidos-philadelphia-eagles": {
+    "image": "/media/brands/3df7c84ecac56235f50d5c2d02f816d6.png",
+    "color": "#06424d"
+  },
+  "team-rugby-australia-melbourne-storm": {
+    "image": "/media/brands/69d5fc37eb9b166b9adc5f9caf1324ef.png"
+  },
+  "team-futebol-americano-estados-unidos-dallas-cowboys": {
+    "image": "/media/brands/532e09446db868a0455f394f8c43f417.png",
+    "color": "#002a5c"
+  },
+  "team-futebol-americano-estados-unidos-carolina-panthers": {
+    "image": "/media/brands/3ca14d3a45513a0cbb8ad609323133d1.png",
+    "color": "#0085ca"
+  },
+  "team-rugby-australia-penrith-panthers": {
+    "image": "/media/brands/b2627a58d8d6bf5d16cb64afd0844b99.png"
+  },
+  "team-rugby-australia-south-sydney-rabbitohs": {
+    "image": "/media/brands/e2c3fd7e18d23f76e12c1c3dac197a1a.png"
+  },
+  "team-rugby-australia-st-george-illawarra-dragons": {
+    "image": "/media/brands/569790295d2fa425ef0125a81368d8d3.png"
+  },
+  "team-rugby-australia-wests-tigers": {
+    "image": "/media/brands/0b48f81a27b34443d32e127f7ad41fa5.png"
+  },
+  "team-futebol-espanha-basque-country": {
+    "image": "/media/brands/67cc4306b817f99a82f4b6ea3384a270.png"
+  },
+  "team-futebol-ucrania-ucrania": {
+    "image": "/media/brands/4523afa06078ebe35c2847d0eab655b3.png",
+    "color": "#fede00"
+  },
+  "team-futebol-franca-as-cannes": {
+    "image": "/media/brands/3b6ddc0366db099b685de34b2dc3ad5e.png"
+  },
+  "team-futebol-belgica-club-brugge": {
+    "image": "/media/brands/20f447bc4c82e36cbb377e95ae84c30c.png",
+    "color": "#0081ff"
+  },
+  "team-futebol-italia-ssc-bari": {
+    "image": "/media/brands/3eff7c45d97d0cc77244b1d057450370.png"
+  },
+  "team-futebol-palestina-palestina": {
+    "image": "/media/brands/8caf706dd8f173e84fb047f5590e7213.png",
+    "color": "#CE1126"
+  },
+  "team-futebol-israel-israel": {
+    "image": "/media/brands/acfe9bd0ee0ad6621f2fd232a3994848.png",
+    "color": "#2f4fa2"
+  },
+  "team-futebol-italia-pisa": {
+    "image": "/media/brands/0fbcb674838d5bfd492fe6fa3e151d62.png",
+    "color": "#1a1a1a"
+  },
+  "team-futebol-arabia-saudita-al-ahli": {
+    "image": "/media/brands/9bbc956f2621e60a01387abd1138a6f6.png",
+    "color": "#078543"
+  },
+  "team-futebol-espanha-cartagena": {
+    "image": "/media/brands/22524f7b17f8c96ba9d85f16aa4fe254.png"
+  },
+  "team-futebol-arabia-saudita-al-hilal": {
+    "image": "/media/brands/67c85f29348347ca753ad35a9d0c9cc8.png",
+    "color": "#1c31ce"
+  },
+  "team-futebol-franca-lille": {
+    "image": "/media/brands/77fce39d01c37dcfa2b7439ba4072d04.png",
+    "color": "#c2051b"
+  },
+  "team-futebol-romenia-romenia": {
+    "image": "/media/brands/01b205bc1292a8888e747b1e231e80d1.png",
+    "color": "#fcd116"
+  },
+  "team-futebol-italia-brescia-calcio": {
+    "image": "/media/brands/27e983fde0086f5e1d21b0eb088003e9.png"
+  },
+  "team-futebol-argentina-racing-club": {
+    "image": "/media/brands/4114d9f47d67b2201828b9937b7ba07a.png",
+    "color": "#409fff"
+  },
+  "team-futebol-franca-metz": {
+    "image": "/media/brands/042b783ad02f5fe88babe14e1f5ce818.png",
+    "color": "#8C3140"
+  },
+  "team-futebol-argentina-independiente": {
+    "image": "/media/brands/96ffc987d1bc0a8215be5d9e0671861a.png",
+    "color": "#C60000"
+  },
+  "team-futebol-argentina-san-lorenzo": {
+    "image": "/media/brands/d0e56583d846a243951f9972a3721381.png",
+    "color": "#0060f0"
+  },
+  "team-futebol-brasil-cuiaba": {
+    "image": "/media/brands/fce1e4df8ca943ba8a64f97bc5e736b0.png",
+    "color": "#004526"
+  },
+  "team-futebol-franca-auxerre": {
+    "image": "/media/brands/8b9f114d5cab2771c75490b66c6f0071.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-iugoslavia-historica-iugoslavia-historica": {
+    "image": "/media/brands/abb0ff0845f2bfbb660fc25ed66c9c99.png"
+  },
+  "team-futebol-brasil-fortaleza": {
+    "image": "/media/brands/175e330c35962d6e1265a963e5f3be24.png"
+  },
+  "team-futebol-georgia-georgia": {
+    "image": "/media/brands/4ab1cd2f13073e3d43515334aaf274e4.png",
+    "color": "#ffffff"
+  },
+  "team-futebol-servia-servia": {
+    "image": "/media/brands/2bce223014ca615edd1035463bb57d7c.png",
+    "color": "#E70000"
+  },
+  "team-futebol-americano-estados-unidos-denver-broncos": {
+    "image": "/media/brands/b3fe7e480320576103a3ca3efef4b47d.png",
+    "color": "#0a2343"
+  },
+  "team-futebol-americano-estados-unidos-pittsburgh-steelers": {
+    "image": "/media/brands/660a3e25ad08f1e28717137ec6ba8369.png",
+    "color": "#000000"
+  },
+  "team-futebol-americano-estados-unidos-chicago-bears": {
+    "image": "/media/brands/27455ea8c657eb558f0ae1a81feee64d.png",
+    "color": "#0b1c3a"
+  },
+  "team-futebol-americano-estados-unidos-atlanta-falcons": {
+    "image": "/media/brands/f72bc69ea0093c459e386778cc2a7718.png",
+    "color": "#a71930"
+  },
+  "team-futebol-americano-estados-unidos-cincinnati-bengals": {
+    "image": "/media/brands/dcdeb33a947fd6e0734d98829e97c6ce.png",
+    "color": "#fb4f14"
+  },
+  "team-futebol-americano-estados-unidos-cleveland-browns": {
+    "image": "/media/brands/facc99cce4be1cd03d706f1cc8b1c24a.png",
+    "color": "#472a08"
+  },
+  "team-futebol-americano-estados-unidos-indianapolis-colts": {
+    "image": "/media/brands/8122292451eac34ffc01898a0ef2a07f.png",
+    "color": "#003b75"
+  },
+  "team-futebol-americano-estados-unidos-baltimore-ravens": {
+    "image": "/media/brands/95407687e32ca1b1ceb54514a3ae40b0.png",
+    "color": "#29126f"
+  },
+  "team-futebol-indonesia-indonesia": {
+    "image": "/media/brands/817abc0d378034e59131ac03def51a56.png",
+    "color": "#E70000"
+  }
+}

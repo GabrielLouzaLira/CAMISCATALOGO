@@ -283,14 +283,15 @@ export default {
       let key;
       try { key = decodeURIComponent(path.slice(7)); } catch { return fail("Endereco invalido", 400); }
       let object = await env.CATALOG_MEDIA.get(key);
-      if (!object && key.startsWith("yupoo/")) {
+      if (!object && (key.startsWith("yupoo/") || key.startsWith("brands/"))) {
         // Only registered source images may be copied. Never proxy arbitrary URLs.
         let source;
         try { source = await env.CATALOG_DB.prepare("SELECT source_url FROM catalog_import_media WHERE object_key = ?").bind(key).first(); }
         catch { return new Response("Imagem nao cadastrada", { status: 404 }); }
         if (!source) return new Response("Imagem nao cadastrada", { status: 404 });
         const origin = new URL(source.source_url);
-        if (origin.protocol !== "https:" || origin.hostname !== "photo.yupoo.com" || !origin.pathname.startsWith("/minkang/")) return fail("Origem invalida", 400);
+        const validSource = key.startsWith("yupoo/") ? origin.hostname === "photo.yupoo.com" && origin.pathname.startsWith("/minkang/") : ["a.espncdn.com", "thumb.wikimedia.org", "upload.wikimedia.org"].includes(origin.hostname);
+        if (origin.protocol !== "https:" || !validSource) return fail("Origem invalida", 400);
         try {
           const upstream = await fetch(origin.href, { headers: { "Referer": "https://minkang.x.yupoo.com/", "User-Agent": "Mozilla/5.0" }, redirect: "manual", signal: AbortSignal.timeout(15000) });
           const type = (upstream.headers.get("content-type") || "").split(";")[0];

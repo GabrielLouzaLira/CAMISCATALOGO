@@ -112,7 +112,17 @@ await vm.runInContext(`
     if (view.items[0].id !== "new") throw Error("stale search response replaced results");
     discovery = {categoryId:"futebol",group:"Liga",teamId:"a",items:[],loading:false};
     const rendered = renderDiscovery();
-    if (!rendered.includes("--offset:0;") || !rendered.includes('data-team="a"')) throw Error("carousel or full team link missing");
+    if (!rendered.includes("crest-roster") || !rendered.includes('data-team="a"') || !rendered.includes("VER CAMISAS DA EQUIPE")) throw Error("team selection and confirmation missing");
+    data.teams = Array.from({length:25},(_,i)=>({id:'club'+i,name:'Clube '+i,categoryId:'futebol',group:'Brasil',kind:'clubes',league:'Clubes'}));
+    data.teams.push({id:'nation',name:'Brasil',categoryId:'futebol',group:'Brasil',kind:'selecoes',league:'Seleções'});
+    teamBranding = {club24:{image:'/media/brands/crest.png'}};
+    discovery = {categoryId:'futebol',group:'Brasil',kind:'clubes',teamId:'club24',items:[],loading:false};
+    const secondRoster = renderDiscovery();
+    if (!secondRoster.includes('data-discovery-team="club24"') || secondRoster.includes('data-discovery-team="club0"') || secondRoster.includes('data-discovery-team="nation"')) throw Error('roster pagination or club isolation failed');
+    if (!secondRoster.includes('/media/brands/crest.png')) throw Error('crest missing from team selection');
+    discovery.kind='selecoes'; discovery.teamId='nation';
+    const nationalRoster=renderDiscovery();
+    if (!nationalRoster.includes('data-discovery-team="nation"') || nationalRoster.includes('data-discovery-team="club24"')) throw Error('national team isolation failed');
   })()
 `, context);
 await put('teams', {id:'filters', name:'Clube',categoryId:'futebol',group:'Brasil',league:'Liga nacional',kind:'clubes'});
@@ -123,6 +133,8 @@ assert.equal((await (await request('/api/catalog/products?group=Brasil&variant=f
 sql.exec('CREATE TABLE catalog_import_media(object_key TEXT PRIMARY KEY, source_url TEXT NOT NULL)');
 sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/test.jpg','https://photo.yupoo.com/minkang/test/big.jpg');
 sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/blocked.jpg','https://other.example/image.jpg');
+sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('brands/crest.png','https://a.espncdn.com/i/teamlogos/soccer/500/819.png');
+sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('brands/blocked.png','https://photo.yupoo.com/minkang/test.jpg');
 const nativeFetch = globalThis.fetch; let fetches = 0; const cached = new Map();
 env.CATALOG_MEDIA = {async get(key) {return cached.get(key)}, async put(key, bytes, metadata) {cached.set(key,{body:bytes,...metadata})}};
 try {
@@ -134,6 +146,9 @@ try {
   assert.equal(copied.status,200); assert.equal(copied.headers.get('content-type'),'image/jpeg');
   assert(cached.has('yupoo/test.jpg'),'first view persists to R2');
   assert.equal((await request('/media/yupoo/test.jpg')).status,200); assert.equal(fetches,1,'repeat view uses R2');
+  assert.equal((await request('/media/brands/blocked.png')).status,400);
+  assert.equal((await request('/media/brands/crest.png')).status,200);
+  assert(cached.has('brands/crest.png'),'brand symbol persists in R2');
   cached.clear(); globalThis.fetch = async () => new Response('not an image',{headers:{'content-type':'text/html'}});
   assert.equal((await request('/media/yupoo/test.jpg')).status,502); assert.equal(cached.size,0);
   globalThis.fetch = async () => new Response('too big',{headers:{'content-type':'image/jpeg','content-length':'99999999'}});
