@@ -182,25 +182,34 @@ function renderProducts() {
 }
 
 let heroFilm = null;
-let heroPaused = typeof window.matchMedia === "function" && (window.matchMedia("(prefers-reduced-motion: reduce)").matches || navigator.connection?.saveData);
+let heroPaused = false;
+let heroPlayTimer = 0;
 function syncHeroFilm() {
   if (!document.createElement) return;
+  clearTimeout(heroPlayTimer);
   const slot = $(".hero-video-slot");
   if (!slot) { heroFilm?.pause(); return; }
   if (!heroFilm) {
     heroFilm = document.createElement("video");
     heroFilm.className = "hero-background-film";
     heroFilm.muted = true;
+    heroFilm.defaultMuted = true;
+    heroFilm.autoplay = true;
+    heroFilm.setAttribute("muted", "");
+    heroFilm.setAttribute("playsinline", "");
     heroFilm.loop = true;
     heroFilm.playsInline = true;
-    heroFilm.preload = "none";
+    heroFilm.preload = "auto";
     heroFilm.poster = "/showcase/camisa10-momentos.jpg";
     heroFilm.src = "/showcase/camisa10-momentos.mp4";
     for (const event of ["play", "pause"]) heroFilm.addEventListener(event, updateHeroControl);
   }
-  slot.append(heroFilm);
+  heroFilm.autoplay = !heroPaused && !document.hidden && !$("#film-dialog").open;
+  if (heroFilm.parentElement !== slot) slot.append(heroFilm);
   if (heroPaused || document.hidden || $("#film-dialog").open) heroFilm.pause();
-  else heroFilm.play().catch(updateHeroControl);
+  else heroPlayTimer = setTimeout(() => {
+    if (heroFilm.isConnected && !heroPaused && !document.hidden && !$("#film-dialog").open) heroFilm.play().catch(updateHeroControl);
+  }, 0);
   updateHeroControl();
 }
 function updateHeroControl() {
@@ -549,13 +558,15 @@ async function load() {
   teamBranding = branding;
   data = { settings: bootstrap.settings || {}, categories: bootstrap.categories || [], teams: bootstrap.teams || [] };
   const categories = visibleCategories();
-  discovery.categoryId = data.settings.initialCategoryId && categories.some(category => category.id === data.settings.initialCategoryId) ? data.settings.initialCategoryId : (categories[0]?.id || "");
+  discovery.categoryId = categories.find(category => category.id === "futebol")?.id || categories[0]?.id || "";
   const groups = groupsFor(discovery.categoryId);
-  discovery.group = data.settings.initialGroup && groups.includes(data.settings.initialGroup) ? data.settings.initialGroup : (groups[0] || "");
+  discovery.group = groups.includes("Brasil") ? "Brasil" : (groups[0] || "");
+  homeCatalog.categoryId = discovery.categoryId;
+  homeCatalog.group = discovery.group;
   discovery.teamId = teamsFor(discovery.categoryId, discovery.group, discovery.league, discovery.kind)[0]?.id || "";
   const jobs = [
     fetchProducts({ featured: 1, limit: 8, offset: 0 }).then(page => { featuredProducts = page.items; }),
-    fetchProducts({ limit: pageSize(), offset: 0 }).then(page => { homeCatalog.items = page.items; homeCatalog.hasMore = page.hasMore; })
+    fetchProducts({ categoryId: homeCatalog.categoryId, group: homeCatalog.group, limit: pageSize(), offset: 0 }).then(page => { homeCatalog.items = page.items; homeCatalog.hasMore = page.hasMore; })
   ];
   if (discovery.teamId) jobs.push(fetchProducts({ teamId: discovery.teamId, limit: 48, offset: 0 }).then(page => {
     discovery.items = page.items;
