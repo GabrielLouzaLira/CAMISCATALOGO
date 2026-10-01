@@ -1508,5 +1508,133 @@
   "team-futebol-indonesia-indonesia": {
     "image": "/media/brands/817abc0d378034e59131ac03def51a56.png",
     "color": "#E70000"
+  },
+  "nba-atlanta-hawks": {
+    "image": "/media/brands/ce978bf687d7bccd4e2f4ac07121c6fa.png",
+    "color": "#c8102e"
+  },
+  "nba-boston-celtics": {
+    "image": "/media/brands/626d206c34cef4db4d439a2cf8a7ebba.png",
+    "color": "#008348"
+  },
+  "nba-brooklyn-nets": {
+    "image": "/media/brands/4685f02440bda78e3d71b40537ed0226.png",
+    "color": "#000000"
+  },
+  "nba-charlotte-hornets": {
+    "image": "/media/brands/f33ef84869baad78933689654b581633.png",
+    "color": "#008ca8"
+  },
+  "nba-chicago-bulls": {
+    "image": "/media/brands/fa555e5750de6d41bde6ba5786b9f891.png",
+    "color": "#ce1141"
+  },
+  "nba-cleveland-cavaliers": {
+    "image": "/media/brands/1b7f8b1f29b1cd02eebe190a7b6f8e0b.png",
+    "color": "#860038"
+  },
+  "nba-dallas-mavericks": {
+    "image": "/media/brands/23e3d40c1893d8a3ca869965f138b8d1.png",
+    "color": "#0064b1"
+  },
+  "nba-denver-nuggets": {
+    "image": "/media/brands/6685b3a8b50508b850eb5ac6d9a01dd6.png",
+    "color": "#0e2240"
+  },
+  "nba-detroit-pistons": {
+    "image": "/media/brands/a823987872773ec7a6bdc5d6121650e4.png",
+    "color": "#1d428a"
+  },
+  "nba-golden-state-warriors": {
+    "image": "/media/brands/4ea30af0836a31277999ab218fb9d9b1.png",
+    "color": "#fdb927"
+  },
+  "nba-houston-rockets": {
+    "image": "/media/brands/f54444ff6f2cb7ee18df1958fec704d8.png",
+    "color": "#ce0e2d"
+  },
+  "nba-indiana-pacers": {
+    "image": "/media/brands/5b9070e6212bc8ba3a13c65a7ff1b825.png",
+    "color": "#0c2340"
+  },
+  "nba-los-angeles-clippers": {
+    "image": "/media/brands/2d2acfdbd8c23ebf46c35b5c6ad78866.png",
+    "color": "#e6bd49"
+  },
+  "nba-los-angeles-lakers": {
+    "image": "/media/brands/0208e1f4c954b1098b8ddd295d74b2af.png",
+    "color": "#552583"
+  },
+  "nba-memphis-grizzlies": {
+    "image": "/media/brands/2a94ead53e5bc96fea0c3122190247ff.png",
+    "color": "#5d76a9"
+  },
+  "nba-miami-heat": {
+    "image": "/media/brands/4b41462151831137c7a8c7afa19c1f4d.png",
+    "color": "#98002e"
+  },
+  "nba-milwaukee-bucks": {
+    "image": "/media/brands/bf0ed0f0196601b9591209d5c14724dc.png",
+    "color": "#00471b"
+  },
+  "nba-minnesota-timberwolves": {
+    "image": "/media/brands/1293663bbb67b488894bc95bb3c641f7.png",
+    "color": "#266092"
+  },
+  "nba-nba-all-star": {
+    "image": "/media/brands/82e64829ee02381d834abea2a37c06b6.png",
+    "color": "#e6bd49"
+  },
+  "nba-new-orleans-pelicans": {
+    "image": "/media/brands/47176586cbbf4acca28f40e3bd52e002.png",
+    "color": "#0a2240"
+  },
+  "nba-new-york-knicks": {
+    "image": "/media/brands/c0fb73ccfd305f5392b70cef2fab3990.png",
+    "color": "#1d428a"
+  },
+  "nba-oklahoma-city-thunder": {
+    "image": "/media/brands/ec70125c2fee46eba442e0c518fb9a7e.png",
+    "color": "#007ac1"
+  },
+  "nba-orlando-magic": {
+    "image": "/media/brands/eea83afcb1f5b7ae1615842f1f3e4936.png",
+    "color": "#0150b5"
+  },
+  "nba-philadelphia-76ers": {
+    "image": "/media/brands/c9abe8273eed97dedf6ebbd09660c619.png",
+    "color": "#1d428a"
+  },
+  "nba-phoenix-suns": {
+    "image": "/media/brands/9805baad82ac9db7883c62a6ede94910.png",
+    "color": "#29127a"
+  },
+  "nba-portland-trail-blazers": {
+    "image": "/media/brands/2803bafac6ff037f3b8418e865d9d7c2.png",
+    "color": "#e03a3e"
+  },
+  "nba-sacramento-kings": {
+    "image": "/media/brands/7432ba8e5031294ba93f881b4160cac3.png",
+    "color": "#5a2d81"
+  },
+  "nba-san-antonio-spurs": {
+    "image": "/media/brands/86e867850f45e6c487b7f688e6fc41f0.png",
+    "color": "#000000"
+  },
+  "nba-seattle-supersonics": {
+    "image": "/media/brands/c50c985c6da08ac646644131e1298527.png",
+    "color": "#e6bd49"
+  },
+  "nba-toronto-raptors": {
+    "image": "/media/brands/b5c30ef6fb75241fa210174ecccd0a29.png",
+    "color": "#d91244"
+  },
+  "nba-utah-jazz": {
+    "image": "/media/brands/b6df334fcf3d01bef407969979039055.png",
+    "color": "#4e008e"
+  },
+  "nba-washington-wizards": {
+    "image": "/media/brands/0d40153db53892addc0613883f9d703e.png",
+    "color": "#e31837"
   }
 }
