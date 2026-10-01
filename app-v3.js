@@ -70,11 +70,23 @@ function productCard(product, showContext = false) {
     '<span class="product-card__copy"><small>' + esc(context) + '</small><strong>' + esc(product.name) + '</strong><span>Ver fotos e solicitar</span></span></button>';
 }
 
+function sportSymbol(id) {
+  const shapes = {
+    futebol: '<circle cx="50" cy="50" r="37"/><path d="m50 31 18 13-7 21H39l-7-21Z M50 13v18 M85 39l-17 5 M72 80 61 65 M28 80l11-15 M15 39l17 5"/>',
+    automobilismo: '<path d="M24 88V14 M25 17c19-13 33 13 54 0v43c-21 13-35-13-54 0Z"/><path d="M26 18h13v13H26z M39 31h13v13H39z M52 21h13v13H52z M65 34h13v13H65z M26 44h13v13H26z M52 47h13v13H52z" fill="currentColor" stroke="none"/>',
+    rugby: '<ellipse cx="50" cy="50" rx="25" ry="41" transform="rotate(40 50 50)"/><path d="M26 73 73 27 M37 68l-7-7 M45 60l-7-7 M53 52l-7-7 M61 44l-7-7 M69 36l-7-7"/>',
+    'futebol-americano': '<path d="M16 84C10 39 39 10 84 16 90 61 61 90 16 84Z M19 59l22 22 M59 19l22 22 M35 65l30-30 M35 53l12 12 M44 44l12 12 M53 35l12 12"/>',
+    'esportes-gaelicos': '<circle cx="50" cy="50" r="36"/><path d="M22 28c19 3 37 3 56 0 M14 48c24 7 48 7 72 0 M20 70c20 5 40 5 60 0 M38 16c-9 22-9 45 0 68 M62 16c9 22 9 45 0 68"/>',
+    basquete: '<circle cx="50" cy="50" r="37"/><path d="M13 50h74 M50 13v74 M23 24c31 12 31 40 0 52 M77 24c-31 12-31 40 0 52"/>'
+  };
+  return '<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" focusable="false">'+(shapes[id] || shapes.futebol)+'</svg>';
+}
+
 function categoryCard(category) {
   const count = teamsFor(category.id).length;
   return '<button class="category-card" type="button" data-category="' + esc(category.id) + '">' +
     '<span class="category-card__top"><span>' + esc(category.accent || "ESPORTE") + '</span><b>' + esc(String(category.number || "").padStart(2, "0")) + '</b></span>' +
-    '<span class="category-card__ball" aria-hidden="true">10</span><span class="category-card__copy"><strong>' + esc(category.title) + '</strong><small>' + esc(category.subtitle || count + " equipes disponiveis") + '</small></span><span class="category-card__arrow" aria-hidden="true">-&gt;</span></button>';
+    '<span class="category-card__ball" aria-hidden="true">' + sportSymbol(category.id) + '</span><span class="category-card__copy"><strong>' + esc(category.title) + '</strong><small>' + esc(category.subtitle || count + " equipes disponiveis") + '</small></span><span class="category-card__arrow" aria-hidden="true">-&gt;</span></button>';
 }
 
 function teamCard(team) {
