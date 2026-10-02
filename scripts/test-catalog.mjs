@@ -115,6 +115,12 @@ await vm.runInContext(`
     if (!rendered.includes("crest-roster") || !rendered.includes('data-team="a"') || !rendered.includes("VER CAMISAS DA EQUIPE")) throw Error("team selection and confirmation missing");
     data.teams = Array.from({length:25},(_,i)=>({id:'club'+i,name:'Clube '+i,categoryId:'futebol',group:'Brasil',kind:'clubes',league:'Clubes'}));
     data.teams.push({id:'nation',name:'Brasil',categoryId:'futebol',group:'Brasil',kind:'selecoes',league:'Seleções'});
+    productCovers={coverTest:'/front.jpg'};
+    const coverProduct={id:'coverTest',images:[{url:'/back.jpg'},{url:'/front.jpg'},{url:'/detail.jpg'}]};
+    mergeProducts([coverProduct]);
+    if (coverProduct.images[0].url!=='/front.jpg' || coverProduct.images.length!==3) throw Error('cover selection must preserve the complete gallery');
+    mergeProducts([coverProduct]);
+    if (coverProduct.images[1].url!=='/back.jpg') throw Error('cover ordering must be stable');
     teamBranding = {club24:{image:'/media/brands/crest.png'}};
     discovery = {categoryId:'futebol',group:'Brasil',kind:'clubes',teamId:'club24',items:[],loading:false};
     const secondRoster = renderDiscovery();

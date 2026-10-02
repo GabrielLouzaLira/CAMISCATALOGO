@@ -5,3 +5,5 @@
 .dialog-thumbs{display:flex;gap:8px;overflow-x:auto;padding:10px;background:#10110f}.dialog-thumbs button{flex:0 0 58px;height:58px;padding:2px;border:1px solid #34362f;border-radius:8px;background:transparent;cursor:pointer}.dialog-thumbs button.is-active{border-color:var(--gold)}.dialog-thumbs img{width:100%;height:100%;border-radius:5px;object-fit:cover}
 
 .category-card__ball{right:22px;top:42px;width:120px;height:120px;color:rgba(243,184,47,.45);font-size:0;transition:color .2s,transform .2s}.category-card__ball svg{display:block;width:100%;height:100%}.category-card:hover .category-card__ball{color:rgba(243,184,47,.8);transform:rotate(-6deg)}@media(prefers-reduced-motion:reduce){.category-card__ball{transition:none}}
+
+.product-card__image img{object-fit:contain;object-position:center;transform:none}.product-card:hover .product-card__image img{transform:none}

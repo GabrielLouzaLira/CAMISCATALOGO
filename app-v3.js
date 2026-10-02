@@ -4,6 +4,7 @@ const $$ = selector => [...document.querySelectorAll(selector)];
 let data = { settings: {}, categories: [], teams: [] };
 let productsById = new Map();
 let teamBranding = {};
+let productCovers = {};
 let discoveryProducts = new Map();
 let featuredProducts = [];
 let homeCatalog = { items: [], hasMore: false, loading: false, categoryId: "", group: "", league: "", kind: "", variant: "", teamId: "" };
@@ -38,7 +39,12 @@ function crest(team, className = "") {
 const pageSize = () => Math.min(48, Math.max(8, Number(data.settings.catalogPageSize) || 24));
 
 function mergeProducts(items = []) {
-  items.forEach(product => productsById.set(product.id, product));
+  items.forEach(product => {
+    const cover = productCovers[product.id];
+    const index = product.images?.findIndex(image => media(image) === cover) ?? -1;
+    if (index > 0) product.images = [product.images[index], ...product.images.filter((_, i) => i !== index)];
+    productsById.set(product.id, product);
+  });
   return items;
 }
 
@@ -567,8 +573,9 @@ $("#details").addEventListener("close", () => {
 });
 
 async function load() {
-  const [bootstrap, branding] = await Promise.all([fetchJson("/api/catalog/bootstrap", { cache: "no-store" }),fetchJson("/team-branding.json").catch(()=>({}))]);
+  const [bootstrap, branding, covers] = await Promise.all([fetchJson("/api/catalog/bootstrap", { cache: "no-store" }),fetchJson("/team-branding.json").catch(()=>({})),fetchJson("/product-covers.json").catch(()=>({}))]);
   teamBranding = branding;
+  productCovers = covers;
   data = { settings: bootstrap.settings || {}, categories: bootstrap.categories || [], teams: bootstrap.teams || [] };
   const categories = visibleCategories();
   discovery.categoryId = categories.find(category => category.id === "futebol")?.id || categories[0]?.id || "";
