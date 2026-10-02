@@ -37,6 +37,6 @@
     "subtitle": "Equipes e condados da GAA",
     "number": "05",
     "order": 5,
-    "hidden": false
+    "hidden": true
   }
 ]
