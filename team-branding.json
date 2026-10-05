@@ -1636,5 +1636,87 @@
   "nba-washington-wizards": {
     "image": "/media/brands/0d40153db53892addc0613883f9d703e.png",
     "color": "#e31837"
+  },
+  "team-futebol-americano-estados-unidos-arizona-cardinals": {
+    "image": "/media/brands/c86f6e7922b0fbcd4042bcbe319048a4.png",
+    "color": "#a40227"
+  },
+  "team-futebol-americano-estados-unidos-buffalo-bills": {
+    "image": "/media/brands/8dc6e270327bf0c3e9dd817031a29f28.png",
+    "color": "#00338d"
+  },
+  "team-futebol-americano-estados-unidos-green-bay-packers": {
+    "image": "/media/brands/34c294650cc0e79b542f750b83ef9980.png",
+    "color": "#204e32"
+  },
+  "team-futebol-americano-estados-unidos-houston-texans": {
+    "image": "/media/brands/ba295061c5f3c633585416db00a93e17.png",
+    "color": "#021018"
+  },
+  "team-futebol-americano-estados-unidos-jacksonville-jaguars": {
+    "image": "/media/brands/7fc809d7e33f97ec8cc8fa4baecebfce.png",
+    "color": "#007487"
+  },
+  "team-futebol-americano-estados-unidos-kansas-city-chiefs": {
+    "image": "/media/brands/783dab423cfd20917f3c2026222a569d.png",
+    "color": "#e31837"
+  },
+  "team-futebol-americano-estados-unidos-los-angeles-chargers": {
+    "image": "/media/brands/ffb278996b50d6918246d1bd3b9f1ad4.png",
+    "color": "#0080c6"
+  },
+  "team-futebol-americano-estados-unidos-los-angeles-rams": {
+    "image": "/media/brands/471030f0d58b1f142e58efe1d5837410.png",
+    "color": "#003594"
+  },
+  "team-futebol-americano-estados-unidos-las-vegas-raiders": {
+    "image": "/media/brands/224d53ec42f657c932bba79a1b618589.png",
+    "color": "#000000"
+  },
+  "team-futebol-americano-estados-unidos-miami-dolphins": {
+    "image": "/media/brands/176e3072d91e32a3cb991bf514b04ca4.png",
+    "color": "#008e97"
+  },
+  "team-futebol-americano-estados-unidos-minnesota-vikings": {
+    "image": "/media/brands/b385a456990a4ddb1e81ba302818ebae.png",
+    "color": "#4f2683"
+  },
+  "team-futebol-americano-estados-unidos-new-england-patriots": {
+    "image": "/media/brands/31aa56d34cf6e231e2e7b6b4e5e76234.png",
+    "color": "#002a5c"
+  },
+  "team-futebol-americano-estados-unidos-new-orleans-saints": {
+    "image": "/media/brands/2ad38b08d20ded716eea0ae8db5dcdeb.png",
+    "color": "#d3bc8d"
+  },
+  "team-futebol-americano-estados-unidos-new-york-giants": {
+    "image": "/media/brands/c48a33c225c6da2035dcc0b8821a83a7.png",
+    "color": "#003c7f"
+  },
+  "team-futebol-americano-estados-unidos-new-york-jets": {
+    "image": "/media/brands/6ecc709e71ac2ce36a592a06c85cfc85.png",
+    "color": "#115740"
+  },
+  "team-futebol-americano-estados-unidos-seattle-seahawks": {
+    "image": "/media/brands/94524340228faf26f411b8d810e34709.png",
+    "color": "#002a5c"
+  },
+  "team-futebol-americano-estados-unidos-san-francisco-49ers": {
+    "image": "/media/brands/218030b380bc40979757592aecabd4fe.png",
+    "color": "#aa0000"
+  },
+  "team-futebol-americano-estados-unidos-tampa-bay-buccaneers": {
+    "image": "/media/brands/39c653ca578917bd28253020fd566e44.png",
+    "color": "#bd1c36"
+  },
+  "team-futebol-americano-estados-unidos-washington-commanders": {
+    "image": "/media/brands/b4669af860cd3498a96958b42b11b2ba.png",
+    "color": "#5a1414"
+  },
+  "team-rugby-australia-north-queensland-cowboys": {
+    "image": "/media/brands/1c8a5cef95de71297b370d8112e6576d.png"
+  },
+  "team-rugby-australia-manly-warringah-sea-eagles": {
+    "image": "/media/brands/8791176db672112e65ae5535ab17e431.png"
   }
 }

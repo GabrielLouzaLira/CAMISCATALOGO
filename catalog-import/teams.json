@@ -5878,5 +5878,29 @@
     "showcaseImage": {
       "url": "/media/yupoo/4aa1601f52a287ec199538a30858c90a.jpeg"
     }
+  },
+  {
+    "id": "team-rugby-australia-manly-warringah-sea-eagles",
+    "name": "Manly Warringah Sea Eagles",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 800,
+    "hidden": false,
+    "featured": false
+  },
+  {
+    "id": "team-rugby-australia-north-queensland-cowboys",
+    "name": "North Queensland Cowboys",
+    "categoryId": "rugby",
+    "group": "Austrália",
+    "country": "Austrália",
+    "league": "NRL",
+    "kind": "clubes",
+    "order": 802,
+    "hidden": false,
+    "featured": false
   }
 ]

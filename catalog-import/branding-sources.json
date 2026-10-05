@@ -2768,5 +2768,13 @@
     "source": "https://en.wikipedia.org/wiki/Basque_Country_national_football_team",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_of_the_Basque_Country.svg/330px-Flag_of_the_Basque_Country.svg.png",
     "symbolType": "flag"
+  },
+  "team-rugby-australia-north-queensland-cowboys": {
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289202.png",
+    "name": "North Queensland Cowboys"
+  },
+  "team-rugby-australia-manly-warringah-sea-eagles": {
+    "url": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/289196.png",
+    "name": "Manly Warringah Sea Eagles"
   }
 }
