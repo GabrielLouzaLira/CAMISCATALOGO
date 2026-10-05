@@ -142,6 +142,7 @@ assert.equal((await (await request('/api/catalog/products?group=Brasil&variant=f
 sql.exec('CREATE TABLE catalog_import_media(object_key TEXT PRIMARY KEY, source_url TEXT NOT NULL)');
 sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/test.jpg','https://photo.yupoo.com/minkang/test/big.jpg');
 sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/nfl.jpg','https://photo.yupoo.com/guoshuzhen7788/test/big.jpeg');
+sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/shorts.jpg','https://photo.yupoo.com/16620059194/test/big.jpg');
 sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/nba.jpg','https://photo.yupoo.com/05941188/test/big.jpg');
 sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/other-supplier.jpg','https://photo.yupoo.com/other/test/big.jpg');
 sql.prepare('INSERT INTO catalog_import_media VALUES(?,?)').run('yupoo/blocked.jpg','https://other.example/image.jpg');
@@ -165,6 +166,8 @@ try {
   assert(cached.has('yupoo/nba.jpg'),'NBA first view persists to R2');
   assert.equal((await request('/media/yupoo/nfl.jpg')).status,200);
   assert(cached.has('yupoo/nfl.jpg'),'NFL first view persists to R2');
+  assert.equal((await request('/media/yupoo/shorts.jpg')).status,200);
+  assert(cached.has('yupoo/shorts.jpg'),'Shorts first view persists to R2');
   assert.equal((await request('/media/yupoo/other-supplier.jpg')).status,400);
   cached.clear(); globalThis.fetch = async () => new Response('not an image',{headers:{'content-type':'text/html'}});
   assert.equal((await request('/media/yupoo/test.jpg')).status,502); assert.equal(cached.size,0);

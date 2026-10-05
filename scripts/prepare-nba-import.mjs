@@ -10,7 +10,7 @@ for(const t of teams)sql.push(`INSERT INTO catalog_teams(id,value,updated_at,cat
 for(const b of Object.values(brands)){const u=new URL(b.url);if(!['a.espncdn.com','thumb.wikimedia.org','upload.wikimedia.org'].includes(u.hostname))throw Error('Invalid logo source');media.set('brands/'+createHash('sha256').update(b.url).digest('hex').slice(0,32)+'.png',b.url);}
 for(const file of manifest.chunks)for(const p of await read(file)){
  if(ids.has(p.id)||!teams.some(t=>t.id===p.teamKey))throw Error('Duplicate product or missing team');ids.add(p.id);
- for(const im of p.images){const u=new URL(im.sourceUrl);if(u.protocol!=='https:'||u.hostname!=='photo.yupoo.com'||!['/05941188/','/guoshuzhen7788/'].some(prefix=>u.pathname.startsWith(prefix))||!/^yupoo\/[a-f0-9]{32}\.jpg$/.test(im.objectKey)||im.url!=='/media/'+im.objectKey)throw Error('Invalid NBA image');media.set(im.objectKey,im.sourceUrl);}
+ for(const im of p.images){const u=new URL(im.sourceUrl);if(u.protocol!=='https:'||u.hostname!=='photo.yupoo.com'||!['/05941188/','/guoshuzhen7788/','/16620059194/'].some(prefix=>u.pathname.startsWith(prefix))||!/^yupoo\/[a-f0-9]{32}\.jpg$/.test(im.objectKey)||im.url!=='/media/'+im.objectKey)throw Error('Invalid imported image');media.set(im.objectKey,im.sourceUrl);}
  const {sourceAlbum,sourceTitle,...item}=p;item.images=p.images.map(({url})=>({url}));
  const search=[p.name,p.reference,p.teamName].join(' ').toLocaleLowerCase('pt-BR');
  sql.push(`INSERT INTO catalog_products(id,value,updated_at,team_id,order_value,featured,featured_order,search_text) VALUES(${q(p.id)},${q(j(item))},${now},${q(p.teamKey)},${p.order},0,0,${q(search)}) ON CONFLICT(id) DO NOTHING;`);

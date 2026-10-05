@@ -1718,5 +1718,9 @@
   },
   "team-rugby-australia-manly-warringah-sea-eagles": {
     "image": "/media/brands/8791176db672112e65ae5535ab17e431.png"
+  },
+  "team-futebol-italia-juventus": {
+    "image": "/media/brands/7a75d00dacaf994e49fae1f7c6131bda.png",
+    "color": "#000000"
   }
 }
