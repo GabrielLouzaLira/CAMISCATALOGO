@@ -290,10 +290,10 @@ export default {
         catch { return new Response("Imagem nao cadastrada", { status: 404 }); }
         if (!source) return new Response("Imagem nao cadastrada", { status: 404 });
         const origin = new URL(source.source_url);
-        const validSource = key.startsWith("yupoo/") ? origin.hostname === "photo.yupoo.com" && ["/minkang/", "/05941188/", "/guoshuzhen7788/", "/16620059194/"].some(prefix => origin.pathname.startsWith(prefix)) : ["a.espncdn.com", "thumb.wikimedia.org", "upload.wikimedia.org"].includes(origin.hostname);
+        const validSource = key.startsWith("yupoo/") ? origin.hostname === "photo.yupoo.com" && ["/minkang/", "/05941188/", "/guoshuzhen7788/", "/16620059194/", "/dongshanstore/"].some(prefix => origin.pathname.startsWith(prefix)) : ["a.espncdn.com", "thumb.wikimedia.org", "upload.wikimedia.org"].includes(origin.hostname);
         if (origin.protocol !== "https:" || !validSource) return fail("Origem invalida", 400);
         try {
-          const upstream = await fetch(origin.href, { headers: { "Referer": origin.pathname.startsWith("/16620059194/") ? "https://16620059194.x.yupoo.com/" : origin.pathname.startsWith("/guoshuzhen7788/") ? "https://guoshuzhen7788.x.yupoo.com/" : origin.pathname.startsWith("/05941188/") ? "https://05941188.x.yupoo.com/" : "https://minkang.x.yupoo.com/", "User-Agent": "Mozilla/5.0" }, redirect: "manual", signal: AbortSignal.timeout(15000) });
+          const upstream = await fetch(origin.href, { headers: { "Referer": origin.pathname.startsWith("/dongshanstore/") ? "https://x.yupoo.com/photos/dongshanstore/" : origin.pathname.startsWith("/16620059194/") ? "https://16620059194.x.yupoo.com/" : origin.pathname.startsWith("/guoshuzhen7788/") ? "https://guoshuzhen7788.x.yupoo.com/" : origin.pathname.startsWith("/05941188/") ? "https://05941188.x.yupoo.com/" : "https://minkang.x.yupoo.com/", "User-Agent": "Mozilla/5.0" }, redirect: "manual", signal: AbortSignal.timeout(15000) });
           const type = (upstream.headers.get("content-type") || "").split(";")[0];
           if (!upstream.ok || !["image/jpeg", "image/png", "image/webp", "image/gif"].includes(type)) return new Response("Foto temporariamente indisponivel", {status:502,headers:{"cache-control":"no-store"}});
           const max = 8 * 1024 * 1024;

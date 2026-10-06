@@ -1722,5 +1722,13 @@
   "team-futebol-italia-juventus": {
     "image": "/media/brands/7a75d00dacaf994e49fae1f7c6131bda.png",
     "color": "#000000"
+  },
+  "team-futebol-inglaterra-liverpool": {
+    "image": "/media/brands/500f02856e36a79ab0127ef0d1eeb269.png",
+    "color": "#d11317"
+  },
+  "team-futebol-arabia-saudita-al-ittihad": {
+    "image": "/media/brands/798aadd14590b36dddf76cca08792404.png",
+    "color": "#ffff00"
   }
 }
