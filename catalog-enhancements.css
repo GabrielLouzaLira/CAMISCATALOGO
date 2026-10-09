@@ -889,3 +889,10 @@ body:has(dialog[open]){overflow:hidden}
     animation-duration: 1.8s;
   }
 }
+.product-card .product-price, .dialog-copy .product-price { color: #f4be2a; font-weight: 700; font-size: 1.3rem; }
+.order-pricing { display: grid; gap: 14px; margin: 20px 0; padding: 18px; border: 1px solid #454638; }
+.order-pricing label { display: grid; gap: 8px; }
+.order-pricing select { padding: 12px; background: #171b13; color: #fff; border: 1px solid #555; width: 100%; }
+.order-pricing .order-personalization { display: flex; align-items: center; }
+.order-pricing input { width: 18px; height: 18px; accent-color: #f4be2a; }
+.order-pricing small { line-height: 1.5; }

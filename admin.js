@@ -93,7 +93,7 @@ function renderProducts() {
   $("#product-list").innerHTML = products.map(product => {
     const team = teamFor(product.teamKey);
     const image = product.images?.[0]?.url || "";
-    return `<article class="product-row">${image ? `<img class="product-row__image" src="${esc(image)}" alt="">` : `<span class="product-row__image product-placeholder">10</span>`}<div><small>${esc(team?.name || "Sem time")}</small><h3>${esc(product.name)}</h3><p>${esc(product.reference || "Sem referencia")}</p></div><div><p>${product.featured ? `Destaque #${product.featuredOrder || 1}` : "Catalogo geral"} | ${product.images?.length || 0} foto(s)${product.video ? " | video" : ""}${product.pdf ? " | PDF" : ""}</p></div><div class="row-actions"><button class="mini-button" type="button" data-edit-product="${esc(product.id)}">EDITAR</button><button class="mini-button mini-button--danger" type="button" data-delete-product="${esc(product.id)}">EXCLUIR</button></div></article>`;
+    return `<article class="product-row">${image ? `<img class="product-row__image" src="${esc(image)}" alt="">` : `<span class="product-row__image product-placeholder">10</span>`}<div><small>${esc(team?.name || "Sem time")}</small><h3>${esc(product.name)}</h3><p>${esc(product.reference || "Sem referencia")} · ${CatalogPricing.base(product,state.settings) === null ? "Preço a definir" : CatalogPricing.money(CatalogPricing.base(product,state.settings))}</p></div><div><p>${product.featured ? `Destaque #${product.featuredOrder || 1}` : "Catalogo geral"} | ${product.images?.length || 0} foto(s)${product.video ? " | video" : ""}${product.pdf ? " | PDF" : ""}</p></div><div class="row-actions"><button class="mini-button" type="button" data-edit-product="${esc(product.id)}">EDITAR</button><button class="mini-button mini-button--danger" type="button" data-delete-product="${esc(product.id)}">EXCLUIR</button></div></article>`;
   }).join("") || `<div class="empty-state">Nenhuma camiseta encontrada.</div>`;
 }
 
@@ -210,6 +210,8 @@ function openProduct(product = null) {
     form.elements.teamKey.value = product.teamKey;
     form.elements.name.value = product.name;
     form.elements.reference.value = product.reference || "";
+    form.elements.price.value = product.price ?? "";
+    form.elements.priceLongSleeve.checked = Boolean(product.priceLongSleeve);
     form.elements.order.value = product.order || 1;
     form.elements.featured.checked = Boolean(product.featured);
     form.elements.featuredOrder.value = product.featuredOrder || 1;
@@ -352,7 +354,8 @@ document.addEventListener("click", async event => {
 
 $("#settings-form").addEventListener("submit", async event => {
   event.preventDefault();
-  const values = Object.fromEntries(new FormData(event.target));
+  const values = { ...state.settings, ...Object.fromEntries(new FormData(event.target)) };
+  for (const key of Object.keys(CatalogPricing.defaults)) values[key] = Number(values[key]);
   values.carouselAutoplay = event.target.elements.carouselAutoplay.checked;
   values.carouselShowDots = event.target.elements.carouselShowDots.checked;
   values.carouselInterval = Math.min(15, Math.max(3, Number(values.carouselInterval) || 6));
@@ -504,6 +507,8 @@ $("#product-form").addEventListener("submit", async event => {
       categoryId: team.categoryId,
       name: values.get("name"),
       reference: values.get("reference"),
+      price: values.get("price").trim() === "" ? null : Number(values.get("price")),
+      priceLongSleeve: values.get("priceLongSleeve") === "on",
       order: Number(values.get("order")) || 1,
       featured: values.get("featured") === "on",
       featuredOrder: Number(values.get("featuredOrder")) || 1,

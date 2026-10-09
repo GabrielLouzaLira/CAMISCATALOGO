@@ -75,13 +75,14 @@ assert.equal(sql.prepare("SELECT COUNT(*) AS count FROM catalog_products").get()
 const app = (await readFile(new URL("../app-v3.js", import.meta.url), "utf8")).split('document.addEventListener("click"')[0];
 const nodes = new Map();
 const context = vm.createContext({
-  document: { activeElement: null, querySelector(selector) {
+  document: { activeElement: null, addEventListener() {}, querySelector(selector) {
     if (selector === "#team-search") return null;
     if (!nodes.has(selector)) nodes.set(selector, { open: false, innerHTML: "", textContent: "", value: "" });
     return nodes.get(selector);
   }, querySelectorAll() { return []; } },
   window: { scrollTo() {} }, setTimeout, clearTimeout, URLSearchParams, console
 });
+vm.runInContext(await readFile(new URL('../pricing.js', import.meta.url), 'utf8'), context);
 vm.runInContext(app, context);
 await vm.runInContext(`
   (async () => {
@@ -179,5 +180,17 @@ try {
   globalThis.fetch = async () => new Response('too big',{headers:{'content-type':'image/jpeg','content-length':'99999999'}});
   assert.equal((await request('/media/yupoo/test.jpg')).status,413); assert.equal(cached.size,0);
 } finally {globalThis.fetch = nativeFetch;}
-sql.close();
+
 console.log('PASS: pagination, combined filters, admin authorization, stale responses, media allowlist, first-view copy, R2 reuse, MIME and size limits.');
+assert.equal((await request('/api/admin/products','PUT',{id:'p0',price:-1},true)).status,400);
+assert.equal((await request('/api/admin/products','PUT',{id:'p0',price:1.234},true)).status,400);
+assert.equal((await request('/api/admin/settings','PUT',{extraPersonalization:-1},true)).status,400);
+const pricedRecord=JSON.parse(sql.prepare("SELECT value FROM catalog_products WHERE id='p0'").get().value);
+await put('products',{...pricedRecord,price:165.50,priceLongSleeve:true});
+const publicPriced=(await (await request('/api/catalog/products?id=p0')).json()).items[0];
+assert.equal(publicPriced.price,165.50);
+assert.equal(publicPriced.priceLongSleeve,true);
+assert.deepEqual(publicPriced.images,pricedRecord.images);
+console.log('PASS: admin price validation, persistence and public API round trip.');
+
+sql.close();

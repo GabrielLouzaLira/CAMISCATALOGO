@@ -73,7 +73,7 @@ function productCard(product, showContext = false) {
   const context = showContext ? [category?.title, team?.group, team?.league, team?.name].filter(Boolean).join(" / ") : product.reference || "MODELO DISPONIVEL";
   return '<button class="product-card" type="button" data-product="' + esc(product.id) + '">' +
     '<span class="product-card__image">' + (image ? '<img src="' + esc(image) + '" alt="' + esc(product.name) + '" loading="lazy" decoding="async">' : "") + '</span>' +
-    '<span class="product-card__copy"><small>' + esc(context) + '</small><strong>' + esc(product.name) + '</strong><span>Ver fotos e solicitar</span></span></button>';
+    '<span class="product-card__copy"><small>' + esc(context) + '</small><strong>' + esc(product.name) + '</strong><span class="product-price">' + esc(CatalogPricing.base(product,data.settings) === null ? 'Consulte o preço' : CatalogPricing.money(CatalogPricing.base(product,data.settings))) + '</span><span>Ver fotos e solicitar</span></span></button>';
 }
 
 function sportSymbol(id) {
@@ -378,6 +378,30 @@ function scheduleAutoplay() {
   }, delay);
 }
 
+function priceOptions(product) {
+  const price = CatalogPricing.base(product, data.settings);
+  if (price === null) return '<p class="product-price">Consulte o preço pelo WhatsApp</p>';
+  return '<section class="order-pricing" aria-label="Preço e adicionais"><p class="product-price" id="order-total">'+esc(CatalogPricing.money(price))+'</p>'+
+    (product.priceLongSleeve ? '<small>Inclui '+esc(CatalogPricing.money(CatalogPricing.extra(data.settings,'extraLongSleeve')))+' de manga longa.</small>' : '')+
+    '<label>Tamanho desejado<select id="order-size"><option value="">Consultar tamanho</option>'+(product.tags?.includes('infantil')?['16','18','20','22','24','26','28']:['P','M','G','GG','2GG','3GG','4GG']).map(size=>'<option value="'+size+'">'+size+(['2GG','3GG','4GG'].includes(size)?' (+ '+esc(CatalogPricing.money(CatalogPricing.extra(data.settings,'extra'+size)))+')':'')+'</option>').join('')+'</select></label>'+
+    '<label class="order-personalization"><input id="order-personalized" type="checkbox"> Nome e número (+ '+esc(CatalogPricing.money(CatalogPricing.extra(data.settings,'extraPersonalization')))+')</label><small>Tamanhos e personalização sujeitos à disponibilidade. Frete não incluído.</small></section>';
+}
+let orderMessage = '';
+function updateOrderPrice(message) {
+  if (typeof message === 'string') orderMessage = message;
+  const product = productsById.get(galleryState.productId);
+  const output = $('#order-total');
+  if (!product || !output) return;
+  const size = $('#order-size').value, personalized = $('#order-personalized').checked;
+  const total = CatalogPricing.total(product, data.settings, size, personalized);
+  output.textContent = CatalogPricing.money(total);
+  const link = $('#details .whatsapp-button');
+  if (link) link.href = 'https://wa.me/'+String(data.settings.whatsapp || '').replace(/\D/g,'')+'?text='+encodeURIComponent(orderMessage+'\nPreço: '+CatalogPricing.money(total)+'\nTamanho: '+(size || 'a consultar')+'\nNome e número: '+(personalized?'sim':'não')+'\nFrete e disponibilidade a confirmar.');
+}
+document.addEventListener('change', event => {
+  if (event.target.matches('#order-size,#order-personalized')) updateOrderPrice();
+});
+
 async function showDetails(productId) {
   let product = productsById.get(productId);
   if (!product) {
@@ -399,9 +423,11 @@ async function showDetails(productId) {
     (photos.length ? '<span class="dialog-counter">1 / ' + photos.length + '</span>' : "") + '</div>' +
     (photos.length > 1 ? '<div class="dialog-thumbs">' + photos.map((url, index) => '<button type="button" class="' + (index === 0 ? "is-active" : "") + '" data-photo-index="' + index + '"><img src="' + esc(url) + '" alt="" loading="lazy"></button>').join("") + '</div>' : "") + '</div>' +
     '<div class="dialog-copy"><p class="eyebrow"><span></span>' + esc(team?.name || "CAMISA 10") + '</p><h2>' + esc(product.name) + '</h2><p class="dialog-helper">' + esc(product.reference || "Consulte disponibilidade e detalhes no atendimento.") + '</p>' +
+    priceOptions(product) +
     ((product.video?.url || product.pdf?.url) ? '<div class="dialog-media">' + (product.video?.url ? '<video controls src="' + esc(product.video.url) + '"></video>' : "") + '<div class="dialog-media__actions">' + (product.pdf?.url ? '<a class="media-link" target="_blank" href="' + esc(product.pdf.url) + '">Abrir PDF</a>' : "") + '</div></div>' : "") +
     (whatsapp ? '<a class="whatsapp-button" target="_blank" rel="noopener" href="https://wa.me/' + whatsapp + '?text=' + encodeURIComponent(message) + '"><span>QUERO ESTE MODELO</span><span>WHATSAPP -&gt;</span></a>' : '<p class="dialog-helper">O WhatsApp sera configurado pelo painel.</p>') + '<small>As informacoes e disponibilidade sao confirmadas no atendimento.</small></div>';
   dialog.showModal();
+  updateOrderPrice(message);
   clearTimeout(autoplayTimer);
   preloadAdjacentPhotos();
 }

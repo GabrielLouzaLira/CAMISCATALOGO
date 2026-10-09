@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import '../pricing.js';
+const p=globalThis.CatalogPricing;
+assert.equal(p.base({price:140,priceLongSleeve:true},{}),160);
+assert.equal(p.total({price:140,priceLongSleeve:true},{},'3GG',true),210);
+assert.equal(p.total({price:175},{},'4GG',true),230);
+assert.equal(p.total({price:165},{},'16',false),165);
+assert.equal(p.base({price:270,priceLongSleeve:false},{}),270);
+assert.equal(p.base({price:350},{}),350);
+assert.equal(p.total({price:140},{extraPersonalization:0,extra2GG:10},'2GG',true),150);
+assert.equal(p.base({price:149.90,priceLongSleeve:true},{extraLongSleeve:15.50}),165.40);
+assert.equal(p.base({price:null},{}),null);
+assert.equal(p.base({},{}),null);
+assert.equal(p.base({price:0},{}),0);
+console.log('PASS: BRL pricing, combined extras, child sizes, jacket/training exclusions, editable settings and missing prices.');

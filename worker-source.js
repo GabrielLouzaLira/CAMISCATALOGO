@@ -347,6 +347,10 @@ export default {
 
       if (request.method === "PUT") {
         const value = await request.json();
+        const validMoney = number => typeof number === 'number' && Number.isFinite(number) && number >= 0 && number <= 100000 && Math.abs(number * 100 - Math.round(number * 100)) < 0.00001;
+        if (collection === 'products' && value.price != null && !validMoney(value.price)) return fail('Preço inválido. Use um valor positivo com até duas casas decimais.');
+        if (collection === 'products' && value.priceLongSleeve !== undefined && typeof value.priceLongSleeve !== 'boolean') return fail('Adicional de manga longa inválido.');
+        if (collection === 'settings' && ['extraLongSleeve','extraPersonalization','extra2GG','extra3GG','extra4GG'].some(key => value[key] !== undefined && !validMoney(value[key]))) return fail('Adicional inválido. Use valores positivos com até duas casas decimais.');
         if (collection === "settings") {
           await save(env, collection, { ...defaults.settings, ...value });
           return json({ ok: true });
