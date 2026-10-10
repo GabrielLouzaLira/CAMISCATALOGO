@@ -3,3 +3,6 @@
 .crest--mark{background:#f4f3eb;border-radius:7px;padding:6px}.hero-crest>.crest--mark{padding:22px;box-shadow:0 15px 40px #0006}.team-card-symbol{width:76px;height:76px;margin:8px}
 
 .roster-countries{display:grid;gap:24px}.roster-country{min-width:0}.roster-country h3{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 12px;padding:10px 0;border-bottom:1px solid #555b3a;color:var(--gold);font-size:15px;letter-spacing:.04em}.roster-country h3 span{font-size:10px;font-weight:400;color:#acb39d;letter-spacing:0}.roster-country .crest-roster{min-height:0}
+
+.crest--brand img { filter: brightness(0) invert(1); padding: 8px; }
+.brand-wordmark { font-weight: 900; font-size: clamp(14px, 3vw, 28px); text-transform: uppercase; letter-spacing: -1px; }
