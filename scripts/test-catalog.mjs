@@ -193,4 +193,49 @@ assert.equal(publicPriced.priceLongSleeve,true);
 assert.deepEqual(publicPriced.images,pricedRecord.images);
 console.log('PASS: admin price validation, persistence and public API round trip.');
 
+
+
+
+// R2 public cache survives database failures; mutations invalidate it globally.
+const cacheObjects = new Map();
+let dbReads = 0, databaseDown = false;
+const cachedEnv = {...env, CATALOG_DB: {
+  prepare(query) { dbReads++; if(databaseDown) throw new Error("D1 daily limit"); return db.prepare(query); },
+  batch(statements) { return db.batch(statements); }
+}, CATALOG_MEDIA: {
+  async get(key) { const body=cacheObjects.get(key); return body === undefined ? null : {async text(){return body;},async json(){return JSON.parse(body);}}; },
+  async put(key,body) { cacheObjects.set(key,body); },
+  async delete(key) { cacheObjects.delete(key); }
+}};
+const cachedRequest = (path, method="GET", body) => worker.fetch(new Request("https://cache.test"+path, {
+  method, headers:{"content-type":"application/json","x-admin-password":"local-test"},
+  ...(body === undefined ? {} : {body:JSON.stringify(body)})
+}),cachedEnv);
+const cachePath="/api/catalog/products?teamId=a&limit=2";
+assert.equal((await cachedRequest(cachePath)).headers.get("x-catalog-cache"),"miss");
+const warmedReads=dbReads;
+assert.equal((await cachedRequest("/api/catalog/products?limit=2&teamId=a")).headers.get("x-catalog-cache"),"hit");
+assert.equal(dbReads,warmedReads,"cache hit performs no D1 reads");
+const realNow=Date.now;
+try {
+  Date.now=()=>realNow()+6*60000;
+  databaseDown=true;
+  const stale=await cachedRequest(cachePath);
+  assert.equal(stale.status,200);
+  assert.equal(stale.headers.get("x-catalog-cache"),"stale");
+  const failedReads=dbReads;
+  assert.equal((await cachedRequest(cachePath)).status,200);
+  assert.equal(dbReads,failedReads,"backoff avoids repeated failed D1 reads");
+  assert.equal((await cachedRequest("/api/catalog/products?id=never-cached")).status,503,"no fabricated empty catalog");
+} finally { Date.now=realNow; databaseDown=false; }
+assert.equal((await cachedRequest("/api/admin/products","PUT",{id:"p0",teamKey:"a",name:"Updated",price:123,images:[]})).status,200);
+assert.equal((await cachedRequest(cachePath)).headers.get("x-catalog-cache"),"miss","admin save invalidates public cache");
+assert.equal((await (await cachedRequest("/api/catalog/products?id=p0")).json()).items[0].price,123);
+await cachedRequest("/api/admin/products/p0","DELETE");
+assert.equal((await (await cachedRequest("/api/catalog/products?id=p0")).json()).items.length,0,"deleted product not served from cache");
+const keysBefore=cacheObjects.size;
+assert.equal((await cachedRequest("/api/admin/state")).status,200);
+assert.equal(cacheObjects.size,keysBefore,"admin responses never cached");
+console.log("PASS: persistent public cache, canonical keys, zero D1 reads on hits, stale fallback, retry backoff, price/deletion invalidation and private route exclusion.");
+
 sql.close();

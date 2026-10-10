@@ -107,9 +107,25 @@ async function ensureQueryStorage(env) {
   await env.CATALOG_DB.prepare("INSERT INTO catalog_meta(key,value,updated_at) VALUES(?,?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value, updated_at=excluded.updated_at").bind("query-storage-v2", "complete", Date.now()).run();
 }
 
+const storageReady = new WeakMap();
 async function ensureStorage(env) {
-  await ensureNormalizedStorage(env);
-  await ensureQueryStorage(env);
+  if (!storageReady.has(env.CATALOG_DB)) {
+    const pending = (async () => {
+      await ensureNormalizedStorage(env);
+      await ensureQueryStorage(env);
+      const ready = await env.CATALOG_DB.prepare("SELECT value FROM catalog_meta WHERE key = ?").bind("query-indexes-v3").first();
+      if (!ready) {
+        await env.CATALOG_DB.batch([
+          env.CATALOG_DB.prepare("CREATE INDEX IF NOT EXISTS idx_products_public_order ON catalog_products(featured DESC,order_value ASC,updated_at DESC)"),
+          env.CATALOG_DB.prepare("CREATE INDEX IF NOT EXISTS idx_products_team_public_order ON catalog_products(team_id,featured DESC,order_value ASC,updated_at DESC)"),
+          env.CATALOG_DB.prepare("INSERT OR IGNORE INTO catalog_meta(key,value,updated_at) VALUES('query-indexes-v3','complete',0)")
+        ]);
+      }
+    })();
+    storageReady.set(env.CATALOG_DB, pending);
+    pending.catch(() => storageReady.delete(env.CATALOG_DB));
+  }
+  await storageReady.get(env.CATALOG_DB);
 }
 
 async function readCollection(env, collection) {
@@ -259,7 +275,7 @@ async function removeUnusedMedia(env, collection, oldRecord, newRecord) {
   for (const file of mediaOfRecord(collection, oldRecord)) if (file.objectKey && !retained.has(file.objectKey)) await env.CATALOG_MEDIA.delete(file.objectKey);
 }
 
-export default {
+const handler = {
   async fetch(request, env) {
     const url = new URL(request.url);
     const path = url.pathname;
@@ -383,5 +399,70 @@ export default {
     const asset = await env.ASSETS.fetch(request);
     if (asset.status !== 404) return asset;
     return path.includes(".") ? asset : env.ASSETS.fetch(new Request(new URL("/index.html", url), request));
+  }
+};
+
+
+// Public responses only. R2 persists a last successful result across Worker restarts.
+// Revision is read on every request so admin saves invalidate all locations.
+const revisionKey = "catalog-cache/v1/revision";
+const freshMs = 5 * 60 * 1000;
+const staleMs = 7 * 24 * 60 * 60 * 1000;
+const inFlight = new Map();
+async function cachedCatalog(request, env) {
+  const url = new URL(request.url);
+  const isBootstrap = url.pathname === "/api/catalog/bootstrap";
+  const allowed = isBootstrap ? [] : ["limit","offset","teamId","categoryId","group","featured","id","query","league","kind","variant"];
+  const canonical = new URL(url.pathname, url.origin);
+  for (const key of allowed) if (url.searchParams.has(key)) canonical.searchParams.set(key, url.searchParams.get(key));
+  canonical.searchParams.sort();
+  if (canonical.search.length > 1500) return handler.fetch(request, env);
+  const hash = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(canonical.href));
+  const key = "catalog-cache/v1/pages/" + Array.from(new Uint8Array(hash), b => b.toString(16).padStart(2,"0")).join("");
+  let revision, entry;
+  try {
+    // Keep the R2 object when reading its body (its methods require the receiver).
+    const revObject = await env.CATALOG_MEDIA.get(revisionKey);
+    revision = revObject ? await revObject.text() : "initial";
+    const object = await env.CATALOG_MEDIA.get(key);
+    entry = object ? await object.json() : null;
+  } catch { return handler.fetch(request, env); }
+  const now = Date.now();
+  const valid = entry && entry.revision === revision && now - entry.savedAt < staleMs;
+  const respond = (body, state) => {
+    const response = new Response(body, { headers: {"content-type":"application/json; charset=utf-8", "cache-control":"no-store", "x-catalog-cache":state} });
+    if (state === "stale") response.headers.set("warning", '110 - "Catalogo temporariamente em cache"');
+    return response;
+  };
+  if (valid && now - entry.savedAt < freshMs) return respond(entry.body, "hit");
+  if (valid && entry.retryAfter > now) return respond(entry.body, "stale");
+  const flightKey = key + revision;
+  if (inFlight.has(flightKey)) return (await inFlight.get(flightKey)).clone();
+  const pending = (async () => {
+    const response = await handler.fetch(request, env);
+    if (response.ok) {
+      const body = await response.text();
+      try { await env.CATALOG_MEDIA.put(key, JSON.stringify({revision, savedAt:now, body}), {httpMetadata:{contentType:"application/json"}}); } catch { /* Live response remains usable if cache storage fails. */ }
+      return respond(body, "miss");
+    }
+    if (valid && response.status >= 500) {
+      try { await env.CATALOG_MEDIA.put(key, JSON.stringify({...entry,retryAfter:now+60000})); } catch {}
+      return respond(entry.body, "stale");
+    }
+    return response;
+  })();
+  inFlight.set(flightKey, pending);
+  try { return (await pending).clone(); } finally { inFlight.delete(flightKey); }
+}
+export default {
+  async fetch(request, env) {
+    const path = new URL(request.url).pathname;
+    const cacheAvailable = typeof env.CATALOG_MEDIA?.get === "function" && typeof env.CATALOG_MEDIA?.put === "function";
+    if (cacheAvailable && request.method === "GET" && ["/api/catalog/bootstrap","/api/catalog/products"].includes(path)) return cachedCatalog(request, env);
+    const response = await handler.fetch(request, env);
+    if (cacheAvailable && response.ok && /^(PUT|POST|DELETE)$/.test(request.method) && /^\/api\/admin\/(settings|categories|teams|products)(\/|$)/.test(path)) {
+      await env.CATALOG_MEDIA.put(revisionKey, crypto.randomUUID());
+    }
+    return response;
   }
 };
