@@ -423,7 +423,7 @@ async function showDetails(productId) {
   dialog.innerHTML = '<button class="dialog-close" type="button" aria-label="Fechar detalhes" data-close>&times;</button><div class="dialog-image"><div class="dialog-image-frame" data-gallery-swipe>' +
     (photos[0] ? '<img id="dialog-main-image" src="' + esc(photos[0]) + '" alt="' + esc(product.name) + ', foto 1 de ' + photos.length + '" decoding="async" fetchpriority="high">' : "") +
     (photos.length > 1 ? '<button class="dialog-arrow dialog-arrow--prev" type="button" aria-label="Foto anterior" data-gallery-prev><span>&#8249;</span></button><button class="dialog-arrow dialog-arrow--next" type="button" aria-label="Proxima foto" data-gallery-next><span>&#8250;</span></button>' : "") +
-    (photos.length ? '<span class="dialog-counter">1 / ' + photos.length + '</span>' : "") + '</div>' +
+    (photos.length ? '<button type="button" class="photo-zoom-open" data-photo-zoom>Ampliar foto ⤢</button><span class="dialog-counter">1 / ' + photos.length + '</span>' : "") + '</div>' +
     (photos.length > 1 ? '<div class="dialog-thumbs">' + photos.map((url, index) => '<button type="button" class="' + (index === 0 ? "is-active" : "") + '" data-photo-index="' + index + '"><img src="' + esc(url) + '" alt="" loading="lazy"></button>').join("") + '</div>' : "") + '</div>' +
     '<div class="dialog-copy"><p class="eyebrow"><span></span>' + esc(team?.name || "CAMISA 10") + '</p><h2>' + esc(product.name) + '</h2><p class="dialog-helper">' + esc(product.reference || "Consulte disponibilidade e detalhes no atendimento.") + '</p>' +
     priceOptions(product) +
@@ -632,3 +632,74 @@ load().catch(error => {
 });
 
 document.addEventListener("visibilitychange", syncHeroFilm);
+
+
+// A separate modal keeps photo gestures independent of gallery navigation.
+const photoZoom = document.createElement("dialog");
+photoZoom.className = "photo-zoom";
+photoZoom.setAttribute("aria-label", "Foto ampliada");
+photoZoom.innerHTML = '<div class="photo-zoom-toolbar"><button type="button" data-zoom-out aria-label="Diminuir zoom">−</button><output aria-live="polite">100%</output><button type="button" data-zoom-in aria-label="Aumentar zoom">+</button><button type="button" data-zoom-reset>Ajustar</button><button type="button" data-zoom-close aria-label="Fechar foto ampliada">Fechar ×</button></div><div class="photo-zoom-stage"><img alt="" draggable="false"></div><p>Use + e −, a roda do mouse ou dois dedos. Arraste para ver os detalhes.</p>';
+document.body.append(photoZoom);
+const zoomStage = photoZoom.querySelector(".photo-zoom-stage");
+const zoomImage = photoZoom.querySelector("img");
+let zoomScale = 1, zoomX = 0, zoomY = 0, zoomOpener;
+const zoomPointers = new Map();
+function drawPhotoZoom() {
+  zoomScale = Math.max(1, Math.min(5, zoomScale));
+  const maxX = zoomStage.clientWidth * (zoomScale - 1) / 2;
+  const maxY = zoomStage.clientHeight * (zoomScale - 1) / 2;
+  zoomX = Math.max(-maxX, Math.min(maxX, zoomX));
+  zoomY = Math.max(-maxY, Math.min(maxY, zoomY));
+  zoomImage.style.transform = `translate(${zoomX}px,${zoomY}px) scale(${zoomScale})`;
+  photoZoom.querySelector("output").textContent = Math.round(zoomScale * 100) + "%";
+  photoZoom.querySelector("[data-zoom-out]").disabled = zoomScale <= 1;
+  photoZoom.querySelector("[data-zoom-in]").disabled = zoomScale >= 5;
+}
+document.addEventListener("click", event => {
+  if (!event.target.closest("[data-photo-zoom]")) return;
+  const original = document.querySelector("#dialog-main-image");
+  if (!original) return;
+  zoomOpener = event.target.closest("button");
+  zoomImage.src = original.src;
+  zoomImage.alt = original.alt;
+  zoomScale = 1; zoomX = zoomY = 0;
+  photoZoom.showModal(); drawPhotoZoom();
+});
+photoZoom.addEventListener("click", event => {
+  event.stopPropagation();
+  if (event.target.closest("[data-zoom-close]")) photoZoom.close();
+  if (event.target.closest("[data-zoom-in]")) zoomScale += .5;
+  if (event.target.closest("[data-zoom-out]")) zoomScale -= .5;
+  if (event.target.closest("[data-zoom-reset]")) {zoomScale=1;zoomX=zoomY=0;}
+  drawPhotoZoom();
+});
+photoZoom.addEventListener("keydown", event => {
+  event.stopPropagation();
+  if (["+","=","-","ArrowLeft","ArrowRight","ArrowUp","ArrowDown"].includes(event.key)) {
+    event.preventDefault();
+    if (event.key === "+" || event.key === "=") zoomScale += .5;
+    if (event.key === "-") zoomScale -= .5;
+    if (event.key === "ArrowLeft") zoomX += 40;
+    if (event.key === "ArrowRight") zoomX -= 40;
+    if (event.key === "ArrowUp") zoomY += 40;
+    if (event.key === "ArrowDown") zoomY -= 40;
+    drawPhotoZoom();
+  }
+});
+zoomStage.addEventListener("wheel", event => { event.preventDefault();zoomScale += event.deltaY < 0 ? .25 : -.25;drawPhotoZoom(); },{passive:false});
+zoomStage.addEventListener("dblclick", () => {zoomScale=zoomScale>1?1:2.5;drawPhotoZoom();});
+zoomStage.addEventListener("pointerdown", event => {event.stopPropagation();zoomPointers.set(event.pointerId,{x:event.clientX,y:event.clientY});zoomStage.setPointerCapture(event.pointerId);});
+zoomStage.addEventListener("pointermove", event => {
+  const old = zoomPointers.get(event.pointerId); if (!old) return;
+  event.stopPropagation();
+  const other = [...zoomPointers.entries()].find(([id])=>id!==event.pointerId)?.[1];
+  if (other) {
+    const before=Math.hypot(old.x-other.x,old.y-other.y);
+    const after=Math.hypot(event.clientX-other.x,event.clientY-other.y);
+    if (before>0) zoomScale *= after/before;
+  } else if (zoomScale>1) {zoomX+=event.clientX-old.x;zoomY+=event.clientY-old.y;}
+  zoomPointers.set(event.pointerId,{x:event.clientX,y:event.clientY});drawPhotoZoom();
+});
+for (const type of ["pointerup","pointercancel","lostpointercapture"]) zoomStage.addEventListener(type,event=>{event.stopPropagation();zoomPointers.delete(event.pointerId);});
+photoZoom.addEventListener("close",()=>{zoomPointers.clear();zoomImage.removeAttribute("src");zoomOpener?.focus();});
+window.addEventListener("resize",()=>{if(photoZoom.open)drawPhotoZoom();});
