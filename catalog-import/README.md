@@ -2,7 +2,7 @@
 
 Fonte: https://minkang.x.yupoo.com/albums
 
-Publicação: https://repositoriovamisa10.camisa10-gabriellouzalira.workers.dev/
+Publicação: https://camisa10.catalogo-camisa10.workers.dev/
 
 Foram organizados 5.791 modelos de camisas e kits, 392 equipes e 41.536 fotos. Os cinco esportes presentes são futebol, automobilismo, rugby, futebol americano e esportes gaélicos. Países e territórios históricos seguem as coleções da fonte; ligas que misturam divisões são identificadas como coleções regionais, sem afirmar a divisão atual de cada clube.
 
