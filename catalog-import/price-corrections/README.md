@@ -5,3 +5,5 @@
 JSON contém IDs, nomes, valores anteriores e novos valores para auditoria. Aplicação feita por ID, sem recriar produtos, alterar galerias ou mudar os conjuntos com calça.
 
 Fotos NBA: aviso de indisponibilidade do Yupoo era uma imagem HTTP 200 e tinha sido salvo no R2. O Worker agora reconhece esse arquivo por SHA256, tenta a miniatura da mesma foto e não armazena o aviso novamente. Fotos recuperadas foram gravadas no R2. Auditoria das primeiras páginas de 32 equipes: 1.086 capas verificadas, 855 respondendo como imagem e 231 ainda indisponíveis no fornecedor (nba-unavailable.json). Não foram usadas fotos de outros produtos. Miniaturas recuperadas podem ter resolução inferior.
+
+Atualização posterior: 220 das 231 capas foram recuperadas. Consulte ../nba-recovery/README.md e pending.json para o resultado atual. nba-unavailable.json mantém o levantamento original como histórico.
