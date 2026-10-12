@@ -18,7 +18,7 @@ let galleryState = { productId: null, photoIndex: 0, opener: null, pointerStart:
 
 const esc = value => String(value ?? "").replace(/[&<>\"]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[char]));
 const ordered = list => [...list].sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || (a.order || 0) - (b.order || 0));
-const media = file => typeof file === "string" ? file : (file?.url || "");
+const media = file => { const url = typeof file === "string" ? file : (file?.url || ""); return url.startsWith("/media/yupoo/") ? url.split("?")[0] + "?v=2" : url; };
 const categoryFor = id => data.categories.find(category => category.id === id);
 const teamFor = id => data.teams.find(team => team.id === id);
 const visibleCategories = () => ordered(data.categories.filter(category => !category.hidden));
@@ -42,7 +42,7 @@ const pageSize = () => Math.min(48, Math.max(8, Number(data.settings.catalogPage
 function mergeProducts(items = []) {
   items.forEach(product => {
     const cover = productCovers[product.id];
-    const index = product.images?.findIndex(image => media(image) === cover) ?? -1;
+    const index = product.images?.findIndex(image => media(image) === media(cover)) ?? -1;
     if (index > 0) product.images = [product.images[index], ...product.images.filter((_, i) => i !== index)];
     productsById.set(product.id, product);
   });
@@ -171,7 +171,7 @@ function renderHome() {
     renderDiscovery() +
     '<section id="all-products" class="catalog-section"><div class="section-heading"><div><p class="eyebrow"><span></span>CATALOGO COMPLETO</p><h2>TODAS AS<br>CAMISETAS</h2></div><p>Veja os primeiros modelos ou filtre por esporte, país, liga e equipe.</p></div><div class="filter-row"><button class="filter-chip ' + (!homeCatalog.categoryId ? "is-active" : "") + '" type="button" data-browse-category="">Todos</button>' + categoryFilters + '</div>' +
     (groups.length ? '<div class="filter-row filter-row--sub"><span>PAÍS</span><button class="filter-chip ' + (!homeCatalog.group ? "is-active" : "") + '" type="button" data-browse-group="">Todas</button>' + groupFilters + '</div>' : "") +
-    extraFilters() + '<label class="team-filter">EQUIPE<select id="home-team-filter"><option value="">Todas as equipes</option>' + teamOptions + '</select></label><div class="product-grid home-product-grid">' + browseContent + '</div>' +
+    '<div class="filter-row" aria-label="Coleções de produtos"><button class="filter-chip" type="button" data-shorts>VER SHORTS · R$120</button></div>' + extraFilters() + '<label class="team-filter">EQUIPE<select id="home-team-filter"><option value="">Todas as equipes</option>' + teamOptions + '</select></label><div class="product-grid home-product-grid">' + browseContent + '</div>' +
     (homeCatalog.hasMore ? '<div class="load-more-row"><button class="secondary-catalog-button" type="button" data-load-more ' + (homeCatalog.loading ? "disabled" : "") + '>' + (homeCatalog.loading ? "CARREGANDO..." : "CARREGAR MAIS CAMISAS") + '</button></div>' : "") + '</section>' +
     '<section class="catalog-section"><div class="section-heading"><div><p class="eyebrow"><span></span>TODOS OS ESPORTES</p><h2>EXPLORE AS<br>COLECOES</h2></div><p>Abra um esporte para pesquisar todas as suas equipes.</p></div><div class="category-grid">' + categories.map(categoryCard).join("") + '</div></section>';
 }
@@ -478,6 +478,7 @@ document.addEventListener("click", async event => {
   if (kindButton) { discovery.kind=kindButton.dataset.discoveryKind; await changeDiscoveryScope(discovery.categoryId); return; }
   const rosterButton = event.target.closest("[data-roster-page]");
   if (rosterButton) { const teams=teamsFor(discovery.categoryId,discovery.group,discovery.league,discovery.kind);const index=Math.max(0,teams.findIndex(t=>t.id===discovery.teamId));const next=(Math.floor(index/20)+Number(rosterButton.dataset.rosterPage))*20;if(teams[next])await loadDiscoveryTeam(teams[next].id);return; }
+  if (event.target.closest("[data-shorts]")) { Object.assign(homeCatalog,{categoryId:"futebol",group:"",league:"",kind:"",variant:"shorts",teamId:""}); await loadHomeCatalog(); return; }
   if (event.target.closest("[data-clear-filters]")) { Object.assign(homeCatalog,{categoryId:"",group:"",league:"",kind:"",variant:"",teamId:""}); await loadHomeCatalog(); return; }
   if (event.target.closest("[data-search-more]")) { await performSearch(view.query, true); return; }
   if (event.target.closest("[data-team-more]")) { await openTeamProducts(view.teamId, true); return; }

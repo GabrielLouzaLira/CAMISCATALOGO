@@ -7,3 +7,5 @@ Adicionais: camiseta manga longa R$20; nome e número R$30; 2GG R$15; 3GG R$20; 
 `prices.json.gz` registra preço base, regra, indicador de manga longa e valores anteriores. A importação não altera fotos ou descrições. `node scripts/prepare-pricing.mjs` gera SQL que preenche apenas preços/adicionais ausentes, preservando alterações feitas posteriormente pelo painel.
 
 No painel: Produtos → Editar → Preço base e opção de manga longa. Configurações contém os cinco adicionais. Valores validados no servidor; valor vazio deixa o produto sob consulta. Novos produtos podem receber preço no cadastro. Testes: `node scripts/test-pricing.mjs` e `node scripts/test-catalog.mjs`.
+
+Correção solicitada em 12/10/2026: conjuntos adultos de camiseta/polo/regata com short R$200; camisas de Fórmula 1 R$190. Conjuntos com calça continuam R$350, kits infantis curtos R$165 e shorts avulsos R$120. Alterações individuais registradas em ../price-corrections/2026-10-12.json; o arquivo de preços base também foi atualizado.

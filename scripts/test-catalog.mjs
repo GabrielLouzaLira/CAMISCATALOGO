@@ -179,6 +179,19 @@ try {
   assert.equal((await request('/media/yupoo/test.jpg')).status,502); assert.equal(cached.size,0);
   globalThis.fetch = async () => new Response('too big',{headers:{'content-type':'image/jpeg','content-length':'99999999'}});
   assert.equal((await request('/media/yupoo/test.jpg')).status,413); assert.equal(cached.size,0);
+  const placeholder=await readFile(new URL('./fixtures/yupoo-unavailable.jpg',import.meta.url));
+  cached.clear();
+  cached.set('yupoo/nba.jpg',{size:placeholder.length,async arrayBuffer(){return placeholder;}});
+  const requested=[];
+  globalThis.fetch=async url=>{requested.push(url);return new Response(url.endsWith('/big.jpg')?placeholder:new Uint8Array([255,216,255]),{headers:{'content-type':'image/jpeg'}});};
+  const repaired=await request('/media/yupoo/nba.jpg');
+  assert.equal(repaired.status,200);
+  assert.equal((await repaired.arrayBuffer()).byteLength,3);
+  assert.equal(requested.length,2);
+  assert(requested[1].endsWith('/small.jpg'),'fallback uses same photo thumbnail, never another product');
+  cached.clear();globalThis.fetch=async()=>new Response(placeholder,{headers:{'content-type':'image/jpeg'}});
+  assert.equal((await request('/media/yupoo/nba.jpg')).status,502);
+  assert.equal(cached.size,0,'supplier placeholder must never be cached again');
 } finally {globalThis.fetch = nativeFetch;}
 
 console.log('PASS: pagination, combined filters, admin authorization, stale responses, media allowlist, first-view copy, R2 reuse, MIME and size limits.');

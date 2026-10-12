@@ -275,6 +275,30 @@ async function removeUnusedMedia(env, collection, oldRecord, newRecord) {
   for (const file of mediaOfRecord(collection, oldRecord)) if (file.objectKey && !retained.has(file.objectKey)) await env.CATALOG_MEDIA.delete(file.objectKey);
 }
 
+const unavailablePhotoHash = "c40fff23302bf779252e28d3177eb9482f27770aee176011bf73de0390457ddf";
+async function isUnavailablePhoto(bytes) {
+  if (bytes.byteLength !== 17670) return false;
+  const hash = await crypto.subtle.digest("SHA-256",bytes);
+  return Array.from(new Uint8Array(hash), b=>b.toString(16).padStart(2,"0")).join("") === unavailablePhotoHash;
+}
+async function fetchCatalogPhoto(origin) {
+  const urls = [origin.href];
+  if (origin.hostname === "photo.yupoo.com" && origin.pathname.startsWith("/05941188/") && origin.pathname.endsWith("/big.jpg")) urls.push(origin.href.replace(/big\.jpg$/, "small.jpg"));
+  for (const address of urls) {
+    const upstream = await fetch(address, { headers: {"Referer": origin.pathname.startsWith("/dongshanstore/") ? "https://x.yupoo.com/photos/dongshanstore/" : "https://" + origin.pathname.split("/")[1] + ".x.yupoo.com/", "User-Agent":"Mozilla/5.0"}, redirect:"manual", signal:AbortSignal.timeout(15000)});
+    const type = (upstream.headers.get("content-type") || "").split(";")[0];
+    if (!upstream.ok || !["image/jpeg","image/png","image/webp","image/gif"].includes(type)) continue;
+    const max=8*1024*1024;
+    if (Number(upstream.headers.get("content-length"))>max) return {status:413};
+    const reader=upstream.body.getReader(), chunks=[];let size=0;
+    while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>max){await reader.cancel();return {status:413};}chunks.push(value);}
+    const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length;}
+    if(await isUnavailablePhoto(bytes))continue;
+    return {bytes,type};
+  }
+  return {status:502};
+}
+
 const handler = {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -299,6 +323,11 @@ const handler = {
       let key;
       try { key = decodeURIComponent(path.slice(7)); } catch { return fail("Endereco invalido", 400); }
       let object = await env.CATALOG_MEDIA.get(key);
+      if (object && key.startsWith("yupoo/") && object.size === 17670) {
+        const bytes = await object.arrayBuffer();
+        if (await isUnavailablePhoto(bytes)) object = null;
+        else return new Response(bytes,{headers:{"content-type":object.httpMetadata?.contentType||"image/jpeg","cache-control":"public,max-age=31536000,immutable"}});
+      }
       if (!object && (key.startsWith("yupoo/") || key.startsWith("brands/"))) {
         // Only registered source images may be copied. Never proxy arbitrary URLs.
         let source;
@@ -309,14 +338,9 @@ const handler = {
         const validSource = key.startsWith("yupoo/") ? origin.hostname === "photo.yupoo.com" && ["/minkang/", "/05941188/", "/guoshuzhen7788/", "/16620059194/", "/dongshanstore/"].some(prefix => origin.pathname.startsWith(prefix)) : ["a.espncdn.com", "thumb.wikimedia.org", "upload.wikimedia.org"].includes(origin.hostname);
         if (origin.protocol !== "https:" || !validSource) return fail("Origem invalida", 400);
         try {
-          const upstream = await fetch(origin.href, { headers: { "Referer": origin.pathname.startsWith("/dongshanstore/") ? "https://x.yupoo.com/photos/dongshanstore/" : origin.pathname.startsWith("/16620059194/") ? "https://16620059194.x.yupoo.com/" : origin.pathname.startsWith("/guoshuzhen7788/") ? "https://guoshuzhen7788.x.yupoo.com/" : origin.pathname.startsWith("/05941188/") ? "https://05941188.x.yupoo.com/" : "https://minkang.x.yupoo.com/", "User-Agent": "Mozilla/5.0" }, redirect: "manual", signal: AbortSignal.timeout(15000) });
-          const type = (upstream.headers.get("content-type") || "").split(";")[0];
-          if (!upstream.ok || !["image/jpeg", "image/png", "image/webp", "image/gif"].includes(type)) return new Response("Foto temporariamente indisponivel", {status:502,headers:{"cache-control":"no-store"}});
-          const max = 8 * 1024 * 1024;
-          if (Number(upstream.headers.get("content-length")) > max) return fail("Imagem muito grande", 413);
-          const reader = upstream.body.getReader(); const chunks = []; let size = 0;
-          while (true) { const {done,value} = await reader.read(); if (done) break; size += value.length; if (size > max) { await reader.cancel(); return fail("Imagem muito grande",413); } chunks.push(value); }
-          const bytes = new Uint8Array(size); let offset = 0; for (const chunk of chunks) { bytes.set(chunk,offset); offset += chunk.length; }
+          const photo = await fetchCatalogPhoto(origin);
+          if (!photo.bytes) return new Response("Foto temporariamente indisponivel",{status:photo.status,headers:{"cache-control":"no-store"}});
+          const {bytes,type}=photo;
           await env.CATALOG_MEDIA.put(key, bytes, {httpMetadata:{contentType:type}});
           return new Response(bytes, {headers:{"content-type":type,"cache-control":"public,max-age=31536000,immutable","x-content-type-options":"nosniff"}});
         } catch { return new Response("Foto temporariamente indisponivel. Tente novamente.", {status:502,headers:{"cache-control":"no-store"}}); }
