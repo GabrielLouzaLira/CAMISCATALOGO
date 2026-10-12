@@ -157,7 +157,7 @@ function renderDiscovery() {
 
 function renderHome() {
   const categories = visibleCategories();
-  const categoryFilters = categories.map(category => '<button class="filter-chip ' + (homeCatalog.categoryId === category.id ? "is-active" : "") + '" type="button" data-browse-category="' + esc(category.id) + '">' + esc(category.title) + '</button>').join("");
+  const categoryFilters = categories.map(category => '<button class="filter-chip ' + (homeCatalog.categoryId === category.id ? "is-active" : "") + '" type="button" data-browse-category="' + esc(category.id) + '">' + esc(category.title) + '</button>' + (category.id === 'kits-marcas' ? '<button class="filter-chip" type="button" data-shorts>VER SHORTS · R$120</button>' : '')).join("");
   const groups = homeCatalog.categoryId && homeCatalog.categoryId !== "automobilismo" ? groupsFor(homeCatalog.categoryId) : [];
   const groupFilters = groups.map(group => '<button class="filter-chip ' + (homeCatalog.group === group ? "is-active" : "") + '" type="button" data-browse-group="' + esc(group) + '">' + esc(group) + '</button>').join("");
   const filterTeams = teamsFor(homeCatalog.categoryId, homeCatalog.group, homeCatalog.league, homeCatalog.kind);
@@ -171,7 +171,7 @@ function renderHome() {
     renderDiscovery() +
     '<section id="all-products" class="catalog-section"><div class="section-heading"><div><p class="eyebrow"><span></span>CATALOGO COMPLETO</p><h2>TODAS AS<br>CAMISETAS</h2></div><p>Veja os primeiros modelos ou filtre por esporte, país, liga e equipe.</p></div><div class="filter-row"><button class="filter-chip ' + (!homeCatalog.categoryId ? "is-active" : "") + '" type="button" data-browse-category="">Todos</button>' + categoryFilters + '</div>' +
     (groups.length ? '<div class="filter-row filter-row--sub"><span>PAÍS</span><button class="filter-chip ' + (!homeCatalog.group ? "is-active" : "") + '" type="button" data-browse-group="">Todas</button>' + groupFilters + '</div>' : "") +
-    '<div class="filter-row" aria-label="Coleções de produtos"><button class="filter-chip" type="button" data-shorts>VER SHORTS · R$120</button></div>' + extraFilters() + '<label class="team-filter">EQUIPE<select id="home-team-filter"><option value="">Todas as equipes</option>' + teamOptions + '</select></label><div class="product-grid home-product-grid">' + browseContent + '</div>' +
+    extraFilters() + '<label class="team-filter">EQUIPE<select id="home-team-filter"><option value="">Todas as equipes</option>' + teamOptions + '</select></label><div class="product-grid home-product-grid">' + browseContent + '</div>' +
     (homeCatalog.hasMore ? '<div class="load-more-row"><button class="secondary-catalog-button" type="button" data-load-more ' + (homeCatalog.loading ? "disabled" : "") + '>' + (homeCatalog.loading ? "CARREGANDO..." : "CARREGAR MAIS CAMISAS") + '</button></div>' : "") + '</section>' +
     '<section class="catalog-section"><div class="section-heading"><div><p class="eyebrow"><span></span>TODOS OS ESPORTES</p><h2>EXPLORE AS<br>COLECOES</h2></div><p>Abra um esporte para pesquisar todas as suas equipes.</p></div><div class="category-grid">' + categories.map(categoryCard).join("") + '</div></section>';
 }
